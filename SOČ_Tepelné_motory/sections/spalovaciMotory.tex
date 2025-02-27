@@ -1,0 +1,370 @@
+\section{Spalovací motory}
+{Spalovací motory jsou nejrozšířenějšími tepelnými motory, využívají se v nejrůznějších zařízeních od motorových pil přes běžné automobily až po obrovské nákladní lodě. Využívají rozpínání plynu při výbuchu, ten tlačí píst a tím koná práci.}
+
+\subsection{Historie spalovacích motorů}\label{sc:HistorieSpalovacichMotoru}
+{První zmínka o spalovacích motorech pochází z roku 1680, kdy fyzik Huygens navrhl spalovací motor poháněný střelným prachem. O 114 let později vyrobil dle plánů Johna Barbera Robert Street první spalovací motor, ten však byl prakticky nepoužitelný. Roku 1858 vytvořil inženýr Étinne Lenoir spalovací motor na svítiplyn, ten byl vůbec první úspěšný spalovací motor; byl užíván v průmyslu.}
+\cite{vutb:vyzkumneSpalovaciMotory}\cite{ANNALS:TheHistoryOfTheInternalCombustionEngine}\odst
+{Němec Nikolaus Otto po zdokonalení Lenoirova motoru roku 1876 vynalezl první čtyřdobý motor. V tuto dobu byl benzín považován za bezcennou složku ropy, Ognjen Stratonović ho však využil k pohonu prvního benzinového motoru. Později zdokonalil Gottlieb Daimler čtyřdobý motor přidáním karburátoru a opatřil jím automobil. První vznětový motor vyrobil Rudolf Diesel, ten se rychle ujal v těžkém průmyslu.}
+\cite{vutb:vyzkumneSpalovaciMotory}\cite{ANNALS:TheHistoryOfTheInternalCombustionEngine}\odst
+{Spalovací motory se od dob Otty a Daimlera nepřestaly vyvíjet, byli zdokonaleny a jejich výkon a účinnost stoupaly. V současnosti jsou prozkoumávány další paliva jako například zemní plyn či vodík s cílem snížení emisí.}
+\cite{vutb:vyzkumneSpalovaciMotory}
+
+\subsection{Fungování spalovacích motorů}
+{Spalovací motory využívají rozpínání plynu při zahřátí. Aby plyn zahřály, spalují v něm palivo. Tuto energii převádí na mechanickou práci pomocí pístu, který přes klikové ústrojí točí hřídelí. Palivo je spalováno nespojitě v cyklech.}\odst
+{Spalovací motory můžeme dělit dle způsobu zapálení plynu na zážehové a vznětové. Dále je lze dělit dle počtu dob, které se cyklicky opakují. V této kapitole popíši nejdůležitější tři druhy: čtyřdobé zážehové, čtyřdobé vznětové a dvoudobé zážehové.}
+\cite{vutb:vyzkumneSpalovaciMotory}
+
+\newpage
+
+\subsubsection{Čtyřdobý zážehový motor}
+{Čtyřdobý zážehový motor je v nejběžnější spalovací motor, pracuje ve čtyř dobách: sání, komprese, expanze a výfuk. Tyto doby proběhnou za dvě otáčky klikové hřídele. Tyto doby jsou popsány níže, graficky jsou znázorněny na \obrref{obr:PracovniCyklusCtyrdobehoZazehovehoMotoru}.}
+\cite{ZUP:CtyrdobyAtmosferickyZazehovyMotor}
+\begin{enumerate}
+    \item {Sání: píst se pohybuje směrem dolů, tím zvětšuje pracovní prostor a tlak klesá. Skrz otevřený sací ventil do pracovního prostoru proudí vzduch smíchaný s palivem.}
+    \item {Komprese: píst se pohybuje směrem nahoru, oba ventily jsou uzavřeny. Tlak a teplota rostou, tím se tvoří směs, která je velmi snadno zažehnutelná.}
+    \item {Výbuch: elektrický výboj svíčky zažehne palivo, to se velice rychle spálí a s tím přichází vysoký tlak, který tlačí píst směrem dolů. V této době je konána užitečná práce.}
+    \item {Výfuk: po otevření výfukového ventilu proudí spaliny ven. Zbylé spaliny vytlačí píst při jeho pohybu směrem nahoru. Cyklus se opakuje.}
+\end{enumerate}
+{V současnosti se velmi dbá na ekologii tepelných motorů. Výrobci se snaží vyrábět motory, které jsou účinné, tvoří méně škodlivých emisí ale zároveň dosahují velkých výkonů. K tomu může vést vyšší kompresní poměr, komprese vzduchu vně motoru či snížení tepelných a mechanických ztrát.}
+\cite{ZUP:CtyrdobyAtmosferickyZazehovyMotor}\odst
+{Čtyřdobé zážehové motory jsou hojně využívány nejen v automobilovém průmyslu, mezi jejich ostatní využití patří například letadla a motocykly.}
+
+\begin{figure}[H]
+    \hspace{-0.33cm}
+    \begin{tikzpicture}[scale=0.75]
+
+        %popisky
+        \makePointer{-0.5,3}{0.2,2.85}{left}{sací ventil}
+        \makePointer{-0.5,0.3}{0.4,0}{left}{píst}
+        \makePointer{-0.5,-2.8}{0.2,-2.5}{left}{kliková hřídel}
+        \makePointer{-0.5,2}{-0.1,1.9}{left}{stěna válce}
+        \makePointer{11.5,-2.6}{12.6,-2}{left}{ojnice}
+        \makePointer{14.5,3.2}{13.8,2.8}{right}{výfukový ventil}
+        \makePointer{10.2,3.5}{9.1,3.3}{right}{svíčka}
+
+        %sání
+        \node[above] at (1,3.75 + 0.5){1. sání};
+        \node[above] at (5,3.6 + 0.5){2. komprese};
+        \node[above] at (9,3.6 + 0.5){3. výbuch};
+        \node[above] at (13,3.6 + 0.5){4. výfuk};
+
+        \makeEngineFourStrokeGasolineDiagram{0}{-0.5}{1}{0}{-135}{-45}
+        \draw[->, thick] (2.5,1) -- (2.5,-0.5);
+
+        %tečky
+        \makeDot{0.675,3}{blue}
+        \makeDot{0.8,2.5}{blue}
+        \makeDot{0.2,2}{blue}
+        \makeDot{1.4,2.7}{blue}
+        \makeDot{1.5,1.3}{blue}
+        \makeDot{0.6,1.45}{blue}
+        \makeDot{1.8,2.35}{blue}
+        \makeDot{1.3,1.9}{blue}
+        
+        %komprese
+        \makeEngineFourStrokeGasolineDiagram{4}{0.5}{0}{0}{45}{135}
+        \draw[->, thick]  (6.5,0.5) -- (6.5,2);
+
+        %tečky
+        \makeDot{4.5,2.9}{orange}
+        \makeDot{4.7,2.2}{orange}
+        \makeDot{4.2,2.3}{orange}
+        \makeDot{5.7,2.7}{orange}
+        \makeDot{5.4,2.25}{orange}
+        \makeDot{4.8,2.6}{orange}
+        \makeDot{5.8,2.35}{orange}
+        \makeDot{5.3,2.8}{orange}
+
+        %výbuch
+        \makeEngineFourStrokeGasolineDiagram{8}{0.5}{0}{0}{-45}{45}
+        \draw[->, thick]  (10.5,2) -- (10.5,0.5);
+
+        %čáry
+        \foreach \angle in {0,-15,...,-180} {
+            \draw[thick, yellow] ({9 + cos(\angle)*0.1}, {2.9 + sin(\angle)*0.1}) -- ({9 + cos(\angle)*0.7}, {2.9 + sin(\angle)*0.7});
+        }
+
+        %tečky
+        \makeDot{8.5,2.55}{red}
+        \makeDot{9,2.2}{red}
+        \makeDot{8.2,2.3}{red}
+        \makeDot{9.7,2.4}{red}
+        \makeDot{9.4,2.25}{red}
+        \makeDot{8.7,2.3}{red}
+        \makeDot{9.8,2.25}{red}
+        \makeDot{9.3,2.5}{red}
+
+        %výfuk
+        \makeEngineFourStrokeGasolineDiagram{12}{-0.5}{0}{1}{135}{-135}
+        \draw[->, thick]  (14.5,-0.5) -- (14.5,1);
+
+        %tečky
+        \makeDot{13.325,3}{black}
+        \makeDot{13.2,2.5}{black}
+        \makeDot{13.8,2}{black}
+        \makeDot{12.6,2.7}{black}
+        \makeDot{12.5,1.3}{black}
+        \makeDot{13.4,1.45}{black}
+        \makeDot{12.2,2.35}{black}
+        \makeDot{12.7,1.9}{black}
+
+    \end{tikzpicture}
+    
+    \caption{Pracovní cyklus čtyřdobého zážehového motoru \jaDiag}
+    \label{obr:PracovniCyklusCtyrdobehoZazehovehoMotoru}
+\end{figure}
+
+\newpage
+
+\subsubsection{Čtyřdobý vznětový motor}
+{Čtyřdobý vznětový motor spaluje naftu. Stejně jako čtyřdobý zážehový motor pracuje ve čtyřech dobách, liší se v době sání a výbuchu. Tento motor je graficky znázorněn na \obrref{obr:PracovniCyklusCtyrdobehoVznetovehoMotoru}.}
+\cite{CVUT:NávrhKonstrukceVznetovehoMotoru}
+\begin{enumerate}
+    \item {Sání: píst se pohybuje směrem dolů a pracovní prostor nad ním se plní čistým vzduchem bez paliva.}
+    \item {Komprese: píst se pohybuje směrem nahoru a oba ventily jsou zavřeny. Tlak a teplota rostou, konečná teplota se pohybuje mezi 400--600 °C.}
+    \item {Výbuch: do žhavého vzduchu se vstříkne nafta, ta okamžitě vznítí. Vlivem vzniklého vysokého tlaku se píst pohybuje směrem dolů a koná užitečnou práci}
+    \item {Výfuk: píst se pohybuje směrem nahoru a otevřeným výfukovým ventilem tlačí ven spaliny, cyklus se opakuje.}
+\end{enumerate}
+{Vznětové motory se uplatňují v některých osobních automobilech, častěji je najdeme v nákladních automobilech, ve vlakové a lodní dopravě a jako pohon zemědělských, důlních a stavebních zařízení.}
+\cite{CVUT:NávrhKonstrukceVznetovehoMotoru}
+
+\begin{figure}[H]
+    \hspace{-0.33cm}
+    \begin{tikzpicture}[scale=0.75]
+
+        %popisky
+        \makePointer{-0.5,3}{0.2,2.85}{left}{sací ventil}
+        \makePointer{-0.5,0.3}{0.4,0}{left}{píst}
+        \makePointer{-0.5,-2.8}{0.2,-2.5}{left}{kliková hřídel}
+        \makePointer{-0.5,2}{-0.1,1.9}{left}{stěna válce}
+        \makePointer{11.5,-2.6}{12.6,-2}{left}{ojnice}
+        \makePointer{14.5,3.2}{13.8,2.8}{right}{výfukový ventil}
+        \makePointer{10.2,3.5}{9.15,3.2}{right}{tryska}
+
+
+        %sání
+        \node[above] at (1,3.75 + 0.5){1. sání};
+        \node[above] at (5,3.6 + 0.5){2. komprese};
+        \node[above] at (9,3.6 + 0.5){3. výbuch};
+        \node[above] at (13,3.6 + 0.5){4. výfuk};
+
+        \makeEngineFourStrokeDieselDiagram{0}{-0.5}{1}{0}{-135}{-45}
+        \draw[->, thick] (2.5,1) -- (2.5,-0.5);
+
+        %tečky
+        \makeDot{0.675,3}{blue}
+        \makeDot{0.8,2.5}{blue}
+        \makeDot{0.2,2}{blue}
+        \makeDot{1.4,2.7}{blue}
+        \makeDot{1.5,1.3}{blue}
+        \makeDot{0.6,1.45}{blue}
+        \makeDot{1.8,2.35}{blue}
+        \makeDot{1.3,1.9}{blue}
+        
+        %komprese
+        \makeEngineFourStrokeDieselDiagram{4}{0.5}{0}{0}{45}{135}
+        \draw[->, thick]  (6.5,0.5) -- (6.5,2);
+
+        %tečky
+        \makeDot{4.5,2.9}{orange}
+        \makeDot{4.7,2.2}{orange}
+        \makeDot{4.2,2.3}{orange}
+        \makeDot{5.7,2.7}{orange}
+        \makeDot{5.4,2.25}{orange}
+        \makeDot{4.8,2.6}{orange}
+        \makeDot{5.8,2.35}{orange}
+        \makeDot{5.3,2.8}{orange}
+
+        %výbuch
+        \makeEngineFourStrokeDieselDiagram{8}{0.5}{0}{0}{-45}{45}
+        \draw[->, thick]  (10.5,2) -- (10.5,0.5);
+
+        %čáry
+        \foreach \angle in {0,-15,...,-180} {
+            \draw[thick, yellow] ({9 + cos(\angle)*0.1}, {2.9 + sin(\angle)*0.1}) -- ({9 + cos(\angle)*0.7}, {2.9 + sin(\angle)*0.7});
+        }
+
+        %tečky
+        \makeDot{8.5,2.55}{red}
+        \makeDot{9,2.2}{red}
+        \makeDot{8.2,2.3}{red}
+        \makeDot{9.7,2.4}{red}
+        \makeDot{9.4,2.25}{red}
+        \makeDot{8.7,2.3}{red}
+        \makeDot{9.8,2.25}{red}
+        \makeDot{9.3,2.5}{red}
+
+        %výfuk
+        \makeEngineFourStrokeDieselDiagram{12}{-0.5}{0}{1}{135}{-135}
+        \draw[->, thick]  (14.5,-0.5) -- (14.5,1);
+
+        %tečky
+        \makeDot{13.325,3}{black}
+        \makeDot{13.2,2.5}{black}
+        \makeDot{13.8,2}{black}
+        \makeDot{12.6,2.7}{black}
+        \makeDot{12.5,1.3}{black}
+        \makeDot{13.4,1.45}{black}
+        \makeDot{12.2,2.35}{black}
+        \makeDot{12.7,1.9}{black}
+
+    \end{tikzpicture}
+    
+    \caption{Pracovní cyklus čtyřdobého vznětového motoru \jaDiag}
+    \label{obr:PracovniCyklusCtyrdobehoVznetovehoMotoru}
+\end{figure}
+
+\newpage
+
+\subsubsection{Dvoudobý zážehový motor}
+{Ve dvoudobém zážehovém motoru probíhají stejné čtyři děje jako ve čtyřdobých motorech ve dvou dobách. K tomu se využívá se prostor pod pístem. Doby dvoudobého motoru jsou popsány níže, graficky jsou zobrazeny na \obrref{obr:PracovniCyklusDvoudobehoVznetovehoMotoru}.}
+\cite{VUTB:DvoudobyMotorProParagliding}
+\begin{enumerate}
+    \item {Sání a komprese: píst se pohybuje nahoru, pod něj je přiváděna směs vzuchu a paliva. Mezitím se směs nad pístem stlačuje.}
+    \item {Výbuch a výfuk: směs nad pístem se zažehne a tlačí píst dolů. Tím se odkryje výfukový kanál, kterým začnou unikat spaliny. Poté se odhalí přepouštěcí kanál, který z prostoru pod pístem přivede novou směs nad píst.}
+\end{enumerate}
+{Dvoudobé motory jsou oproti čtyřdobým motorům jednodušší, přesto disponují velkého měrného výkonu. Užívají se v menších motocyklech a malé mechanizaci jako jsou například motorové pily nebo sekačky. Jsou však také méně účinné, tvoří více emisí a spalují olej, také nejsou jednoduše škálovatelné. V současnosti jsou nahrazovány malými čtyřdobými zážehovými motory.}
+\cite{VUTB:DvoudobyMotorProParagliding}
+
+\begin{figure}[H]
+    \hspace{1.75cm}
+    \centering
+    \begin{tikzpicture}[scale=0.75]
+        \makeDot{12.5,0}{white}
+
+        %popisky
+        \begin{scope}[shift={(-1,0)}]
+            \makePointer{-1,3}{-0.1,2.85}{left}{stěna válce}
+            \makePointer{-1,1}{-0.3,0.5}{left}{přepouštěcí kanál}
+            \makePointer{-1,-2.8}{0,-2.5}{left}{kliková hřídel}
+            \node[above] at (1,3.6 + 0.5){1. sání a komprese};
+        \end{scope}
+        
+        \begin{scope}[shift={(1,0)}]
+            \makePointer{7,1}{5.5,0.8}{right}{píst}
+            \makePointer{7,3.2}{5.1,3.4}{right}{svíčka}
+            \makePointer{7,2}{6.2,1.7}{right}{výfukový kanál}
+            \makePointer{7,-0.6}{6.2,-0.7}{right}{sací kanál}
+            \makePointer{3.7,-2.6}{4.6,-2}{left}{ojnice}
+            \node[above] at (5,3.6 + 0.5){2. výbuch a výfuk};
+        \end{scope}
+
+        \begin{scope}[shift={(-1,0)}]
+            \makeEngineTwoStrokeDiagram{0}{0.5}{1}{0}{-45}{45}
+
+            %tečky sání
+            \makeDot{0.675,-0.1}{blue}
+            \makeDot{0.8,-0.7}{blue}
+            \makeDot{0.2,0.1}{blue}
+            \makeDot{2.1,-0.65}{blue}
+            \makeDot{1.5,-0.3}{blue}
+            \makeDot{-0.2,-0.2}{blue}
+            \makeDot{1.8,0.1}{blue}
+            \makeDot{1.3,0.2}{blue}
+
+            %tečky komprese
+            \makeDot{0.5,2.75}{orange}
+            \makeDot{0.7,2.2}{orange}
+            \makeDot{0.2,2.3}{orange}
+            \makeDot{1.7,2.7}{orange}
+            \makeDot{1.4,2.25}{orange}
+            \makeDot{0.8,2.6}{orange}
+            \makeDot{1.8,2.35}{orange}
+            \makeDot{1.3,2.8}{orange}
+        \end{scope}
+
+        \begin{scope}[shift={(1,0)}]
+            %sluníčko
+            \foreach \angle in {0,-15,...,-180} {
+                \draw[thick, yellow] ({5 + cos(\angle)*0.1}, {2.9 + sin(\angle)*0.1}) -- ({5 + cos(\angle)*0.7}, {2.9 + sin(\angle)*0.7});
+            }
+            
+            %komprese
+            \makeEngineTwoStrokeDiagram{4}{-0.5}{0}{0}{135}{225}
+
+            %tečky komprese
+            \makeDot{4.5,2.2}{red}
+            \makeDot{4.4,1.9}{red}
+            \makeDot{4.2,2.5}{red}
+            \makeDot{4.8,1.75}{red}
+            \makeDot{5.8,2.65}{red}
+            \makeDot{5.3,2.1}{red}
+
+            %tečky výfuk
+            \makeDot{5.75,2}{black}
+            \makeDot{6.05,1.75}{black}
+            \makeDot{5.45,1.45}{black}
+
+            %tečky sání
+            \makeDot{4.35,1.3}{blue}
+            \makeDot{3.8,1.15}{blue}
+            \makeDot{3.65,0.55}{blue}
+            \makeDot{3.75,0.05}{blue}
+            \makeDot{5.55,-0.75}{blue}
+        \end{scope}
+
+    \end{tikzpicture}
+    
+    \caption{Pracovní cyklus dvoudobého vznětového motoru \jaDiag}
+    \label{obr:PracovniCyklusDvoudobehoVznetovehoMotoru}
+\end{figure}
+
+\newpage
+
+\subsection{Rovnice spalovacích motorů}
+{V této kapitole jsou popsány rovnice týkající se práce, výkonu a kroutícího momentu spalovacích motorů.}
+
+\subsubsection{Práce}
+{Jak již bylo zmíněno v kapitole \ref{sc:SkutecnaUcinnost}, práci vypočítáme pomocí rovnice \rvref{rv:prace2}.}
+\cite{NCEPU:ThermalEfficiencyForHeatEngines}
+
+\begin{equation}\label{rv:prace2}
+    W=Q_d-Q_o
+\end{equation}
+
+{\(W\) je práce (J)}\\
+{\(Q_d\) je dodané teplo (J)}\\
+{\(Q_o\) je odevzdané teplo (J)}\\
+\podst
+
+{Teplo \(Q_d\) je teplo dodané spalováním paliva. Odevzdané teplo \(Q_o\) je nevyužité teplo, které uniká například s výfukovými plyny či do chladiče motoru.}
+
+\subsubsection{Výkon}
+{Výkon udává množství práce, kterou dokáže motor vytvořit za určitý čas. Vypočítáme jej pomocí rovnice \rvref{rv:vykonStandard}.}
+\cite{NASA:IdealOttoCycle}
+
+\begin{subequations}
+    \begin{equation}\label{rv:vykonStandard}
+        P=\frac{W}{t}
+    \end{equation}
+
+{$P$ je výkon [W] (někdy se používá kůň, 1 kW $\approx$ 1,35 k)}\\
+{$W$ je práce [J]}\\
+{$t$ je čas, za který je práce konána [s]}\\
+\podst
+
+{Rovnice \rvref{rv:vykonStandard} obecně popisuje výkon, pro spalovací motory je však vhodnější využít rovnici \rvref{rv:vykon}.}
+\cite{NASA:IdealOttoCycle}
+
+    \begin{equation}\label{rv:vykon}
+        P=W\cdot{\frac{ot}{n}}
+    \end{equation}
+
+{\(ot\) je počet otáček za sekundu [\ots]}\\
+{$n$ je počet pracovních dob za otáčku hřídele [-]}\\
+\podst
+
+{Počet pracovních dob za otáčku hřídele $n$ se liší dle druhu motoru. Ve dvoudobých se $n$ rovná 1 (pracovní doba proběhne každou otáčku), ve čtyřdobých je $n$ 2 (pracovní doba proběhne každou druhou otáčku).}
+\end{subequations}
+
+\subsubsection{Kroutící moment}
+{Kroutící moment (často také točivý moment) je síla, kterou se točí hřídel. Tuto sílu vypočítáme rovnicí \rvref{rv:tocivyMoment}.}
+\cite{TO:TechnologieOprav}
+
+\begin{equation}\label{rv:tocivyMoment}
+    M_k=\vec{F}\cdot{r}
+\end{equation}
+
+{\(M_k\) je kroutící moment [\nm]}\\
+{\(F\) je síla, kterou píst tlačí [N]}\\
+{\(r\) je poloměr kružnice otáčení klikového hřídele [m]}

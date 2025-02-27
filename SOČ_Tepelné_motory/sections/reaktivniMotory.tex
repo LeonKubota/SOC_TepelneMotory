@@ -1,0 +1,389 @@
+\section{Reaktivní motory}
+{Reaktivní motory fungují na principu Newtonova třetího pohybového zákona, ten je vysvětlen v kapitole \ref{sc:AkceReakce}. Tyto motory urychlují plyn na vysoké rychlosti a využívají reakci vyvolanou touto akcí. Tato reakce tlačí motor vpřed.}
+
+\subsection{Historie reaktivních motorů}
+{Historie reaktivních motorů začala roku 1232, kdy Číňané využili raketový motor na střelný prach k zapálení mongolského tábořiště. O několik století později zaujaly rakety britského politika Williama Congreve, jeho rakety byly nasazeny v napoleonských válkách a ve válce USA za nezávislost, vystupují i v jejich státní hymně (\textit{,,And the rockets' red glare''}).}
+\cite{VUTB:NavrhRaketovehoMotoru}\odst
+{Roku 1930 získal angličan Frank Whittle patent na proudový motor a o sedm let později jej vyzkoušel, první proudové letadlo však nevyrobili angličané. Předběhli je němečtí inženýři, kteří roku 1939 opatřili letoun motorem HeS 3B s tahem 4,4 kN.}
+\cite{VUTB:PrehledTechnickychAspektuVyvojeLeteckychProudovychMotoru}\odst
+{Před druhou světovou válkou vytvořil Robert Goddard první raketový motor na kapalné palivo, za války jej použil jako zbraň. Němci využili raketové motory v raketě V2, tato technologicky vyspělá zbraň velmi posunula raketovou vědu, stála však mnoho nevinných životů.}
+\cite{VUTB:NavrhRaketovehoMotoru}\odst
+{Po válce se reaktivní motory rychle vyvíjely, britská firma Vickers za pomoci vědomostí získaných od Němců vyrobila dvouproudové motory. Reaktivní motory si později našli cestu i mimo vojenská využití, prvním civilním letadlem s proudovým motorem se stalo DH-106 Comet. V současnosti jsou reaktivní motory hojně využívány v letectví a kosmonautice.}
+\cite{VUTB:PrehledTechnickychAspektuVyvojeLeteckychProudovychMotoru}
+
+\subsection{Fungování reaktivních motorů}\label{sc:AkceReakce}
+{Abychom porozuměli reaktivním motorům, musíme znát Newtonův třetí pohybový zákon: zákon akce a reakce. Jeho české znění je následující:}
+\cite{MIT:NewtonsLawsOfMotion}
+%TC:ignore
+\begin{changemargin}{50px}{50px}
+    \begin{center}
+        \textit{,,Zákon III: Pro každou akci je vždy opačná a rovná reakce; jinak: vzájemné působení dvou těles je vždy stejně velké a míří na opačné strany. Cokoliv co táhne či tlačí na něco je stejně taženo či tlačeno. Pokud prstem zatlačíte na kámen, kámen také tlačí na prst.''}
+        \cite{MIT:NewtonsLawsOfMotion}
+    \end{center}
+\end{changemargin}
+%TC:endignore
+{Reaktivní motory tohoto využívají; velkou rychlostí vypuzují plyn, který působí silou \(\vec{F}_{1}\) a vyvolává opačnou a sobě rovnou reakci \(\vec{F}_{2}\), ta tlačí motor vpřed, nazýváme ji tah. Tento vztah můžeme zapsat rovnicí (\ref{rv:akcereakce}).}
+\cite{MIT:NewtonsLawsOfMotion}
+
+\begin{equation} \label{rv:akcereakce}
+    \vec{F}_{2}=-\vec{F}_{1}
+\end{equation}
+
+{\(\vec{F}_{2}\) je síla tahu [N]}\\
+{\(\vec{F}_{1}\) je síla plynu [N]}\\
+\podst
+
+{Dle konstrukce dělíme reaktivní motory na dvě skupiny: raketové a proudové motory.}
+\cite{VUTB:PrehledTechnickychAspektuVyvojeLeteckychProudovychMotoru}
+
+\newpage
+
+\subsection{Raketové motory}
+{Raketové motory za vysokých teplot a tlaků spalují palivo ve spalovací komoře. Spaliny unikají tryskou z motoru, čímž tvoří tah.}
+\cite{VUTB:NavrhRaketovehoMotoru}\odst
+{Raketové motory dělíme na raketové motory na tuhé palivo a na kapalné palivo.}
+\cite{VUTB:NavrhRaketovehoMotoru}
+
+\subsubsection{Raketové motory na tuhé palivo}
+{Raketový motor na tuhé palivo (viz \obrref{fig:raketovyMotorPevny}) je nejjednodušším raketovým motorem, nemá žádné pohyblivé části. Jeho nejdůležitější částí je samotné pevné palivo, to je ve spalovací komoře zažehnuto náloží a poté uniká skrze trysku. Z této jednoduchosti plyne jeho hlavní výhoda, kterou je cena a jednoduchost. Jeho nevýhodou je neuhasitelnost spalování a neovladatelnost tahu.}
+\cite{VUTB:NavrhRaketovehoMotoru}
+
+
+\begin{figure}[H]
+    \hspace{0cm}
+    \begin{tikzpicture}
+        %směr proudu
+        \draw[->, red] (4,0.8) to [out=-15,in=180](7.5,0.2) to [out=0,in=-160](10.5,0.8);
+        \draw[->, red] (1,0.8) to [out=-15,in=180](8,0.1) to [out=0,in=-160](11,0.7);
+        \draw[->, red] (0.5,0) to (11.5,0);
+        \begin{scope}[yscale=-1]
+            \draw[->, red] (4,0.8) to [out=-15,in=180](7.5,0.2) to [out=0,in=-160](10.5,0.8);
+            \draw[->, red] (1,0.8) to [out=-15,in=180](8,0.1) to [out=0,in=-160](11,0.7);
+        \end{scope}
+
+        %skříň
+        \draw[pattern=north east lines, thick] (0,0.1) to (0,1) to (7,1)
+        %tryska horní
+        to [out=-90,in=-170, looseness=1.25](10,1) to (10,1.1) to [in=-90,out=-170, looseness=1.3](7.1,1.1)
+        %vrácení
+        to (-0.1,1.1) to (-0.1,0.1) to cycle;
+
+        \begin{scope}[yscale=-1] % Osová souměrnost
+            %skříň
+            \draw[pattern=north east lines, thick] (0,0.1) to (0,1) to (7,1)
+            %tryska horní
+            to [out=-90,in=-170, looseness=1.25](10,1) to (10,1.1) to [in=-90,out=-170, looseness=1.3](7.1,1.1)
+            %vrácení
+            to (-0.1,1.1) to (-0.1,0.1) to cycle;
+        \end{scope}
+
+        %Zážehová nálož
+        \draw[pattern=north east lines, thick] (-0.4,0.1) to (0,0.1) to (0, -0.1) to (-0.4, -0.1) to cycle;
+
+        %Palivo
+        \fill[pattern=crosshatch dots] (0,1) to (7,1) to (7.05,0.6) to [out=-80, in=170, looseness=0.75](7.36,0.3) to (0,0.3) to cycle;
+        \begin{scope}[yscale=-1]\fill[pattern=crosshatch dots] (0,1) to (7,1) to (7.05,0.6) to [out=-80, in=170, looseness=0.75](7.36,0.3) to (0,0.3) to cycle;\end{scope}
+
+        \makePointer{5,1.5}{5.5,0.8}{left}{palivo}
+        \makePointer{2,-1.5}{2.2,-1.1}{left}{plášť}
+        \makePointer{8.5,-1.5}{9,-0.8}{left}{tryska}
+        \makePointer{-0.5,0.5}{-0.2,0.1}{left}{zážehová nálož}
+
+    \end{tikzpicture}
+    \caption{Schéma raketového motoru na tuhé palivo \jaDiag}
+    \label{fig:raketovyMotorPevny}
+\end{figure}
+
+\subsubsection{Raketové motory na kapalné palivo}
+{Kapalné raketové motory využívají místo tuhého paliva palivo kapalné, to se za vysokého tlaku spolu s kapalným okysličovadlem spaluje ve spalovací komoře. Výhodou těchto motorů je dobré ovládání tahu a možnost opětného zážehu, nevýhodou je značně vyšší cena a komplexita. Tento motor je vyobrazen na \obrref{fig:raketovyMotorKapalny}.}
+\cite{VUTB:NavrhRaketovehoMotoru}
+
+\begin{figure}[H]
+    \hspace{0.5cm}
+    \begin{tikzpicture}
+        %směr proudu
+        \draw[->, red] (2.5,0.5) to [in=180,out=-30](3.5,0.2) to [out=0,in=-160](5,1) to [out=20,in=180](7.5,1.3);
+        \draw[->, red] (2,0.4) to [in=180,out=-30](3.5,0.1) to [out=0,in=-160](5.5,0.5) to [out=20,in=180](8,0.7);
+        \draw[->, red] (1.5,0) to (8.5,0);
+        \begin{scope}[yscale=-1]
+            \draw[->, red] (2.5,0.5) to [in=180,out=-30](3.5,0.2) to [out=0,in=-160](5,1) to [out=20,in=180](7.5,1.3);
+            \draw[->, red] (2,0.4) to [in=180,out=-30](3.5,0.1) to [out=0,in=-160](5.5,0.5) to [out=20,in=180](8,0.7);
+        \end{scope}
+
+        %palivo
+        \draw[rounded corners=10pt, pattern=north east lines, thick] (-3,0.25) rectangle (0,1.75);
+        \fill[rounded corners=7pt, fill=white] (-2.9,0.35) rectangle (-0.1,1.65);
+        \draw[rounded corners=7pt, pattern=crosshatch dots, pattern color=orange, thick] (-2.9,0.35) rectangle (-0.1,1.65);
+
+        %vybělovadlo palivo
+        \draw[thick] (0,1.05) to (-0.1,1.05)
+        (0,0.95) to (-0.1,0.95);
+        \fill[fill=white] (0.25,1.036) rectangle (-0.117,0.964);
+
+        %šipka palivo
+        \draw[->, orange] (-0.1,1) to (0.1,1) to [out=0,in=180,looseness=1.5](0.8,0.25) to (1.2,0.25);
+
+        %okysličovadlo
+        \draw[rounded corners=10pt, pattern=north east lines, thick] (-3,-0.25) rectangle (0,-1.75);
+        \fill[rounded corners=7pt, fill=white] (-2.9,-0.35) rectangle (-0.1,-1.65);
+        \draw[rounded corners=7pt, pattern=crosshatch dots, pattern color=blue, thick] (-2.9,-0.35) rectangle (-0.1,-1.65);
+
+        %vybělovadlo okysličovadlo
+        \draw[thick] (0,-1.05) to (-0.1,-1.05)
+        (0,-0.95) to (-0.1,-0.95);
+        \fill[fill=white] (0.25,-1.036) rectangle (-0.117,-0.964);
+
+        %šipka okysličovadlo
+        \draw[->, blue] (-0.1,-1) to (0.1,-1) to [out=0,in=180,looseness=1.5](0.8,-0.25) to (1.2,-0.25);
+
+        %spalovací komora a tryska vršek
+        \draw[pattern=north east lines, thick] (1,0.3) to (1,0.6) to [in=180,out=90](1.4,1) to (2.5,1) to [out=0,in=120](3.5,0.25) to [in=180,out=45](7,1.5) to (7,1.6) to [out=180,in=45](3.525,0.4) to [in=0,out=120](2.6,1.1) to (1.4,1.1) to [out=180,in=90](0.9,0.6) to (0.9,0.3) to cycle;
+
+        %spalovací komora a tryska spodek
+        \begin{scope}[yscale=-1]
+            \draw[pattern=north east lines, thick] (1,0.3) to (1,0.6) to [in=180,out=90](1.4,1) to (2.5,1) to [out=0,in=120](3.5,0.25) to [in=180,out=45](7,1.5) to (7,1.6) to [out=180,in=45](3.525,0.4) to [in=0,out=120](2.6,1.1) to (1.4,1.1) to [out=180,in=90](0.9,0.6) to (0.9,0.3) to cycle;
+            \draw[thick, dotted] (0,1.05) to (0.25,1.05) to [out=0,in=180](0.75,0.3) to (0.9,0.3)
+            (0,0.95) to (0.15,0.95) to [out=0,in=180](0.65,0.2) to (0.9,0.2);
+        \end{scope}
+
+        %trubka palivo
+        \draw[thick, dotted] (0,1.05) to (0.25,1.05) to [out=0,in=180](0.75,0.3) to (0.9,0.3)
+        (0,0.95) to (0.15,0.95) to [out=0,in=180](0.65,0.2) to (0.9,0.2);
+
+        %mezivěcička
+        \draw[pattern=north east lines, thick] (0.9,0.2) rectangle (1,-0.2);
+
+        \makePointer{-3.5,1.5}{-2,1}{left}{palivo}
+        \makePointer{-3.5,-1.5}{-2,-1}{left}{okysličovadlo}
+        \makePointer{2.5,1.5}{2,0.5}{above}{spalovací komora}
+        \makePointer{3,-2}{4.25,-0.98}{left}{tryska}
+
+    \end{tikzpicture}
+    \caption{Schéma raketového motoru na kapalné palivo \jaDiag}
+    \label{fig:raketovyMotorKapalny}
+\end{figure}
+
+\newpage
+
+\subsection{Proudové motory}
+{Proudové motory urychlují nasátý vzduch za pomoci spalování. Dělají to různými způsoby, většina proudových motorů má čtyři části. Nejprve kompresor stlačí nasátý vzduch, poté je tento vzduch ve spalovací komoře obohacen o palivo a spálen. Následně žhavé spaliny točí turbínou, která zpětně pohání kompresor. Poslední částí je tryska, skrze kterou je vysokou rychlostí vyfukován plyn, čímž motor tvoří tah. Proudové motory dělíme dle konstrukce na dvě hlavní skupiny: jednoproudové a dvouproudové motory.}
+\cite{VUTB:PrehledTechnickychAspektuVyvojeLeteckychProudovychMotoru}
+
+\subsubsection{Jednoproudové motory}
+{Tyto motory jsou oproti dvouproudovým motorům jednoduché, jsou však méně účinné a proto jsou jimi v současnosti mnohdy nahrazeny. Dříve se kvůli jejich jednoduchosti využívaly ve veškerých proudových letadlech, pro jejich vyšší výkon se využívají převážně pro vojenské účely. Příklad jednoproudového motoru naleznete na \obrref{fig:jednoproudovyMotor}.}
+\cite{VUTB:PrehledTechnickychAspektuVyvojeLeteckychProudovychMotoru}
+
+\begin{figure}[H]
+    \centering
+    \begin{tikzpicture}[scale=0.85]
+
+        %ukazování směru proudu
+        \draw[->, blue] (-1,0.75) to [in=180, out=10](4.1,1.05);
+        \draw[->, red] (6,1.1) to [in=180,out=10](7.2,1.2) to [in=170,out=-10](9,0.35) to [out=-10,in=180](9.5,0.25);
+        \begin{scope}[yscale=-1]
+            \draw[->, blue] (-1,0.75) to [in=180, out=10](4.1,1.05);
+            \draw[->, red] (6,1.1) to [in=180,out=10](7.2,1.2) to [in=170,out=-10](9,0.35) to [out=-10,in=180](9.5,0.25);
+        \end{scope}
+
+        %výbuchy
+        \makeDot{4.7,1}{orange}\makeDot{4.8,1.1}{orange}\makeDot{4.9,0.9}{orange}\makeDot{5,1.05}{orange}\makeDot{5.2,0.95}{orange}\makeDot{5.3,1.15}{orange}\makeDot{5.4,1.05}{orange}\makeDot{5.5,0.9}{orange}
+        \begin{scope}[yscale=-1]\makeDot{4.7,1}{orange}\makeDot{4.8,1.1}{orange}\makeDot{4.9,0.9}{orange}\makeDot{5,1.05}{orange}\makeDot{5.2,0.95}{orange}\makeDot{5.3,1.15}{orange}\makeDot{5.4,1.05}{orange}\makeDot{5.5,0.9}{orange}\end{scope}
+
+        %skříň
+        \draw[pattern=north east lines, thick] (-0.5,1.5) to (0,1.5) to (4,1.25) to (6.4,1.35) to (7.1,1.6) to (8.25,1.2) to (9,1.2) to (9,1.25) to (8.25,1.25) to (7.1,1.65) to (6.4,1.4) to (4,1.3) to (0,1.55) to (-0.5,1.55) to cycle;
+
+        %vnitřek
+        \draw[pattern=north east lines, thick] (-1,0) to [out=80,in=180](-0.25,0.5) to (1,0.5) to [out=15,in=180](3.75,0.9) to (5,0.75) to (6.5,0.8) to (7,0.9) to (8.5,0);
+
+        %Hřídel
+        \draw[fill=white, thick] (3.8,0) to (3.8, 0.5) to (4, 0.1) to (4.3, 0.1) to (4.3, 0.2) to (4.4, 0.2) to (4.4, 0.1) to (4.5, 0.1) to (4.5,0.15) to (4.6,0.15) to (4.6, 0.1) to (4.7,0.1) to (4.8,0.15) to (4.9,0.15) to (5,0.25) to (5.9,0.25) to (6,0.35) to (7,0.35) to (7,0);
+        \draw (4,0.1) to (4,0) (4.3,0.1) to (4.3,0) (4.4,0.2) to (4.4,0) (4.5,0.15) to (4.5,0) (4.6,0.15) to (4.6,0) (4.7,0.1) to (4.7,0) (4.8,0.15) to (4.8,0) (4.9,0.15) to (4.9,0) (5,0.25) to (5,0) (5.9,0.25) to (5.9,0) (6,0.35) to (6,0) (7,0.35) to (7,0);
+
+        \begin{scope}[yscale=-1]
+            %skříň
+            \draw[pattern=north east lines, thick] (-0.5,1.5) to (0,1.5) to (4,1.25) to (6.4,1.35) to (7.1,1.6) to (8.25,1.2) to (9,1.2) to (9,1.25) to (8.25,1.25) to (7.1,1.65) to (6.4,1.4) to (4,1.3) to (0,1.55) to (-0.5,1.55) to cycle;
+
+            %vnitřek
+            \draw[pattern=north east lines, thick] (-1,0) to [out=80,in=180](-0.25,0.5) to (1,0.5) to [out=15,in=180](3.75,0.9) to (5,0.75) to (6.5,0.8) to (7,0.9) to (8.5,0);
+
+            %hřídel
+            \draw[fill=white, thick] (3.8,0) to (3.8, 0.5) to (4, 0.1) to (4.3, 0.1) to (4.3, 0.2) to (4.4, 0.2) to (4.4, 0.1) to (4.5, 0.1) to (4.5,0.15) to (4.6,0.15) to (4.6, 0.1) to (4.7,0.1) to (4.8,0.15) to (4.9,0.15) to (5,0.25) to (5.9,0.25) to (6,0.35) to (7,0.35) to (7,0);
+            \draw (4,0.1) to (4,0) (4.3,0.1) to (4.3,0) (4.4,0.2) to (4.4,0) (4.5,0.15) to (4.5,0) (4.6,0.15) to (4.6,0) (4.7,0.1) to (4.7,0) (4.8,0.15) to (4.8,0) (4.9,0.15) to (4.9,0) (5,0.25) to (5,0) (5.9,0.25) to (5.9,0) (6,0.35) to (6,0) (7,0.35) to (7,0);
+        \end{scope}
+
+        %Kompresor
+        \makeBlades{1.43}{0}{0.1}{white}
+        \makeBlades{1.415}{0.3}{0.1}{white}
+        \makeBlades{1.4}{0.6}{0.1}{white}
+        \makeBlades{1.385}{0.9}{0.1}{white}
+        \makeBlades{1.37}{1.2}{0.1}{white}
+        \makeBlades{1.355}{1.5}{0.1}{white}
+        \makeBlades{1.335}{1.8}{0.0975}{white}
+        \makeBlades{1.32}{2.1}{0.095}{white}
+        \makeBlades{1.285}{2.4}{0.0925}{white}
+        \makeBlades{1.27}{2.7}{0.09}{white}
+        \makeBlades{1.245}{3}{0.0875}{white}
+        \makeBlades{1.22}{3.25}{0.085}{white}
+        \makeBlades{1.205}{3.5}{0.0825}{white}
+        \makeBlades{1.17}{3.75}{0.08}{white}
+
+        %turbína
+        \makeBlades{1.3}{6.5}{0.125}{white}
+        \makeBlades{1.4}{6.75}{0.15}{white}
+        \makeBlades{1.5}{7}{0.175}{white}
+
+        %vysvětlivky
+        \makePointer{1,-2}{2.1,-1.2}{left}{kompresor}
+        \makePointer{5,-2}{6.5,-1.2}{left}{turbína}
+        \makePointer{6.5,2}{6,0}{right}{hřídel}
+        \makePointer{9.75,1}{8.75,0.25}{right}{tryska}
+        \makePointer{3.5,2}{5.3,1}{left}{spalovací komora}
+        
+    \end{tikzpicture}
+    \caption{Schéma jednoproudového motoru \jaDiag}
+    \label{fig:jednoproudovyMotor}
+\end{figure}
+
+\subsubsection{Dvouproudové motory}
+{Dvouproudové motory rozdělují proud ve dva. Oba proudy se nasají dmychadlem a poté se rozdělí na vnitřní a obtokový. Vnitřní proud pokračuje jádrem motoru do kompresoru, postupuje skrze spalovací komoru a turbínu až do trysky, kde se spojí s obtokovým proudem a tvoří tah. Vzniká také nový parametr: obtokový poměr. Obecně lze říci že čím vyšší je obtokový poměr, tím účinnější je motor, a čím nižší je, tím vyšší má výkon. Protože jsou dvouproudové motory účinnější, využívají ve valné většině civilních i vojenských letounů. Jeho konstrukce je popsána na \obrref{obr:dvouproudovyMotor}.}
+\cite{VUTB:PrehledTechnickychAspektuVyvojeLeteckychProudovychMotoru}
+
+\begin{figure}[H]
+    \centering
+    \begin{tikzpicture}[scale=0.85]
+        %ukazování směru proudu
+        \draw[->, blue] (-1,1.75) to (4,1.75) to [out=0,in=180](7,2);
+        \draw[->,blue] (-1,1) to [out=-10,in=180](3,0.75);
+        \draw[->,red] (4,0.75) to [out=0,in=180](5.9,1) to [out=0,in=180](8,0.5);
+
+        \begin{scope}[yscale=-1]
+            \draw[->, blue] (-1,1.75) to (4,1.75) to [out=0,in=180](7,2);
+            \draw[->,blue] (-1,1) to [out=-10,in=180](3,0.75);
+            \draw[->,red] (4,0.75) to [out=0,in=180](5.9,1) to [out=0,in=180](8,0.5);
+        \end{scope}
+
+        %výbuchy
+        \makeDot{3.7,0.75}{orange}
+        \makeDot{3.5,0.7}{orange}
+        \makeDot{3.6,0.8}{orange}
+        \makeDot{3.4,0.85}{orange}
+        \makeDot{3.7,0.95}{orange}
+
+        \begin{scope}[yscale=-1]
+            %výbuchy
+            \makeDot{3.7,0.75}{orange}
+            \makeDot{3.5,0.7}{orange}
+            \makeDot{3.6,0.8}{orange}
+            \makeDot{3.4,0.85}{orange}
+            \makeDot{3.7,0.95}{orange}
+        \end{scope}
+
+        %skříň vnější
+        \draw[pattern=north east lines, thick] (-0.5,2.25) to (4,2.2) to [out=170,in=0](1,2.5) to [out=180,in=30]cycle;
+        \begin{scope}[yscale=-1]\draw[pattern=north east lines, thick] (-0.5,2.25) to (4,2.2) to [out=170,in=0](1,2.5) to [out=180,in=30]cycle;\end{scope}
+
+        %skříň vnitřní
+        \draw[pattern=north east lines, thick] (0.75,1.25) to [out=0,in=170](3,0.95) to [out=30,in=190](4.5,1.1) to [out=15,in=180](5.7,1.35) to [out=0, in=170](7,1.1)to (7,1.2) to [out=170,in=0](5.7,1.45) to [out=180,in=20](4.5,1.2) to [out=180,in=0](0.75,1.35) to cycle;
+        \begin{scope}[yscale=-1]\draw[pattern=north east lines, thick] (0.75,1.25) to [out=0,in=170](3,0.95) to [out=30,in=190](4.5,1.1) to [out=15,in=180](5.7,1.35) to [out=0, in=170](7,1.1)to (7,1.2) to [out=170,in=0](5.7,1.45) to [out=180,in=20](4.5,1.2) to [out=180,in=0](0.75,1.35) to cycle;\end{scope}
+
+        %vnitřek
+        \draw[pattern=north east lines, thick] (0.5,0) to (0.5,0.4) to [out=0,in=185](3,0.65) to [out=-15,in=180](4.5,0.5) to [out=0,in=190](5.75,0.7) to (6.9,0);
+        \begin{scope}[yscale=-1]\draw[pattern=north east lines, thick] (0.5,0) to (0.5,0.4) to [out=0,in=185](3,0.65) to [out=-15,in=180](4.5,0.5) to [out=0,in=190](5.75,0.7) to (6.9,0);\end{scope}
+
+        %Hřídel
+        \draw[fill=white!75!blue, thick] (-0.3,0) to [out=50,in=180](0.5,0.3) to (0.5, 0.2) to (1.7, 0.2) to (1.8,0.1) to (5,0.1) to (5.1,0.2) to (5.5,0.2) to (5.5,-0.1);
+        \draw[fill=white!75!red, thick] (1.8,0.1) to (1.7, 0.2) to (5,0.2) to (5.1,0.1) to (5,0.1) to (1.8,0.1);
+        \begin{scope}[yscale=-1]\draw[fill=white!75!blue, thick] (-0.3,0) to [out=50,in=180](0.5,0.3) to (0.5,0) to (0.5, 0.2) to (1.7, 0.2) to (1.8,0.1) to (5,0.1) to (5.1,0.2) to (5.5,0.2) to (5.5,0);
+        \draw[fill=white!75!red, thick] (1.8,0.1) to (1.7, 0.2) to (5,0.2) to (5.1,0.1) to (5,0.1) to (1.8,0.1);\end{scope}
+
+        %Dmychadlo
+        \makeBlades{2.2}{0.5}{0.2}{white!75!blue}
+
+        %Kompresor nízkotlaký
+        \makeBlades{1.2}{0.9}{0.1}{white!75!blue}
+        \makeBlades{1.175}{1.2}{0.1}{white!75!blue}
+        \makeBlades{1.15}{1.5}{0.1}{white!75!blue}
+
+        %Kompresor vysokotlaký
+        \makeBlades{1}{1.9}{0.0925}{white!75!red}
+        \makeBlades{0.975}{2.2}{0.09}{white!75!red}
+        \makeBlades{0.95}{2.5}{0.0875}{white!75!red}
+        \makeBlades{0.925}{2.8}{0.085}{white!75!red}
+
+        %Turbína vysokotlaká
+        \makeBlades{1.05}{4.5}{0.125}{white!75!red}
+        \makeBlades{1.1}{4.75}{0.15}{white!75!red}
+
+        %Turbína nízkotlaká
+        \makeBlades{1.2}{5}{0.175}{white!75!blue}
+        \makeBlades{1.25}{5.25}{0.175}{white!75!blue}
+        \makeBlades{1.3}{5.5}{0.175}{white!75!blue}
+    
+        %Popisky
+        \makePointer{-1,2}{0.5,1.8}{left}{dmychadlo}
+        \makePointer{2,-3}{1,-1}{right}{nízkotlaký kompresor}
+        \makePointer{4,-2.3}{2,-1}{right}{vysokotlaký kompresor}
+        \makePointer{7,-1.6}{4.9,-0.8}{right}{vysokotlaká turbína}
+        \makePointer{8,0.1}{7,0.3}{right}{tryska}
+        \makePointer{7.6,1}{5.7,0.9}{right}{nízkotlaká turbína}
+        \makePointer{4.3,2.6}{3.8,0.9}{right}{spalovací komora}
+
+    \end{tikzpicture}
+    \caption{Schéma dvouproudového motoru \jaObr}
+    \label{obr:dvouproudovyMotor}
+\end{figure}
+
+\newpage
+
+\subsection{Rovnice reaktivních motorů}
+{V této kapitole vysvětlím rovnice o reaktivních motorech, přesněji rovnice pro výpočet tahu raketových a proudových motorů. Také popíši rovnici pro specifický impuls.}
+
+\subsubsection{Tah raketových motorů}
+{Tah raketového motoru můžeme vypočítat pomocí rovnice \rvref{rv:RaketovyMotorTah}.}
+\cite{NASA:propulsionIndex}
+
+\begin{equation}\label{rv:RaketovyMotorTah}
+    \vec{F}=\dot{m}\cdot{v}
+\end{equation}
+
+{\(\vec{F}\) je tah [N]}\\
+{\(\dot{m}\) je hmotnostní průtok [\kgs]}\\
+{\(v\) je výstupní rychlost [\ms]}\\
+
+\subsubsection{Tah proudových motorů}
+{Tah je jedním z nejdůležitějších parametrů proudového motoru, vypočítáme jej rovnicí \rvref{rv:ProudovyMotorTah}.}
+\cite{NASA:propulsionIndex}
+
+\begin{equation}\label{rv:ProudovyMotorTah}
+    \vec{F}=\dot{m}_{1}\cdot{v_1}-\dot{m}_{0}\cdot{v_0}
+\end{equation}
+
+{\(\vec{F}\) je tah [N]}\\
+{\(\dot{m}_{1}\) je výstupní hmotnostní průtok [\kgs]}\\
+{\(\dot{v}_{1}\) je výstupní rychlost [\ms]}\\
+{\(\dot{m}_{0}\) je vstupní hmotnostní průtok [\kgs]}\\
+{\(\dot{v}_{0}\) je vstupní rychlost [\ms]}
+
+\subsubsection{Specifický impuls}
+{Specifický impuls je parametr, díky kterému lze snadno porovnávat různé proudové motory. Motor s vyšším specifickým impulsem je účinnější, jelikož na daný hmotnostní průtok vyvine větší tah. K výpočtu specifického impulsu raketového motoru využijeme rovnici \rvref{rv:SpecifickyImpuls}.}
+\cite{NASA:propulsionIndex}
+
+\begin{subequations}
+    \begin{equation}\label{rv:SpecifickyImpuls}
+        I_s=\frac{\vec{F}}{\dot{m}\cdot{\vec{g}_0}}
+    \end{equation}
+
+    {\(I_s\) je specifický impuls [s]}\\
+    {\(\vec{F}\) je tah [N]}\\
+    {\(\dot{m}\) je hmotnostní průtok [\kgs]}\\
+    {\(\vec{g}_0\) je gravitační zrychlení na zemi (9,81 \mss)[\mss]}\\
+    \podst
+
+    {Pokud chceme vypočítat specifický impuls proudového motoru, místo celkového hmotnostního průtoku použijeme pouze hmotnostní průtok paliva, viz rovnice \rvref{rv:SpecifickyImpulsProudovy}.}
+
+    \begin{equation}\label{rv:SpecifickyImpulsProudovy}
+        I_s=\frac{\vec{F}}{\dot{m}_f\cdot{\vec{g}_0}}
+    \end{equation}
+
+    {$\dot{m}_f$ je hmotnostní průtok paliva [\kgs]}
+\end{subequations}

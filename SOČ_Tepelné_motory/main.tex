@@ -1,0 +1,423 @@
+\documentclass[12pt]{article}
+
+%INCLUDEONLY
+%\includeonly{sections/zaver.tex}
+
+%!!!!!!!!! Zapomeň odkomentovat attachfile !!!!!!!!!!
+%!!!!!!!!! Nezapomeň opravit pracovní listy  !!!!!!!!!!
+
+%DOČASNÉ
+\usepackage{xcolor}
+\usepackage{blindtext}
+\usepackage{soul}
+\hfuzz=10pt
+\vfuzz=10pt
+\hbadness=10000
+\vbadness=10000
+
+%Čeština
+\usepackage[czech]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\selectlanguage{czech}
+\usepackage[a4paper,top=3cm,bottom=2.5cm,left=2.5cm,right=2.5cm]{geometry}
+\usepackage{amsmath}
+\usepackage[colorlinks=true, allcolors=black]{hyperref}
+
+%Zdroje
+\usepackage[backend=biber, style=iso-numeric, sorting=none, maxbibnames=3]{biblatex}
+\addbibresource{zdroje.bib}
+\usepackage{csquotes}
+
+\AtEveryBibitem{%
+  \ifentrytype{thesis}{%
+    \ifboolexpr{ test {\iffieldundef{url}} }
+      {}
+      {\usebibmacro{url+urldate}}%
+  }{}
+}
+\renewbibmacro*{url+urldate}{%
+  \usebibmacro{url}%
+  \ifboolexpr{ test {\iffieldundef{urldate}} }
+    {}
+    {, \bibstring{urlseen}~\printdate{urldate}}%
+}
+
+\DefineBibliographyStrings{czech}{%
+  online = {[online]},  % Adds [online] before the citation
+  urlseen = {Přístup dne}  % Ensures "Přístup dne" appears correctly
+}
+
+%Obrázky
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{caption}
+\usepackage{subcaption}
+
+%Pracovní listy
+\usepackage{titling}
+\usepackage{enumitem}
+\usepackage{dashrule}
+\let\iint\relax
+\usepackage{wasysym}
+\usepackage{xfrac}
+\usepackage{upgreek}
+\usepackage{tcolorbox}
+\usepackage{pdfpages}
+\usepackage{fancybox}
+\usepackage{framed}
+\usepackage{attachfile2}
+\newcommand{\pracovniList}[3]{
+    \textbf{#2} {Dostupné ke stažení }\textattachfile[color=0 0 0]{#3}{\textit{zde}}
+    \begin{minipage}{0.5\textwidth}
+      \centering
+      \fbox{
+        \includegraphics[scale = 0.35, page=1, clip]{#1}
+      }
+    \end{minipage}%
+    \begin{minipage}{0.5\textwidth}
+      \centering
+      \fbox{
+        \includegraphics[scale = 0.35, page=2, clip]{#1}
+      }
+    \end{minipage}
+}
+\usepackage{tikz}
+\usetikzlibrary{fadings}
+\usepackage[normalem]{ulem}
+\newcommand{\cara}[1]{\hspace{0.1cm}{\makebox[#1]{\dotfill}}}
+\newcommand{\body}[1]{\begin{flushright}\rule{0.5cm}{0.4pt}{ / }{#1}\end{flushright}}
+\newcommand{\tecky}[1]{\makebox[#1]{\dotfill}}
+\newcommand{\nadtecky}[1]{\textcolor{red}{\raisebox{0.05cm}{\rlap{\hspace{0.25cm}#1}}}}
+\newcommand{\nadteckyN}[1]{\textcolor{red}{\raisebox{0.05cm}{\rlap{#1}}}}
+\newcommand{\redeq}[1]{{\setlength{\abovedisplayskip}{5pt}\setlength{\belowdisplayskip}{5pt}\textcolor{red}{\begin{equation*}#1\end{equation*}}}}
+\newcommand{\dottext}[1]{\ensuremath{\dot{\text{#1}}}}
+
+%Tabulky
+\usepackage[table]{xcolor}
+\usepackage{tabularx}
+\usepackage{diagbox}
+
+%Import grafu v souboru .pgf
+\usepackage{pgf}
+
+%Font
+\usepackage{tgtermes}
+
+\usetikzlibrary{patterns}
+%DiagramMotoru #1 = offset #2 = piston height #3 = intake #4 = exhaust #5 = counterweight angle #6 = sincos
+\newcommand{\makeEngineFourStrokeGasolineDiagram}[6]{%
+  \makePiston{#1}{#2}
+
+  \makeCase{#1}
+  
+  \makeSparkplug{#1}
+
+  %crankshaft
+  \makeCounterweight{#1}{#5}
+
+  %connecting rod
+  \makeConnectingRod{#1}{#2}{#6}
+
+  \makeValve{#1}{#3/5} %intake
+  \makeValve{#1 + 1}{#4/5} %exhaust
+}
+
+%DiagramMotoru #1 = offset #2 = piston height #3 = intake #4 = exhaust #5 = counterweight angle #6 = sincos
+\newcommand{\makeEngineFourStrokeDieselDiagram}[6]{%
+  \makePiston{#1}{#2}
+
+  \makeCase{#1}
+
+  \draw[thick]%sparker
+  (0.925 + #1, 3) to (0.95 + #1, 2.9) to (1.05 + #1, 2.9) to (1.075 + #1, 3) to cycle
+  (1.1 + #1, 3.1) to (1.1 + #1, 3.3) to (1.2 + #1, 3.4) to (1.2 + #1, 3.6) (0.8 + #1, 3.6) to (0.8 + #1, 3.4) to (0.9 + #1, 3.3) to (0.9 + #1, 3.1);
+
+  %crankshaft
+  \makeCounterweight{#1}{#5}
+
+  %connecting rod
+  \makeConnectingRod{#1}{#2}{#6}
+
+  \makeValve{#1}{#3/5} %intake
+  \makeValve{#1 + 1}{#4/5} %exhaust
+}
+
+\newcommand{\makeEngineTwoStrokeDiagram}[6]{%
+  \makePiston{#1}{#2}
+
+  %Case
+  \draw[thick, pattern=north east lines]
+  (0 + #1,0) to (0 + #1,1) to (-0.1 + #1, 1) to (-0.1 + #1, 0) -- cycle
+  (0 + #1,-1) to (0 + #1,-0.5) to [in=-90, out=180](-0.5 + #1,0) to (-0.5 + #1,1) to [out=90,in=180](0 + #1,1.5) to (0 + #1,3) to (2 + #1,3) to (2 + #1,2) to (2.5 + #1,2) to (2.5 + #1, 2.1) to (2.1 + #1,2.1) to (2.1 + #1,3.1) to (-0.1 + #1, 3.1) to (-0.1 + #1,1.6) to [out=180,in=90](-0.6 + #1,1) to (-0.6 + #1,-0.1) to [out=-90,in=180](-0.1 + #1, -0.6) to (-0.1 + #1, -1) -- cycle
+  (2 + #1,1.5) to (2.5 + #1,1.5) to (2.5 + #1, 1.4) to (2.1 + #1,1.4) to (2.1 + #1,-0.4) to (2.5 + #1,-0.4) to (2.5 + #1,-0.5) to (2 + #1, -0.5) to (2 + #1, 1.5) -- cycle
+  (2 + #1,-0.9) to (2.5 + #1,-0.9) to (2.5 + #1, -1) to (2 + #1, -1) -- cycle;
+  %bottom
+
+  \makeSparkplug{#1}
+
+  %crankshaft
+  \makeCounterweight{#1}{#5}
+
+  %connecting rod
+  \makeConnectingRod{#1}{#2}{#6}
+}
+
+%Píst
+\newcommand{\makePiston}[2]{%
+  \draw[thick] %piston body
+  (0.05 + #1,#2) rectangle (1.95 + #1,1.5 + #2)
+  (1 + #1, 0.5 + #2) circle (0.25);
+
+  \draw[thick] %rings
+  (0.05 + #1,1.1 + #2) to (1.95 + #1, 1.1 + #2)
+  (0.05 + #1,1 + + #2) to (1.95 + #1, 1 + + #2)
+  (0.05 + #1,0.9 + + #2) to (1.95 + #1, 0.9 + + #2);
+}
+
+%Válec
+\newcommand{\makeCase}[1]{%
+  \draw[pattern=north east lines, thick]%left
+  (0 + #1,-1) to (0 + #1,3) to (0.2 + #1,3) 
+  to (0.25 + #1, 3.1) to (-0.1 + #1, 3.1) to (-0.1 + #1, -1) -- cycle;
+  \draw[pattern=north east lines, thick]%middle
+  (0.8 + #1,3) to (1.2 + #1,3)
+  to (1.25 + #1, 3.1) to (0.75 + #1, 3.1) -- cycle;
+  \draw[pattern=north east lines, thick]%right
+  (2 + #1,-1) to (2 + #1,3) to (1.8 + #1,3)
+  to (1.75 + #1, 3.1) to (2.1 + #1, 3.1) to (2.1 + #1, -1) -- cycle;
+}
+
+%Ventil
+\newcommand{\makeValve}[2]{%
+  \draw[thick] %valve
+  (0.25 + #1,3 - #2) to (0.75 + #1,3 - #2) to (0.7 + #1,3.1 - #2) to (0.3 + #1,3.1 - #2) -- cycle;
+  \draw[thick] %valve rod
+  (0.46 + #1,3.1 - #2) to (0.46 + #1, 3.6)
+  (0.54 + #1, 3.6) to (0.54 + #1,3.1 - #2);
+}
+
+%Counterweight
+\newcommand{\makeCounterweight}[2]{%
+  \draw[thick] (1 + #1, -2.5) circle (0.2);
+
+  \draw[thick, rotate around={#2:(1 + #1, -2.5)}]
+  (1.3 + #1, -1.5) to (1.3 + #1, -2.75) to (2 + #1, -3)
+  (0 + #1, -3) to (0.7 + #1, -2.75) to (0.7 + #1, -1.5)
+  ([shift=(180:1)]1 + #1,-3) arc (180:360:1);
+
+  %arrow
+  \draw[->, thick, rotate around={#2:(1 + #1, -2.5)}] (1.4 + #1,-3.1) to[out=-90, in=-90, looseness=1.75](0.6 + #1,-3.1);
+}
+
+%Connecting rod
+\newcommand{\makeConnectingRod}[3]{%
+  \draw[thick]
+  (1 + cos{#3} + #1, sin{#3} -2.5) circle (0.3);
+
+  \draw[dotted, thick]%lines
+  (0.8 + #1,0.5 + #2) to (0.8 + cos{#3} + #1, sin{#3} -2.5)
+  (1.2 + #1,0.5 + #2) to (1.2 + cos{#3} + #1, sin{#3} -2.5);
+}
+
+%Sparkplug
+\newcommand{\makeSparkplug}[1]{%
+  \draw[thick]%sparker
+  (0.9 + #1, 3) to (0.95 + #1, 2.95) to (1.05 + #1, 2.95) to (1.1 + #1, 3) -- cycle
+  (0.975 + #1, 2.9) to (1.025 + #1, 2.9) to (1.025 + #1, 2.95);
+
+  \draw[thick]%top
+  (0.9 + #1, 3.1) to (0.9 + #1, 3.2) to (1.1 + #1, 3.2) to (1.1 + #1, 3.1) -- cycle
+  (0.95 + #1, 3.2) to (0.95 + #1, 3.5) to (1.05 + #1, 3.5) to (1.05 + #1, 3.2) -- cycle;
+
+  \draw[thin]
+  (0.95 + #1, 3.2) to (1.05 + #1, 3.25)
+  (0.95 + #1, 3.25) to (1.05 + #1, 3.3)
+  (0.95 + #1, 3.3) to (1.05 + #1, 3.35)
+  (0.95 + #1, 3.35) to (1.05 + #1, 3.4)
+  (0.95 + #1, 3.4) to (1.05 + #1, 3.45)
+  (0.95 + #1, 3.45) to (1.05 + #1, 3.5);
+}
+
+\usepackage{pgffor}
+%1 - offset 2 - radius
+\newcommand{\makeBlades}[4]{%
+  \draw[thick, fill=#4] (#2,#1) rectangle (#2+#3, -#1);
+  \foreach \x in {0,...,32} {
+      \draw (#2,\x/32*2*#1-#1) to (#2+#3,\x/32*2*#1-#1);
+  }
+}
+
+\newcommand{\makeDot}[2]{%
+  \draw[fill=#2, draw=#2] (#1) circle (0.05);
+}
+
+% 1 - from; 2 - to; 3 - position; 4 - text
+\newcommand{\makePointer}[4]{%
+  \draw[->, thick] (#1) to (#2);
+  \node[#3] at (#1){#4};
+}
+
+%Jednotky
+\newcommand{\mmm}{m\textsuperscript{3}}
+\newcommand{\ms}{m\(\cdot\)s\textsuperscript{-1}}
+\newcommand{\mss}{m\(\cdot\)s\textsuperscript{-2}}
+\newcommand{\kms}{km\(\cdot\)s\textsuperscript{-1}}
+\newcommand{\kgs}{kg\(\cdot\)s\textsuperscript{-1}}
+\newcommand{\rads}{rad\(\cdot\)s\textsuperscript{-1}}
+\newcommand{\otmin}{otáčky\(\cdot\)min\textsuperscript{-1}}
+\newcommand{\ots}{otáčky\(\cdot\)s\textsuperscript{-1}}
+\newcommand{\mertepkap}{J\(\cdot\)kg\textsuperscript{-1}\(\cdot\)K}
+\newcommand{\jmolk}{J\(\cdot\)mol\textsuperscript{-1}\(\cdot\)K\textsuperscript{-1}}
+\newcommand{\nm}{N\(\cdot\)m}
+
+%Lepší rovnice
+\usepackage{amsmath}
+\makeatletter
+\renewenvironment{subequations}{
+  \refstepcounter{equation}
+  \protected@edef\theparentequation{\theequation}
+  \setcounter{parentequation}{\value{equation}}
+  \setcounter{equation}{0}
+  \def\theequation{\theparentequation.\arabic{equation}}
+  \ignorespaces
+}{
+  \setcounter{equation}{\value{parentequation}}
+  \ignorespacesafterend
+}
+\makeatother
+
+%Vlastní příkaz \code
+\def\code#1{\texttt{#1}}
+
+%Citace JÁ
+\newcommand{\jaObr}{[obrázek autor]}
+\newcommand{\jaDiag}{[diagram autor]}
+\newcommand{\jaFoto}{[foto autor]}
+\newcommand{\jaGraf}{[graf autor]}
+
+%Vlastní příkaz \changemargin
+\def\changemargin#1#2{\list{}{\rightmargin#2\leftmargin#1}\item[]}
+\let\endchangemargin=\endlist 
+
+\makeatletter
+\newcommand{\arbitraryref}[2]{
+  \phantomsection
+  \def\@currentlabel{#2}
+  \label{#1}
+}
+\makeatother
+
+%Velikosti nadpisů
+\usepackage{anyfontsize}
+\usepackage{titlesec}
+\titleformat{\section}
+  {\fontsize{18}{18}\bfseries}{\thesection}{1em}{}
+
+\titleformat{\subsection}
+  {\fontsize{16}{16}\bfseries}{\thesubsection}{1em}{}
+
+\titleformat{\subsubsection}
+  {\fontsize{14}{14}\bfseries}{\thesubsubsection}{1em}{}
+
+%České názvy override
+\usepackage[labelsep=endash]{caption}
+\addto\captionsczech{\renewcommand{\figurename}{Obr.}}
+\addto\captionsczech{\renewcommand{\subfigurename}{Obr.}}
+
+% Popis obrázků
+\makeatletter
+\renewcommand\thesubfigure{\thefigure.\arabic{subfigure}}
+\captionsetup[subfigure]{labelformat=simple, labelsep=colon}
+\renewcommand\p@subfigure{}
+\makeatother
+
+% Vlevo a vpravo
+\begin{comment}
+\begingroup
+\makeatletter
+\renewcommand\thesubfigure{\thefigure~--~\@nameuse{subfiglabel@\alph{subfigure}}}
+\newcommand{\subfiglabel@a}{vlevo}
+\newcommand{\subfiglabel@b}{vpravo}
+\captionsetup[subfigure]{labelformat=simple, labelsep=colon}
+\renewcommand\p@subfigure{}
+\makeatother
+
+...
+
+\endgroup
+\end{comment}
+
+\newcommand{\obrref}[1]{Obr. \ref{#1}}
+\newcommand{\rvref}[1]{(\ref{#1})}
+\newcommand{\scref}[1]{\nameref{#1} (\ref{#1})}
+
+%aby se mezery v krátkých řádcích neroztahovaly
+\raggedright
+\newcommand{\odst}{\\ \vspace{\baselineskip}}
+\newcommand{\podst}{\vspace{\baselineskip}}
+
+%soubory
+\usepackage{subfiles}
+
+\begin{document}
+
+\include{sections/uvodniStrany.tex}
+
+\newpage
+
+\include{sections/teorieTepelnychMotoru.tex}
+
+\newpage
+
+\include{sections/parniMotory.tex}
+
+\newpage
+
+\include{sections/spalovaciMotory.tex}
+
+\newpage
+
+\include{sections/reaktivniMotory.tex}
+
+\newpage
+
+\include{sections/praktickaCast.tex}
+
+\newpage
+
+\include{sections/animace.tex}
+
+\newpage
+
+\include{sections/videa.tex}
+
+\newpage
+
+\include{sections/prezentace.tex}
+
+\newpage
+
+\include{sections/pracovniListy.tex}
+
+\newpage
+
+\include{sections/pouzitiVPraxi.tex}
+
+\newpage
+
+\include{sections/zaver.tex}
+
+\newpage
+
+\include{sections/zdroje.tex}
+
+\newpage
+
+\include{sections/seznamPriloh.tex}
+
+\newpage
+
+\include{sections/prilohy.tex}
+
+\end{document}

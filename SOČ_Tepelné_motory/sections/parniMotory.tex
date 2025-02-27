@@ -1,0 +1,97 @@
+\section{Parní motory}
+{První skupinou motorů, které popíši, jsou parní motory. Jak již plyne z názvu, parní motory jsou poháněny párou. Parní stroje umožnily průmyslovou revoluci a celkově posunuly technologie lidstva kupředu, zatímco parní turbíny jsou v současnosti velmi důležité pro výrobu elektřiny.}
+
+\subsection{Historie parních motorů}
+{První praktický parní stroj vytvořil Denis Papin na konci 17. století, jeho parní stroj pracoval s pístem ve válci. Když se válec zahřál, voda v něm se přeměnila v páru a zdvihla píst, při schlazení pára kondenzovala a stáhla píst zpět. Tento parní stroj zdokonalili T. Savery a T. Newcomen přidáním ventilu a bojleru. Dalšího zdokonalení se parní stroj dočkal na konci 18. století, kdy James Watt přidal kondenzátor a klikový mechanismus, aby mohl tento motor vykonávat otáčivý pohyb (doposud vykonával pouze kmitavý pohyb). Dále zdokonalil parní stroj tím, že páru přiváděl střídavě na obě stranu válce. Tím se výrazně zvýšil výkon i účinnost. Parní stroje hrály klíčovou roli při průmyslové revoluci: pomáhaly v dolech a továrnách, poháněly lokomotivy a lodě. Díky parním motorům předíváme 19. století ,,Století páry".}
+\cite{st:parniStroj}\odst
+{První moderní parní turbínu vytvořil Charles Parsons v roce 1884, sedm let poté ji využil pro výrobu elektřiny. Později se začaly parní turbíny využívat i pro pohon lodí a nabyli obrovských výkonů, dodnes pohání největší lodě a vytváří elektřinu v tepelných elektrárnách.}
+\cite{SA:SteamTurbines}
+
+\subsection{Fungování parních motorů}
+{Parní motory pracují s párou tvořenou vně motoru, řadíme je tedy mezi motory s vnějším spalováním. Obecně lze říci, že pára koná práci tím, že tlačí na nějaké součástky. Toho však docilují obě skupiny parních motorů zcela odlišně. Parní stroje pracují s písty, parní turbíny přeměňují energii páry v užitečnou práci pomocí lopatek.}
+
+\subsubsection{Parní stroj}\label{sc:ParniStroj}
+{Parní stroj má píst, který se posouvá a vrací uvnitř válce. Píst je posouván tlakem páry, tu do válce přivádí ventil, použitá pára je z válce odváděna výfukovou dírou. Na píst je přes pístovou tyč napojena ojnice, která přes klikový mechanismus roztáčí hnanou hřídel. Parní stroj však nedodává točivý moment spojitě, proti klepání je na hnané hřídeli připojeno velké závaží zvané setrvačník, které zajišťuje hladký chod parního stroje.}
+\cite{st:parniStroj}\cite{vutb:parniStroj}\odst
+{Existuje řada parních motorů které lze dělit různými způsoby, například dělení dle polohy válců. Nejběžnější jsou ležaté motory, mají velký výkon a snadno se obsluhují, jejich nevýhodou je náročnost na prostor. Stojaté motory jsou poněkud skladnější a dosahují vysokých otáček (až 3500 za minutu) a jsou často víceválcové, zato jsou složitější. Dále můžeme parní stroje dělit na plnotlakové a expanzní, u plnotlakových motorů se válec naplno naplní párou, u expanzních se pára ve válci rozpíná. Většina parních strojů je expanzních, jelikož spotřebují méně páry.}
+\cite{st:parniStroj}\cite{vutb:parniStroj}
+
+\newpage
+
+\subsubsection{Parní turbína}\label{sc:ParniTurbina}
+{Parní turbíny se od parních strojů velmi liší. Energii páry převádí na mechanickou práci pomocí rotorů, které jsou připojeny na hřídel a kvůli páře která přes ně proudí se točí. Aby se pára jen netočila kolem hřídele, následuje za každým rotorem stator. Ten vede páru zpět správným směrem, aby následující rotor mohl opět účinně točit hřídelí.}
+\cite{LESICS:WorkingOfSteamTurbine}\odst
+{Teoreticky rozlišujeme dvě hlavní skupiny turbín: impulsní turbíny a reakční turbíny. Impulsní turbíny využívají pouze kinetickou energii páry, ta má tedy stejnou teplotu a tlak před i po průchodu rotorem. Naopak reakční turbína využívá pouze vnitřní energii a žádnou kinetickou energii. Skutečné turbíny jsou však kombinací těchto dvou, mohou být například 50 \% reakční a 50 \% impulsní. Na \obrref{fig:parniTurbina} je vyobrazena parní turbína.}
+\cite{LESICS:WorkingOfSteamTurbine}
+
+\vspace{1cm}
+\begin{figure}[H]
+    \centering
+    \begin{tikzpicture}[scale=1.75]
+        %hřídel
+        \draw[fill=white,pattern=north east lines, thick] (0.5,0.05) to (3.9+2.2+0.4,0.05) to (3.9+2.2+0.4,-0.05) to (0.5,-0.05) to cycle;
+
+        %proudy
+        \draw[->, blue, path fading=east, postaction={draw, red, path fading=west}] (3.425-0.15, 2) to (3.425-0.15,0.8) to [out=-90,in=-10, draw=blue](2,0.5) to (0.5,0.8);
+        \draw[->, blue, path fading=east, postaction={draw, red, path fading=west}] (3.425, 2) to (3.425, 0) to [out=-90, in=8](2,-0.65) to (0.5,-0.8);
+        \draw[->, blue, path fading=west, postaction={draw, red, path fading=east}] (3.575, 2) to (3.575, 0) to [out=-90, in=172](5,-0.65) to (6.5,-0.8);
+        \draw[->, blue, path fading=west, postaction={draw, red, path fading=east}] (3.575+0.15, 2) to (3.575+0.15,0.8) to [out=-90, in=190](5,0.5) to (6.5, 0.8);
+
+        %rotory
+        \makeBlades{1.5}{0.9}{0.16}{white}
+        \makeBlades{1.3}{1.35}{0.15}{white}
+        \makeBlades{1.15}{1.75}{0.14}{white}
+        \makeBlades{1}{2.1}{0.13}{white}
+        \makeBlades{0.9}{2.45}{0.12}{white}
+        \makeBlades{0.85}{2.75}{0.11}{white}
+        \makeBlades{0.8}{3}{0.1}{white}
+
+        %statory
+        \makeBlades{1.5}{1.25}{0.05}{white}
+        \makeBlades{1.35}{1.65}{0.05}{white}
+        \makeBlades{1.2}{2}{0.05}{white}
+        \makeBlades{1.075}{2.35}{0.05}{white}
+        \makeBlades{1}{2.65}{0.05}{white}
+        \makeBlades{0.95}{2.9}{0.05}{white}
+
+        \begin{scope}[xscale=-1, shift={(-7,0)}]
+            %rotory
+            \makeBlades{1.5}{0.9}{0.16}{white}
+            \makeBlades{1.3}{1.35}{0.15}{white}
+            \makeBlades{1.15}{1.75}{0.14}{white}
+            \makeBlades{1}{2.1}{0.13}{white}
+            \makeBlades{0.9}{2.45}{0.12}{white}
+            \makeBlades{0.85}{2.75}{0.11}{white}
+            \makeBlades{0.8}{3}{0.1}{white}
+
+            %statory
+            \makeBlades{1.5}{1.25}{0.05}{white}
+            \makeBlades{1.35}{1.65}{0.05}{white}
+            \makeBlades{1.2}{2}{0.05}{white}
+            \makeBlades{1.075}{2.35}{0.05}{white}
+            \makeBlades{1}{2.65}{0.05}{white}
+            \makeBlades{0.95}{2.9}{0.05}{white}
+
+            %skříň vrchní
+            \draw[fill=white] (0.5,1.55) to (0.9+0.16, 1.55) to [out=-20, in=175](3.1,0.9) to [out=0,in=-90](3.2,1) to (3.2,1.8) to (3.1,1.8) to (3.1,1) to [out=175,in=-20](0.9+0.16,1.65) to (0.5,1.65) to cycle; 
+            \draw[pattern=north east lines, thick] (0.5,1.55) to (0.9+0.16, 1.55) to [out=-20, in=175](3.1,0.9) to [out=0,in=-90](3.2,1) to (3.2,1.8) to (3.1,1.8) to (3.1,1) to [out=175,in=-20](0.9+0.16,1.65) to (0.5,1.65) to cycle; 
+        \end{scope}
+
+        %skříň vrchní
+        \draw[fill=white] (0.5,1.55) to (0.9+0.16, 1.55) to [out=-20, in=175](3.1,0.9) to [out=0,in=-90](3.2,1) to (3.2,1.8) to (3.1,1.8) to (3.1,1) to [out=175,in=-20](0.9+0.16,1.65) to (0.5,1.65) to cycle;
+        \draw[pattern=north east lines, thick] (0.5,1.55) to (0.9+0.16, 1.55) to [out=-20, in=175](3.1,0.9) to [out=0,in=-90](3.2,1) to (3.2,1.8) to (3.1,1.8) to (3.1,1) to [out=175,in=-20](0.9+0.16,1.65) to (0.5,1.65) to cycle;
+        
+        %skříň spodní
+        \draw[fill=white] (0.5,-1.55) to (0.9+0.16, -1.55) to [out=20, in=-175](3.1,-0.9) to (3.9, -0.9) to [in=160, out=-5](3.9+2.2-0.16,-1.55) to (3.9+2.2+0.4,-1.55) to (3.9+2.2+0.4,-1.65) to (3.9+2.2-0.16,-1.65) to [out=160,in=-5](3.9,-1) to (3.1,-1) to [in=20, out=-175](0.9+0.16,-1.65) to (0.5, -1.65) to cycle;
+        \draw[pattern=north east lines, thick] (0.5,-1.55) to (0.9+0.16, -1.55) to [out=20, in=-175](3.1,-0.9) to (3.9, -0.9) to [in=160, out=-5](3.9+2.2-0.16,-1.55) to (3.9+2.2+0.4,-1.55) to (3.9+2.2+0.4,-1.65) to (3.9+2.2-0.16,-1.65) to [out=160,in=-5](3.9,-1) to (3.1,-1) to [in=20, out=-175](0.9+0.16,-1.65) to (0.5, -1.65) to cycle;
+
+        %popisky
+        \makePointer{2.7,1.5}{3.1,1.4}{left}{skříň}
+        \makePointer{6.5,0.3}{6.4,0.05}{above}{hřídel}
+        \makePointer{4,1.5}{3.5,1.4}{right}{přívod páry}
+        \makePointer{3.2,-1.3}{3.05,-0.8}{below}{rotor}
+        \makePointer{4.2,-1.3}{4.95,-1.05}{below}{stator}
+    \end{tikzpicture}
+    \caption{Ukázka hlavních částí parní turbíny \jaDiag}
+    \label{fig:parniTurbina}
+\end{figure}

@@ -1,0 +1,197 @@
+\documentclass[../main.tex]{subfiles}
+
+\begin{document}
+\edef\hmm{\pdfpagewidth=\the\pdfpagewidth \pdfpageheight=\the\pdfpageheight\relax}
+\pdfpagewidth=210mm
+\pdfpageheight=297mm
+
+%název
+\textbf{B}
+\hspace{1cm}
+\textbf{Jméno:}
+\tecky{4cm}
+\hspace{0.25cm}
+\textbf{Příjmení}
+\tecky{4cm}
+\hfill
+\textbf{Hodnocení:}
+\tecky{0.5cm}
+{/}
+{40}
+\vspace{0.25cm}
+\hrule
+\vspace{0.25cm}
+
+\begin{enumerate}[label={\textbf{\arabic*.}}]
+\begin{minipage}{0.45\textwidth}
+    \item \textbf{Zakroužkujte správné odpovědi:}
+        \begin{enumerate}[label={\alph*)}, itemsep=0pt, topsep=0.15cm]
+            \item {Výkon je nepřímo úměrný frekvenci cyklů}
+            \item {Výkon je přímo úměrný frekvenci cyklů}
+            \item {Výkon je přímo úměrný práci za cyklus}
+            \item {Výkon je nepřímo úměrný práci za cyklus}
+            \item {Žádná z odpovědí není správná}
+        \end{enumerate}
+    \body{2}
+
+    \item \textbf{Zakroužkujte správné odpovědi:}
+        \begin{enumerate}[label={\alph*)}, itemsep=0pt, topsep=0.15cm]
+            \item {Účinnost se značí \(\upmu\)}
+            \item {Účinnost může být vyšší než 100 \%}
+            \item {Účinnost se rovná \sfrac{W}{Q\textsubscript{d}}}
+            \item {Účinnost může být maximálně 273,15 kE}
+            \item {Žádná z odpovědí není správná}
+        \end{enumerate}
+    \body{2}
+
+    \item \textbf{Zakroužkujte správné odpovědi:}
+        \begin{enumerate}[label={\alph*)}, itemsep=0pt, topsep=0.15cm]
+            \item {Letadla využívají reaktivní motory}
+            \item {V automobilech jsou spalovací motory}
+            \item {Reaktivní motory jsou nejrozšířenější}
+            \item {Parní motory využíváme v elektrárnách}
+            \item {Žádná z odpovědí není správná}
+        \end{enumerate}
+    \body{2}
+
+    \item \textbf{Zakroužkujte správné odpovědi:}
+        \begin{enumerate}[label={\alph*)}, itemsep=0pt, topsep=0.15cm]
+            \item {Kelvin je jednotkou teploty}
+            \item {Kelvin je jednotkou tepla}
+            \item {Odevzdané teplo značíme Q\textsubscript{o}}
+            \item {Teplo dodané značíme T\textsubscript{d}}
+            \item {Žádná z odpovědí není správná}
+        \end{enumerate}
+    \body{2}
+    
+    \item \textbf{Jak dělíme tepelné motory?}
+        \begin{enumerate}[label={\alph*)}, itemsep=0pt, topsep=0.15cm]
+            \item \tecky{2cm} na \tecky{1cm} stroje a \tecky{1cm} turbíny
+            \item \tecky{2cm} na zážehové a vznětové
+            \item \tecky{2cm} na proudové a raketové
+            \item \tecky{2cm} na čtyřdobé a \tecky{2cm}
+        \end{enumerate}
+    \body{2}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.4\textwidth}
+    \vspace{-12.4cm}
+
+    \item \textbf{Zakreslete do obrázku části proudového motoru}
+    
+    \vspace{1.25cm}
+    \begin{center}
+    \includegraphics[scale=0.1]{images/ProudovyMotor.png}
+    \begin{tikzpicture}[overlay, remember picture, scale=2/3, shift=({-5.25,-0.5})]
+
+        %kompresor
+        \draw[<->, thick] (-3.12,6.5) to (0.09,6.5);
+        \draw[dotted, thick,red] (-3.12,6.5) to (-3.12,1.2);
+        \draw[dotted, thick,red] (0.09,6.5) to (0.09,2.6);
+        \node[anchor=west, above,align=left] at (-2,7) {\tecky{1.5cm}};
+        \draw[thick, ->] (-2,7) to (-1.5,6.6);
+
+        %spalovací komora
+        \draw[<->, thick] (0.09,6.5) to (1.32,6.5);
+        \node[anchor=west, above, align=left] at (0,8) {\tecky{3cm}};
+        \draw[thick, ->] (-0.5,8) to (0.75,6.6);
+
+        %turbína
+        \draw[<->, thick] (1.32,6.5) to (2.28,6.5);
+        \draw[dotted, thick,red] (1.32,6.5) to (1.32,2.3);
+        \draw[dotted, thick,red] (2.28,6.5) to (2.28,2.2);
+        \node[anchor=west, above,align=left] at (2,7) {\tecky{1.5cm}};
+        \draw[thick, ->] (2,7) to (1.75,6.6);
+
+        %tryska
+        \draw[<->, thick] (2.28,6.5) to (4.8,6.5);
+        \draw[dotted, thick,red] (4.8,6.5) to (4.8,2.7);
+        \node[anchor=west, above,align=left] at (4.1,8) {\tecky{1.5cm}};
+        \draw[thick, ->] (4.2,8) to (3.45,6.6);
+    \end{tikzpicture}
+    \end{center}
+    \body{2}
+
+    \item \textbf{Uveďte příklad využití daného motoru:}
+    \begin{enumerate}[label={\arabic*.}, itemsep=0pt, topsep=0.15cm]
+        \item {Parní stroj}\hfill\tecky{3.75cm}
+        \item {Raketový motor}\hfill\tecky{3.75cm}
+        \item {Proudový motor}\hfill\tecky{3.75cm}
+        \item {Dvoudobý motor}\hfill\tecky{3.75cm}
+        \item {Čtyřdobý motor}\hfill\tecky{3.75cm}
+        \item {Parní turbína}\hfill\tecky{3.75cm}
+    \end{enumerate}
+    \body{2}
+    
+    \item \textbf{Doplňte do tabulky hodnoty}
+        \begin{center}
+            \renewcommand{\arraystretch}{1.25}
+            \begin{tabular}{|c|c|c|c|c|} \hline 
+                &Q\textsubscript{d} & Q\textsubscript{o} & W & \(\upeta\) \\ \hline  
+                1.& 100 J & 50 J &\tecky{1cm} & \tecky{1cm} \\ \hline  
+                2.&\tecky{1cm} & 210 J & 390 J & \tecky{1cm} \\ \hline  
+                3.&300 J & 300 J & \tecky{1cm} & \tecky{1cm} \\ \hline  
+                4.&8000 J& 3600 J & \tecky{1cm} & \tecky{1cm} \\ \hline  
+                5.&1200 J & \tecky{1cm} & 1200 J & \tecky{1cm} \\ \hline  
+                6.&\tecky{1cm} & 70 J & 630 J & \tecky{1cm} \\ \hline
+            \end{tabular}
+        \end{center}
+    \body{6}
+
+    \item \textbf{Který motor z tabulky nelze sestrojit? Který lze sestrojit, ale je k ničemu?}\vspace{0.2cm}\\
+        \tecky{7.75cm}
+        \tecky{7.75cm}
+    \body{2}
+
+\end{minipage}
+
+\end{enumerate}
+
+\newpage
+\textbf{B}
+\hspace{1cm}
+\textbf{Jméno:}
+\tecky{4cm}
+\hspace{0.25cm}
+\textbf{Příjmení}
+\tecky{4cm}
+\hfill
+\textbf{Hodnocení:}
+\tecky{0.5cm}
+{/}
+{40}
+\vspace{0.25cm}
+\hrule
+\vspace{0.25cm}
+
+\begin{enumerate}[label={\textbf{\arabic*.}}, resume]
+
+    \item \textbf{Vypočítejte práci, kterou vykoná parní stroj, který dostane páru o teplotě 227 °C a vypustí ji o 50 K chladnější. Jeho účinnost je 8 \% a spotřebuje 50 g páry. Měrná tepelná kapacita páry je 1840 J/kg\(\cdot\)K.}
+
+    \vspace{5.5cm}
+    
+    \dotfill
+    \body{6}
+    
+    \item \textbf{Čtyřdobý spalovací šestiválec vykoná jedním pístem každou pracovní dobu 800 J energie. Jaký je jeho výkon při 7200 otáčkách za minutu?}
+
+    \vspace{5.5cm}
+    
+    \dotfill\odst
+    \begin{minipage}{0.7\textwidth}
+        \small{\textbf{Nápověda: }uvědomte si kolik pracovních dob se odehraje za otáčku (motor je čtyřdobý). Nezapomeňte započítat počet válců.}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.25\textwidth}
+        \body{6}
+    \end{minipage}
+
+    \item \textbf{Raketa s tahem 45 kN má 5875 kg paliva. Kolik minut poletí, pokud má výstupní rychlost 955 \ms a o 14 kPa vyšší výstupní tlak než prostředí? Poloměr trysky je 20 cm.}
+
+    \vspace{5.5cm}
+    
+    \dotfill
+    \body{6}
+\end{enumerate}
+%}
+\end{document}

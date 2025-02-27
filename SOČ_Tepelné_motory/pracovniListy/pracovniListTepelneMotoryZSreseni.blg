@@ -1,0 +1,9 @@
+[0] Config.pm:308> INFO - This is Biber 2.20
+[0] Config.pm:311> INFO - Logfile is 'pracovniListTepelneMotoryZSreseni.blg'
+[77] biber-MSWIN64:340> INFO - === 
+[106] Biber.pm:420> INFO - Reading 'pracovniListTepelneMotoryZSreseni.bcf'
+[190] Biber.pm:994> INFO - Found 0 citekeys in bib section 0
+[202] bbl.pm:676> INFO - Writing 'pracovniListTepelneMotoryZSreseni.bbl' with encoding 'UTF-8'
+[202] bbl.pm:779> INFO - Output to pracovniListTepelneMotoryZSreseni.bbl
+[202] Biber.pm:131> WARN - The file 'pracovniListTepelneMotoryZSreseni.bcf' does not contain any citations!
+[202] Biber.pm:133> INFO - WARNINGS: 1
