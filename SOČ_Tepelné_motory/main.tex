@@ -1,7 +1,7 @@
 \documentclass[12pt]{article}
 
 %INCLUDEONLY
-%\includeonly{sections/zaver.tex}
+\includeonly{sections/teorieTepelnychMotoru.tex, sections/parniMotory.tex}
 
 %!!!!!!!!! Zapomeň odkomentovat attachfile !!!!!!!!!!
 %!!!!!!!!! Nezapomeň opravit pracovní listy  !!!!!!!!!!
@@ -28,25 +28,6 @@
 \usepackage[backend=biber, style=iso-numeric, sorting=none, maxbibnames=3]{biblatex}
 \addbibresource{zdroje.bib}
 \usepackage{csquotes}
-
-\AtEveryBibitem{%
-  \ifentrytype{thesis}{%
-    \ifboolexpr{ test {\iffieldundef{url}} }
-      {}
-      {\usebibmacro{url+urldate}}%
-  }{}
-}
-\renewbibmacro*{url+urldate}{%
-  \usebibmacro{url}%
-  \ifboolexpr{ test {\iffieldundef{urldate}} }
-    {}
-    {, \bibstring{urlseen}~\printdate{urldate}}%
-}
-
-\DefineBibliographyStrings{czech}{%
-  online = {[online]},  % Adds [online] before the citation
-  urlseen = {Přístup dne}  % Ensures "Přístup dne" appears correctly
-}
 
 %Obrázky
 \usepackage{graphicx}
@@ -347,15 +328,12 @@
 
 \endgroup
 \end{comment}
-
 \newcommand{\obrref}[1]{Obr. \ref{#1}}
 \newcommand{\rvref}[1]{(\ref{#1})}
 \newcommand{\scref}[1]{\nameref{#1} (\ref{#1})}
 
-%aby se mezery v krátkých řádcích neroztahovaly
-\raggedright
-\newcommand{\odst}{\\ \vspace{\baselineskip}}
-\newcommand{\podst}{\vspace{\baselineskip}}
+% Odstavce a aby tam nebylo odsazení
+\newcommand{\odst}{\vspace{\baselineskip}\\}
 
 %soubory
 \usepackage{subfiles}

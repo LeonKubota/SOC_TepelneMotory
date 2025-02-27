@@ -1,11 +1,8 @@
-\section{Teorie tepelných motorů}
+\section{\textcolor{green}{Teorie tepelných motorů}}
 {Tepelný motor je stroj, který přeměňuje tepelnou energii na mechanickou práci. Tuto energii mu dodáváme plynnou pracovní látkou.}
-
-\subsection{Ideální plyn}
+\subsection{\textcolor{green}{Ideální plyn}}
 {Pro porozumění tepelným motorům je nezbytné znát ideální plyn. Zákon ideálních plynů popisuje vztahy mezi tlakem, teplotou a objemem. Ve skutečnosti je tvořen třemi zákony: izochorickým Charlesovým zákonem \rvref{rv:Charles}, izotermickým Boylovým zákonem \rvref{rv:Boyle} a izobarickým Gay-Lussacovým zákonem \rvref{rv:GayLussac}.}
-\cite{SP:IdealGasBehaviour}
-
-\vspace{0.8cm}
+\cite{SP:IdealGasBehaviour}\odst
 \begin{subequations}
     \begin{minipage}{0.3\textwidth}
         \begin{equation}\label{rv:Charles}
@@ -23,52 +20,34 @@
         \begin{equation}\label{rv:GayLussac}
             \frac{V}{T}=konst.
         \end{equation}
-    \end{minipage}
-    \vspace{0.8cm}
-
+    \end{minipage}\odst
 {\(p\) je tlak [Pa]}\\
 {\(V\) je objem [\mmm]}\\
-{\(T\) je teplota [K]}\\
-\podst
-
+{\(T\) je teplota [K]}\odst
 {Spojením těchto tří zákonů získáme zákon ideálního plynu, ten lze zapsat stavovou rovnicí ideálního plynu \rvref{rv:stavovaRovnice}.}
-\cite{SP:IdealGasBehaviour}
-
+\cite{SP:IdealGasBehaviour}\\
     \begin{equation}\label{rv:stavovaRovnice}
         pV=nRT
     \end{equation}
-    
 \end{subequations}
 {\(n\) je látkové množství [mol]}\\
-{\(R\) je univerzální plynová konstanta (8,31 \jmolk)[\jmolk]}\\
-\podst
-
+{\(R\) je univerzální plynová konstanta (8,31 \jmolk)[\jmolk]}\odst
 {Ideální plyn se však velmi liší od skutečného plynu, velikost molekul považujeme za zanedbatelnou a stejnou u všech molekul, předpokládáme náhodný pohyb dle Newtonových zákonů a zanedbáváme ztráty energie při kolizích. Ze stavové rovnice však plyne velmi důležitý poznatek: při zahřátí se plyn rozpíná. Toho využívají tepelné motory pro konání práce.}
 \cite{SP:IdealGasBehaviour}
-
-\subsection{Účinnost a práce}\label{sc:SkutecnaUcinnost}
+\subsection{\textcolor{green}{Účinnost a práce}}\label{sc:SkutecnaUcinnost}
 {Účinnost tepelných motorů je omezena druhým termodynamickým zákonem. Účinnost tepelného motoru je podíl užitečné mechanické práce a dodaného tepla, viz rovnice \rvref{rv:ucinnost1}.}
 \cite{NCEPU:ThermalEfficiencyForHeatEngines}
-
 \begin{subequations}
-
     \begin{equation}\label{rv:ucinnost1}
         \eta=\frac{W}{Q_d}
     \end{equation}
-
 {\(\eta\) je účinnost [-]}\\
 {\(W\) je práce [J]}\\
-{\(Q_d\) je dodané teplo [J]}\\
-\podst
-
+{\(Q_d\) je dodané teplo [J]}\odst
 {Práci můžeme vypočítat pomocí rovnice \rvref{rv:prace}.}
 \cite{NCEPU:ThermalEfficiencyForHeatEngines}
-
     \begin{equation}\label{rv:prace}
         W=Q_d-Q_o
     \end{equation}
-
 {\(Q_o\) je odevzdané teplo [J]}\\
-\podst
-
 \end{subequations}
