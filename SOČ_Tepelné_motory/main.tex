@@ -1,7 +1,7 @@
 \documentclass[12pt]{article}
 
 %INCLUDEONLY
-\includeonly{sections/teorieTepelnychMotoru.tex, sections/parniMotory.tex}
+\includeonly{sections/pouzitiVPraxi.tex}
 
 %!!!!!!!!! Zapomeň odkomentovat attachfile !!!!!!!!!!
 %!!!!!!!!! Nezapomeň opravit pracovní listy  !!!!!!!!!!
@@ -276,6 +276,7 @@
 \newcommand{\jaDiag}{[diagram autor]}
 \newcommand{\jaFoto}{[foto autor]}
 \newcommand{\jaGraf}{[graf autor]}
+\newcommand{\jaTab}{[tabulka autor]}
 
 %Vlastní příkaz \changemargin
 \def\changemargin#1#2{\list{}{\rightmargin#2\leftmargin#1}\item[]}
@@ -305,6 +306,7 @@
 \usepackage[labelsep=endash]{caption}
 \addto\captionsczech{\renewcommand{\figurename}{Obr.}}
 \addto\captionsczech{\renewcommand{\subfigurename}{Obr.}}
+\addto\captionsczech{\renewcommand{\tablename}{Tab.}}
 
 % Popis obrázků
 \makeatletter
@@ -312,6 +314,9 @@
 \captionsetup[subfigure]{labelformat=simple, labelsep=colon}
 \renewcommand\p@subfigure{}
 \makeatother
+
+% Popist tabulek
+\captionsetup[table]{labelformat=simple, labelsep=colon}
 
 % Vlevo a vpravo
 \begin{comment}
@@ -331,6 +336,7 @@
 \newcommand{\obrref}[1]{Obr. \ref{#1}}
 \newcommand{\rvref}[1]{(\ref{#1})}
 \newcommand{\scref}[1]{\nameref{#1} (\ref{#1})}
+\newcommand{\tabref}[1]{Tab. \ref{#1}}
 
 % Odstavce a aby tam nebylo odsazení
 \newcommand{\odst}{\vspace{\baselineskip}\\}
