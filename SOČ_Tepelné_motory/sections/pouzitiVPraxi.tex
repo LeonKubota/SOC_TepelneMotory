@@ -1,26 +1,133 @@
-\section{Použití pomůcek v praxi}
-{Pracovní list pro základní školy a prezentaci ,,Tepelné motory'' jsem vyzkoušel na žácích druhého ročníku Gymnázia Arabská. Učil jsem dvě hodiny, první hodinu jsem učil třídu 2.B, nejprve jsem ukázal prezentaci a poté rozdal pracovní papíry jako domácí úkol. Ve druhé hodině jsem učil třídu \hl{X}, rozdal jse pracovní listy, aby je žáci vyplňovali současně s prezentací a více se soustředili, termín odevzdání byl o několik hodin později.}\odst
+\section{Použití pomůcek v praxi}\label{sc:pouzitiVPraxi}
+{Pracovní list pro základní školy a prezentaci ,,Tepelné motory'' jsem vyzkoušel na žácích druhého ročníku Gymnázia Arabská. Učil jsem dvě hodiny, první hodinu jsem učil třídu 2.B. Nejprve jsem ukázal prezentaci a poté rozdal pracovní papíry jako domácí úkol. Ve druhé hodině jsem učil třídu 2.A, rozdal jsem pracovní listy před hodinou, aby je žáci vyplňovali současně s prezentací a více se soustředili, termín odevzdání byl o několik hodin později.}\odst
 {Mé materiály samozřejmě nebyly perfektní. Prezentace potřebovala drobné úpravy, její následnost byla místy neohrabaná a nelogická, tyto problémy jsem opravil upravením pořadí snímků a změnou či přidáním obrázků.}\odst
+{Žáci měli problémy s identifikací svíčky, přidal jsem tedy obrázek svíčky k vysvětlování zážehových motorů, aby na něj učitel mohl upozornit. Dále bylo složité vysvětlit počet pracovních dob za otáčku hřídele. Přidal jsem popisný text ke vzorci výkonu spalovacích motorů. Upravené snímky jsou na \obrref{obr:svickaSlide} a \obrref{obr:vzorceSlide}.}
+\begin{figure}[H]
+    \begingroup
+    \makeatletter
+    \renewcommand\thesubfigure{\thefigure~--~\@nameuse{subfiglabel@\alph{subfigure}}}
+    \newcommand{\subfiglabel@a}{vlevo}
+    \newcommand{\subfiglabel@b}{vpravo}
+    \captionsetup[subfigure]{labelformat=simple, labelsep=colon}
+    \renewcommand\p@subfigure{}
+    \makeatother
+    \begin{subfigure}{0.47\textwidth}
+        \centering
+        \setlength{\fboxsep}{0pt}
+        \fbox{\includegraphics[scale=0.2]{assets/images/SvickaPrezentace.png}}
+        \caption{Obrázek svíčky u vysvětlení\\čtyřdobých zážehových motorů \jaObr}
+        \label{obr:svickaSlide}
+    \end{subfigure}\hfill
+    \begin{subfigure}{0.47\textwidth}
+        \centering
+        \setlength{\fboxsep}{0pt}
+        \fbox{\includegraphics[scale=0.2]{assets/images/PracovniDoby1.png}}
+        \caption{Přidání vysvětlení počtu dob za otáčku \jaObr}
+        \label{obr:vzorceSlide}
+    \end{subfigure}
+    \endgroup
+\end{figure}
+{Také jsem vytvořil nový obrázek pro znázornění akce a reakce, jelikož starý obrázek židle (viz \obrref{obr:zidlePrezentace}) tlačené hasicími přístroji byl nevyhovující. Nový obrázek \obrref{obr:balonekPrezentace} odlétajícího nafukujícího balónku je mnohem názornější a pochopitelnější.}
+\begin{figure}[H]
+    \begingroup
+    \makeatletter
+    \renewcommand\thesubfigure{\thefigure~--~\@nameuse{subfiglabel@\alph{subfigure}}}
+    \newcommand{\subfiglabel@a}{vlevo}
+    \newcommand{\subfiglabel@b}{vpravo}
+    \captionsetup[subfigure]{labelformat=simple, labelsep=colon}
+    \renewcommand\p@subfigure{}
+    \makeatother
+    \begin{subfigure}{0.47\textwidth}
+        \centering
+        \setlength{\fboxsep}{0pt}
+        \fbox{\includegraphics[scale=0.2]{assets/images/zidlePrezentace.png}}
+        \caption{Obrázek židle s hasicími přístroji u vysvětlení zákona akce a reakce \jaObr}
+        \label{obr:zidlePrezentace}
+    \end{subfigure}\hfill
+    \begin{subfigure}{0.47\textwidth}
+        \centering
+        \setlength{\fboxsep}{0pt}
+        \fbox{\includegraphics[scale=0.2]{assets/images/balonekPrezentace.png}}
+        \caption{Obrázek nafukovacího balónku u vysvětlení zákona akce a reakce \jaObr}
+        \label{obr:balonekPrezentace}
+    \end{subfigure}
+    \endgroup
+\end{figure}
+{Dále jsem musel opravit chyby v příkladech. Jelikož jsem příklady mnohokrát předělával, výsledky nebyli vždy správné. V hotové verzi je toto samozřejmě opraveno. Některým žákům dělaly příklady potíže, především kvůli jejich problémům s převody jednotek. Příklady však s drobnou asistencí žáci vyřešili správně.}
+\newpage
+\subsection{Nedostatky a úprava pracovních listů}
 {Pracovní listy jsem zadal jako dobrovolný domácí úkol, termín na odevzdání byl stanoven na tentýž den. Žáci pracovali ve dvojicích. Výsledky jsou shrnuty v \tabref{tab:vysledkyPracovnichListu}.}
-\begin{table}[h]
+\begin{table}[H]
     \centering
     \begin{tabular}{|c|c|c|c|}
         \hline
-        Cvičení & úspěšnost třídy 2.B & úspěšnost třídy \hl{X} & celková úspěšnost\\
+        Cvičení & úspěšnost třídy 2.B & úspěšnost třídy 2.A & celková úspěšnost\\
         \hline
-        Celkem & 73,1 \% & 80 \% & 76,5 \%\\
+        Celkem & 73,1 \% & 80,0 \% & 76,5 \%\\
         Cvičení 1 & 76,9 \% & 77,7 \% & 77,3 \%\\
         Cvičení 2 & 97,4 \% & 97,2 \% & 97,3 \%\\
         Cvičení 3 & 94,9 \% & 100 \% & 97,3 \%\\
         Cvičení 4 & 69,2 \% & 100 \% & 84,0 \%\\
         Cvičení 5 & 46,2 \% & 91,7 \% & 68,0 \%\\
         Cvičení 6 & 76,9 \% & 66,7 \% & 72,0 \%\\
-        Cvičení 7 & 38,4 \% & 87,5 \% & 62,0\%\\
+        Cvičení 7 & 38,4 \% & 87,5 \% & 62,0 \%\\
         Cvičení 8 & 64,1 \% & 52,8 \% & 58,7 \%\\
         Cvičení 9 & 56,4 \% & 36,1 \% & 46,7 \%\\
         Cvičení 10 & 84,6 \% & 86,1 \% & 85,3 \%\\
         \hline
     \end{tabular}
-    \caption{Hodnocení pracovních listů}
+    \caption{Hodnocení pracovních listů \jaTab}
     \label{tab:vysledkyPracovnichListu}
 \end{table}
+{Zkušenosti z výuky jsem využil ke zdokonalení mých materiálů. Snížil jsem počet bodů za jednoduchá cvičení 2 a 3. Ve cvičení 4 žáci doplňovali hodnoty do tabulky, někteří žáci (převážně ze třídy 2.B) toto cvičení přeskočili, pravděpodobně bylo příliš dlouhé. Ve finální verzi jsem ho zkrátil. Cvičení 5 a 6 navazují na cvičení 4, což je jasně řečeno v zadání. Žáci zadání často nečetli a tak jsem se rozhodl upravit rozvržení pracovního papíru abych zdůraznil jejich návaznost. Původní rozvržení je znázorněno na \obrref{obr:puvodniRozvrzeni}, upravené rozvržení na \obrref{obr:upraveneRozvrzeni}.}
+\begin{figure}[H]
+    \begingroup
+    \makeatletter
+    \renewcommand\thesubfigure{\thefigure~--~\@nameuse{subfiglabel@\alph{subfigure}}}
+    \newcommand{\subfiglabel@a}{vlevo}
+    \newcommand{\subfiglabel@b}{vpravo}
+    \captionsetup[subfigure]{labelformat=simple, labelsep=colon}
+    \renewcommand\p@subfigure{}
+    \makeatother
+    \begin{subfigure}{0.45\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.23]
+            \draw[thick] (0,0) rectangle (21, 29.7);
+            \draw[thick](0,27.5) to (21,27.5) (0,22) to (21,22) (0,18) to (21,18) (11,18) to (11,0) (0,9) to (11,9) (11,14.5) to (21,14.5) (11,11) to (21,11);
+            \node[right] at (0,28.6) {Jméno a hodnocení};
+            \node[right] at (0,26.5) {Cvičení 1};
+            \node[right] at (0,21) {Cvičení 2};
+            \node[right] at (0,17) {Cvičení 3};
+            \node[right] at (0,8) {Cvičení 4};
+            \node[right] at (11,17) {Cvičení 5};
+            \node[right] at (11,13.5) {Cvičení 6};
+            \node[right] at (11,10) {Cvičení 7};
+        \end{tikzpicture}
+        \caption{Původní rozvržení první strany pracovního listu \jaDiag}
+        \label{obr:puvodniRozvrzeni}
+    \end{subfigure}\hfill
+    \begin{subfigure}{0.45\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.23]
+            \draw[thick] (0,0) rectangle (21, 29.7);
+            \draw[thick](0,27.5) to (21,27.5) (0,22) to (21,22) (0,18) to (21,18) (10.5,18) to (10.5,11) (0,11) to (10.5,11) (10.5,14.5) to (21,14.5) (10.5,11) to (21,11) (0, 10.75) to (21, 10.75) (11,10.75) to (11,0);
+            \node[right] at (0,28.6) {Jméno a hodnocení};
+            \node[right] at (0,26.5) {Cvičení 1};
+            \node[right] at (0,21) {Cvičení 2};
+            \node[right] at (0,17) {Cvičení 4};
+            \node[right] at (0,9.5) {Cvičení 3};
+            \node[right] at (11,17) {Cvičení 5};
+            \node[right] at (11,13.5) {Cvičení 6};
+            \node[right] at (11,9.5) {Cvičení 7};
+        \end{tikzpicture}
+        \caption{Upravené rozvržení první strany pracovního listu \jaDiag}
+        \label{obr:upraveneRozvrzeni}
+    \end{subfigure}
+    \endgroup
+\end{figure}
+{Dále jsem upravil obrázky pro lepší tisk a změnil jsem obrázek ze cvičení 8, jelikož měli žáci potíže rozeznat některé malé součástky. Nakonec jsem vyměnil pořadí posledních dvou cvičení, aby byl lehčí příklad první.}
+\newpage
+\subsection{Vyhodnocení praktického použití pomůcek}
+{Při výuce se ukázalo mnoho chyb prezentace, pracovních listů i mého samotného výstupu. Tyto zkušenosti jsem využil ke zdokonalení svých výukových pomůcek, a to nejen těch, které jsem přímo v hodinách využil.}\odst
+{Prezentaci jsem upravil nejméně, přidal jsem několik obrázků a lehce upravil text. Pracovní listy pro základní školy jsem zdokonalil a zpřehlednil; principy, které jsem se naučil, jsem aplikoval i na pracovní listy pro střední školy. Nejvíce jsem změnil svůj výklad, ten byl ve druhé hodině výrazně lepší.}\odst
+{Z těchto dvou hodin jsem se naučil mnoho, a doufám, že žáci také. V budoucnosti bych rád vyzkoušel další materiály na různorodějších třídách, například i na základní škole.}

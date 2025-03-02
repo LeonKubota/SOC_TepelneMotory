@@ -1,7 +1,7 @@
 \documentclass[12pt]{article}
 
 %INCLUDEONLY
-\includeonly{sections/pouzitiVPraxi.tex}
+%\includeonly{sections/prezentace.tex}
 
 %!!!!!!!!! Zapomeň odkomentovat attachfile !!!!!!!!!!
 %!!!!!!!!! Nezapomeň opravit pracovní listy  !!!!!!!!!!
@@ -49,19 +49,19 @@
 \usepackage{framed}
 \usepackage{attachfile2}
 \newcommand{\pracovniList}[3]{
-    \textbf{#2} {Dostupné ke stažení }\textattachfile[color=0 0 0]{#3}{\textit{zde}}
+    \textbf{#2} {Dostupné ke stažení }\textattachfile[color=0 0 0]{#3}{\textit{zde}}\odst
     \begin{minipage}{0.5\textwidth}
       \centering
       \fbox{
-        \includegraphics[scale = 0.35, page=1, clip]{#1}
+        \includegraphics[scale = 0.3, page=1, clip]{#1}
       }
     \end{minipage}%
     \begin{minipage}{0.5\textwidth}
       \centering
       \fbox{
-        \includegraphics[scale = 0.35, page=2, clip]{#1}
+        \includegraphics[scale = 0.3, page=2, clip]{#1}
       }
-    \end{minipage}
+    \end{minipage}\odst
 }
 \usepackage{tikz}
 \usetikzlibrary{fadings}
@@ -340,6 +340,7 @@
 
 % Odstavce a aby tam nebylo odsazení
 \newcommand{\odst}{\vspace{\baselineskip}\\}
+\setlength{\parindent}{0pt}
 
 %soubory
 \usepackage{subfiles}

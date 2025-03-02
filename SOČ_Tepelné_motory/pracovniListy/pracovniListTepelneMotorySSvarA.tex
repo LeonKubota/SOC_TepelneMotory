@@ -1,19 +1,15 @@
 \documentclass[../main.tex]{subfiles}
 
 \begin{document}
-\edef\hmm{\pdfpagewidth=\the\pdfpagewidth \pdfpageheight=\the\pdfpageheight\relax}
-\pdfpagewidth=210mm
-\pdfpageheight=297mm
+\newgeometry{paperwidth=210mm, paperheight=297mm, margin=1cm}
+\pagestyle{empty}
 
 %název
-\textbf{A}
-\hspace{1cm}
-\textbf{Jméno:}
-\tecky{4cm}
-\hspace{0.25cm}
-\textbf{Příjmení}
-\tecky{4cm}
+\textbf{Varianta A}
 \hfill
+\textbf{Jméno:}
+\tecky{6cm}
+\hspace{0.5cm}
 \textbf{Hodnocení:}
 \tecky{0.5cm}
 {/}
@@ -75,19 +71,19 @@
 \end{minipage}
 \hfill
 \begin{minipage}[t]{0.4\textwidth}
-    \vspace{-12.4cm}
+    \vspace{-12.75cm}
 
     \item \textbf{Zakreslete do obrázku sílu akce a reakce}
-        \begin{center}
-            \includegraphics[scale=0.11]{../images/Raketa.png}
-        \end{center}
+        \begin{tikzpicture} 
+            \node[opacity=0.7]{\includegraphics[scale=0.12]{assets/images/Raketa.png}};
+        \end{tikzpicture}
     \body{2}
 
     \item \textbf{Uveďte příklad využití daného motoru:}
     \begin{enumerate}[label={\arabic*.}, itemsep=0pt, topsep=0.15cm]
         \item {Čtyřdobý motor}\hfill\tecky{3.75cm}
         \item {Parní turbína}\hfill\tecky{3.75cm}
-        \item {Dvoudobý motor}\hfill\tecky{3.75cm}
+        \item {Dvoudobý motor}\hfill\tecky{3.7cm}
         \item {Raketový motor}\hfill\tecky{3.75cm}
         \item {Parní stroj}\hfill\tecky{3.75cm}
         \item {Proudový motor}\hfill\tecky{3.75cm}
@@ -100,11 +96,9 @@
             \begin{tabular}{|c|c|c|c|c|} \hline 
                 &Q\textsubscript{d} & Q\textsubscript{o} & W & \(\upeta\) \\ \hline  
                 1.& \tecky{1cm} & \tecky{1cm} & 50 J & 50 \% \\ \hline  
-                2.&600 J & \tecky{1cm} & \tecky{1cm} & 35 \% \\ \hline  
+                2.&1200 J & 0 J & \tecky{1cm} & \tecky{1cm} \\ \hline  
                 3.&300 J & 300 J & \tecky{1cm} & \tecky{1cm} \\ \hline  
-                4.&\tecky{1cm} & \tecky{1cm} & 4400 J & 45 \% \\ \hline  
-                5.&1200 J & 0 J & \tecky{1cm} & \tecky{1cm} \\ \hline  
-                6.&700 J & \tecky{1cm} & \tecky{1cm} & 10 \% \\ \hline
+                4.&700 J & \tecky{1cm} & \tecky{1cm} & 10 \% \\ \hline
             \end{tabular}
         \end{center}
     \body{6}
@@ -119,14 +113,11 @@
 \end{enumerate}
 
 \newpage
-\textbf{A}
-\hspace{1cm}
-\textbf{Jméno:}
-\tecky{4cm}
-\hspace{0.25cm}
-\textbf{Příjmení}
-\tecky{4cm}
+\textbf{Varianta A}
 \hfill
+\textbf{Jméno:}
+\tecky{6cm}
+\hspace{0.5cm}
 \textbf{Hodnocení:}
 \tecky{0.5cm}
 {/}
@@ -137,13 +128,32 @@
 
 \begin{enumerate}[label={\textbf{\arabic*.}}, resume]
 
-    \item \textbf{Vypočítejte termodynamickou účinnost parního stroje, který dostane páru o teplotě 227 °C a vypustí ji o 50 K chladnější. Vykoná 368 J práce za jednu otáčku a spotřebuje 50 g páry. Měrná tepelná kapacita páry je 1840 J/kg\(\cdot\)K.}\vspace{5.5cm}
-    \dotfill
+    \item \textbf{Vypočítejte termodynamickou účinnost parního stroje, který dostane páru o teplotě 227 °C a vypustí ji o 50 K chladnější. Vykoná 368 J práce za jednu otáčku a spotřebuje 50 g páry. Měrná tepelná kapacita páry je 1840 J/kg\(\cdot\)K.}
+    \vspace{-0.75cm}
+    \begin{flushright}
+        \begin{minipage}{0.16\textwidth}
+            \begin{tcolorbox}[colframe=black, colback=white, boxrule=0.6pt]
+                {$\eta=W/Q_d$}
+            \end{tcolorbox}
+        \end{minipage}
+        \begin{minipage}{0.18\textwidth}
+            \begin{tcolorbox}[colframe=black, colback=white, boxrule=0.6pt]
+                {$Q=m\cdot{c}\cdot{\Delta{T}}$}
+            \end{tcolorbox}
+        \end{minipage}
+    \end{flushright}
+    \vspace{4cm}
     \body{6}
-    
-    \item \textbf{Čtyřdobý spalovací čtyřválec vykoná jedním pístem každou pracovní dobu 750 J energie. Jaký je jeho výkon při 4800 otáčkách za minutu?}\\
-    \vspace{5.5cm}
-    \dotfill\odst
+    \item \textbf{Čtyřdobý spalovací čtyřválec vykoná jedním pístem každou pracovní dobu 750 J energie. Jaký je jeho výkon při 4800 otáčkách za minutu?}
+    \vspace{-0.75cm}
+    \begin{flushright}
+        \begin{minipage}{0.16\textwidth}
+            \begin{tcolorbox}[colframe=black, colback=white, boxrule=0.6pt]
+                {$P=W\cdot{ot}$}
+            \end{tcolorbox}
+        \end{minipage}
+    \end{flushright}
+    \vspace{4cm}
     \begin{minipage}{0.7\textwidth}
         \small{\textbf{Nápověda: }uvědomte si kolik pracovních dob se odehraje za otáčku (motor je čtyřdobý). Nezapomeňte započítat počet válců.}
     \end{minipage}
@@ -152,8 +162,21 @@
         \body{6}
     \end{minipage}
 
-    \item \textbf{Vypočítejte, jaký poloměr výstupní trysky potřebuje raketový motor, který má tah 2500 kN při výstupové rychlosti 2830 \ms, hmotnostním průtoku 745 \kgs a výstupový tlak o 20 kPa vyšší než tlak prostředí. Zaokrouhlete na dvě desetinná místa.}\vspace{5.5cm}
-    \dotfill
+    \item \textbf{Vypočítejte, jaký poloměr výstupní trysky potřebuje raketový motor, který má tah 2500 kN při výstupové rychlosti 2830 \ms, hmotnostním průtoku 745 \kgs a výstupový tlak o 20 kPa vyšší než tlak prostředí. Zaokrouhlete na dvě desetinná místa.}
+    \vspace{-0.75cm}
+    \begin{flushright}
+        \begin{minipage}{0.29\textwidth}
+            \begin{tcolorbox}[colframe=black, colback=white, boxrule=0.6pt]
+                {$\vec{F}=v\cdot{\dot{m}-(p_1-p_2)\cdot{S}}$}
+            \end{tcolorbox}
+        \end{minipage}
+        \begin{minipage}{0.14\textwidth}
+            \begin{tcolorbox}[colframe=black, colback=white, boxrule=0.6pt]
+                {$S=\pi\cdot{r^2}$}
+            \end{tcolorbox}
+        \end{minipage}
+    \end{flushright}
+    \vfill
     \body{6}
     
 \end{enumerate}

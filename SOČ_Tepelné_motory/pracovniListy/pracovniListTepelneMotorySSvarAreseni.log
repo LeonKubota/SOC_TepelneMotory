@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.29)  24 FEB 2025 22:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.29)  2 MAR 2025 15:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/leonk/Desktop/Latex/SOČ_Tepelné_motory/pracovniListy/pracovniListTepelneMotorySSvarAreseni
-(c:/Users/leonk/Desktop/Latex/SOČ_Tepelné_motory/pracovniListy/pracovniListTepelneMotorySSvarAreseni.tex
+**c:/Users/leonk/Desktop/SOC_TepelneMotory/SOČ_Tepelné_motory/pracovniListy/pracovniListTepelneMotorySSvarAreseni
+(c:/Users/leonk/Desktop/SOC_TepelneMotory/SOČ_Tepelné_motory/pracovniListy/pracovniListTepelneMotorySSvarAreseni.tex
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-09-10>
 (c:/texlive/2024/texmf-dist/tex/latex/subfiles/subfiles.cls
@@ -1204,20 +1204,20 @@ Package geometry Warning: `paperheight': not available in `\newgeometry'; skippe
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Trying to load font information for TS1+qtm on input line 39.
+LaTeX Font Info:    Trying to load font information for TS1+qtm on input line 36.
 (c:/texlive/2024/texmf-dist/tex/latex/tex-gyre/ts1qtm.fd
 File: ts1qtm.fd 2009/09/25 v1.2 font definition file for TS1/qtm
 )
-LaTeX Font Info:    Calculating math sizes for size <6.74997> on input line 39.
-LaTeX Font Info:    Trying to load font information for U+wasy on input line 39.
+LaTeX Font Info:    Calculating math sizes for size <6.74997> on input line 36.
+LaTeX Font Info:    Trying to load font information for U+wasy on input line 36.
  (c:/texlive/2024/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 )
-<../images/RaketaReseni.png, id=31, 1443.3925pt x 1927.2pt>
-File: ../images/RaketaReseni.png Graphic file (type png)
-<use ../images/RaketaReseni.png>
-Package pdftex.def Info: ../images/RaketaReseni.png  used on input line 81.
-(pdftex.def)             Requested size: 158.77367pt x 211.99266pt.
+<../assets/images/Raketa.png, id=31, 1443.3925pt x 1927.2pt>
+File: ../assets/images/Raketa.png Graphic file (type png)
+<use ../assets/images/Raketa.png>
+Package pdftex.def Info: ../assets/images/Raketa.png  used on input line 78.
+(pdftex.def)             Requested size: 173.19963pt x 231.25403pt.
 
 Overfull \hbox (4.27121pt too wide) in paragraph at lines 111--114
 [][][][]
@@ -1233,11 +1233,29 @@ Overfull \hbox (4.27121pt too wide) in paragraph at lines 111--114
 [1
 
 
-{c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2024/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec.enc}{c:/texlive/2024/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc} <../images/RaketaReseni.png (PNG copy)>]
+{c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2024/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec.enc}{c:/texlive/2024/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc} <../assets/images/Raketa.png (PNG copy)>]
+Overfull \hbox (31.3787pt too wide) in paragraph at lines 151--173
+$[]$ $[]$
+ []
+
+
+Overfull \hbox (31.3787pt too wide) in paragraph at lines 184--210
+$[]$ $[]$
+ []
+
+
+Overfull \hbox (31.3787pt too wide) in paragraph at lines 225--246
+$[]$ $[]$ 
+ []
+
+
 
 [2]
 
-[3] (./pracovniListTepelneMotorySSvarAreseni.aux)
+Package caption Warning: Unused \captionsetup[table] on input line 319.
+See the caption package documentation for explanation.
+
+(./pracovniListTepelneMotorySSvarAreseni.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-09-10>
@@ -1249,18 +1267,18 @@ Package logreq Info: Writing requests to 'pracovniListTepelneMotorySSvarAreseni.
 
  ) 
 Here is how much of TeX's memory you used:
- 36789 strings out of 473579
- 703556 string characters out of 5732263
- 1571713 words of memory out of 5000000
- 59039 multiletter control sequences out of 15000+600000
+ 36891 strings out of 473579
+ 706018 string characters out of 5732263
+ 1570771 words of memory out of 5000000
+ 59150 multiletter control sequences out of 15000+600000
  592605 words of font info for 85 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 118i,13n,118p,1274b,1867s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 118i,13n,118p,1286b,1867s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/tex-gyre/qtmb.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb>
-Output written on pracovniListTepelneMotorySSvarAreseni.pdf (3 pages, 8418874 bytes).
+Output written on pracovniListTepelneMotorySSvarAreseni.pdf (2 pages, 8420064 bytes).
 PDF statistics:
- 155 PDF objects out of 1000 (max. 8388607)
- 111 compressed objects within 2 object streams
- 46 named destinations out of 1000 (max. 500000)
+ 141 PDF objects out of 1000 (max. 8388607)
+ 99 compressed objects within 1 object stream
+ 37 named destinations out of 1000 (max. 500000)
  114 words of extra memory for PDF output out of 10000 (max. 10000000)
 
