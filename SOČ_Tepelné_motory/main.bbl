@@ -51,6 +51,7 @@
       \verb{url}
       \verb http://europepmc.org/books/NBK441936
       \endverb
+      \warn{\item article entry 'SP:IdealGasBehaviour' (zdroje.bib): Invalid format '2024-9-7' of date field 'urldate' - ignoring}
     \endentry
     \entry{NCEPU:ThermalEfficiencyForHeatEngines}{thesis}{}{}
       \name{author}{3}{}{%
@@ -83,17 +84,14 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{An actual thermal efficiency expression for heat engines: Effect of heat transfer roadmaps}
-      \field{urlday}{23}
-      \field{urlmonth}{2}
-      \field{urlyear}{2025}
       \field{year}{2017}
-      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://bjmfht.ncepu.edu.cn/docs/2017-09/20170901164645826277.pdf
       \endverb
       \verb{url}
       \verb https://bjmfht.ncepu.edu.cn/docs/2017-09/20170901164645826277.pdf
       \endverb
+      \warn{\item thesis entry 'NCEPU:ThermalEfficiencyForHeatEngines' (zdroje.bib): Invalid format '2024-8-30' of date field 'urldate' - ignoring}
     \endentry
     \entry{st:parniStroj}{thesis}{}{}
       \name{author}{1}{}{%
@@ -126,6 +124,7 @@
       \verb{url}
       \verb http://stretech.fs.cvut.cz/2019/sbornik_2019/sbornik2019/99.pdf
       \endverb
+      \warn{\item thesis entry 'st:parniStroj' (zdroje.bib): Invalid format '2024-9-8' of date field 'urldate' - ignoring}
     \endentry
     \entry{SA:SteamTurbines}{article}{}{}
       \name{author}{1}{}{%
@@ -156,6 +155,7 @@
       \verb{url}
       \verb https://www.jstor.org/stable/24926337
       \endverb
+      \warn{\item article entry 'SA:SteamTurbines' (zdroje.bib): Invalid format '2024-9-10' of date field 'urldate' - ignoring}
     \endentry
     \entry{vutb:parniStroj}{thesis}{}{}
       \name{author}{1}{}{%
@@ -217,6 +217,7 @@
       \verb{url}
       \verb https://www.lesics.com/working-of-steam-turbine.html
       \endverb
+      \warn{\item misc entry 'LESICS:WorkingOfSteamTurbine' (zdroje.bib): Invalid format '2024-9-12' of date field 'urldate' - ignoring}
     \endentry
     \entry{vutb:vyzkumneSpalovaciMotory}{thesis}{}{}
       \name{author}{1}{}{%
@@ -249,6 +250,7 @@
       \verb{url}
       \verb http://hdl.handle.net/11012/15468
       \endverb
+      \warn{\item thesis entry 'vutb:vyzkumneSpalovaciMotory' (zdroje.bib): Invalid format '2024-9-13' of date field 'urldate' - ignoring}
     \endentry
     \entry{ANNALS:TheHistoryOfTheInternalCombustionEngine}{article}{}{}
       \name{author}{1}{}{%
@@ -278,6 +280,7 @@
       \verb{url}
       \verb https://annals.fih.upt.ro/pdf-full/2003/ANNALS-2003-3-21.pdf
       \endverb
+      \warn{\item article entry 'ANNALS:TheHistoryOfTheInternalCombustionEngine' (zdroje.bib): Invalid format '2024-9-13' of date field 'urldate' - ignoring}
     \endentry
     \entry{ZUP:CtyrdobyAtmosferickyZazehovyMotor}{thesis}{}{}
       \name{author}{1}{}{%
@@ -311,6 +314,7 @@
       \verb{url}
       \verb http://hdl.handle.net/11025/28893
       \endverb
+      \warn{\item thesis entry 'ZUP:CtyrdobyAtmosferickyZazehovyMotor' (zdroje.bib): Invalid format '2024-9-23' of date field 'urldate' - ignoring}
     \endentry
     \entry{CVUT:NávrhKonstrukceVznetovehoMotoru}{thesis}{}{}
       \name{author}{1}{}{%
@@ -344,6 +348,7 @@
       \verb{url}
       \verb http://hdl.handle.net/10467/73064
       \endverb
+      \warn{\item thesis entry 'CVUT:NávrhKonstrukceVznetovehoMotoru' (zdroje.bib): Invalid format '2024-9-23' of date field 'urldate' - ignoring}
     \endentry
     \entry{VUTB:DvoudobyMotorProParagliding}{thesis}{}{}
       \name{author}{1}{}{%
@@ -392,6 +397,7 @@
       \verb{url}
       \verb https://www.grc.nasa.gov/www/k-12/BGP/ottoa.html
       \endverb
+      \warn{\item article entry 'NASA:IdealOttoCycle' (zdroje.bib): Invalid format '2024-9-25' of date field 'urldate' - ignoring}
     \endentry
     \entry{TO:TechnologieOprav}{book}{}{}
       \name{author}{1}{}{%
@@ -455,6 +461,7 @@
       \verb{url}
       \verb http://hdl.handle.net/11012/12306
       \endverb
+      \warn{\item thesis entry 'VUTB:NavrhRaketovehoMotoru' (zdroje.bib): Invalid format '2024-9-17' of date field 'urldate' - ignoring}
     \endentry
     \entry{VUTB:PrehledTechnickychAspektuVyvojeLeteckychProudovychMotoru}{thesis}{}{}
       \name{author}{1}{}{%
@@ -518,6 +525,7 @@
       \verb{url}
       \verb https://ocw.mit.edu/courses/8-01sc-classical-mechanics-fall-2016/mit8_01scs22_chapter7.pdf
       \endverb
+      \warn{\item thesis entry 'MIT:NewtonsLawsOfMotion' (zdroje.bib): Invalid format '2024-9-20' of date field 'urldate' - ignoring}
     \endentry
     \entry{NASA:propulsionIndex}{misc}{}{}
       \name{author}{1}{}{%
@@ -538,6 +546,10 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Propulsion Index}
+      \field{urlday}{17}
+      \field{urlmonth}{10}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://www.grc.nasa.gov/WWW/k-12/airplane/shortp.html
       \endverb
@@ -598,7 +610,11 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Škoda 1000 MB - Legenda slaví 60 let}
+      \field{urlday}{26}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
       \field{year}{2024}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://www.automobilrevue.cz/rubriky/specialy/skoda-1000-mb-legenda-slavi-60-let_49752.html
       \endverb
@@ -672,7 +688,11 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{ČZ 175 (1935-46)}
+      \field{urlday}{26}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
       \field{year}{2011}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb http://michalovyzetky.cz/index.php?obsah=modely&clanek=cz_175
       \endverb
@@ -701,6 +721,10 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{AIM-9 Sidewinder}
+      \field{urlday}{18}
+      \field{urlmonth}{11}
+      \field{urlyear}{2023}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://www.the-blueprints.com/blueprints/weapons/bulletsmissiles/71620/view/aim-9_sidewinder/
       \endverb
@@ -733,6 +757,7 @@
       \verb{url}
       \verb https://www.chrispennello.com/j2/J-2%20Engine%20Fact%20Sheet.pdf
       \endverb
+      \warn{\item misc entry 'HR:F1RocketEngine' (zdroje.bib): Invalid format '2024-12-5' of date field 'urldate' - ignoring}
     \endentry
     \entry{PBS:Minijets}{misc}{}{}
       \name{author}{1}{}{%
@@ -791,6 +816,7 @@
       \verb{url}
       \verb https://www.researchgate.net/publication/372213753_A_Reduced_Order_Model_for_Monitoring_Aeroengines_Condition_in_Real-Time
       \endverb
+      \warn{\item misc entry 'RG:ReducedOrderModel' (zdroje.bib): Invalid format '2023-11-4' of date field 'urldate' - ignoring}
     \endentry
     \entry{TL:OffDesignPerformancePrediction}{misc}{}{}
       \name{author}{1}{}{%
@@ -823,6 +849,7 @@
       \verb{url}
       \verb https://mdo.tecnico.ulisboa.pt/wp-content/uploads/publications_MScThesis_Martins_2015.pdf
       \endverb
+      \warn{\item misc entry 'TL:OffDesignPerformancePrediction' (zdroje.bib): Invalid format '2023-11-4' of date field 'urldate' - ignoring}
     \endentry
   \enddatalist
 \endrefsection

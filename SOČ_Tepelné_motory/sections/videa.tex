@@ -1,5 +1,6 @@
 \section{Video}
-{Jedním z nejdůležitějších výstupů mé práce je krátké výukové video; v této kapitole popíši a odůvodním svůj postup při jeho tvorbě. \textcolor{red}{Video je dostupné na platformě YouTube a také v plné kvalitě v přílohách zde: \ref{pr:videoTepelneMotory}.}}
+{Jedním z nejdůležitějších výstupů mé práce je krátké výukové video; v této kapitole popíši a odůvodním svůj postup při jeho tvorbě. Video bude dostupné na platformě YouTube a také v plné kvalitě v přílohách zde:}
+%\ref{pr:videoTepelneMotory}.}
 
 \subsection{Předprodukce}
 {Proces tvorby videa začal již před začátkem samotné 3D tvorby, nejprve jsem si stanovil cíle a vytvořil přibližný plán videa, který jsem poté rozšířil do scénáře.}\odst
@@ -42,6 +43,14 @@
 
 \begin{figure}[H]
     \centering
+    \begingroup
+    \makeatletter
+    \renewcommand\thesubfigure{\thefigure~--~\@nameuse{subfiglabel@\alph{subfigure}}}
+    \newcommand{\subfiglabel@a}{vlevo}
+    \newcommand{\subfiglabel@b}{vpravo}
+    \captionsetup[subfigure]{labelformat=simple, labelsep=colon}
+    \renewcommand\p@subfigure{}
+    \makeatother
     \begin{subfigure}{.7\textwidth}
         \centering
         \includegraphics[scale=.15]{assets/images/PureRef.png}
@@ -54,6 +63,7 @@
         \caption{Technický výkres startovací plošiny}
         \label{obr:predlohaVykres}
     \end{subfigure}
+    \endgroup
 \end{figure}
 
 {Po shromáždění obrázků začneme proces modelování, ten vysvětlím na modelu startovací plošiny. Nejprve si představíme, který základní tvar je nejbližší tvořenému objektu; v tomto případě je to krychle. Tuto krychli upravíme do přibližného tvaru startovací plošiny, pracujeme ve skutečném měřítku, aby nebyl objekt po \textit{importu} do hlavní scény správně velký v porovnání s ostatními objekty. K této krychli přidáme různé detaily, různé přístroje vytvoříme z menších krychlí a potrubí vytvoříme z válců.}
@@ -64,7 +74,6 @@
 
 \begin{figure}[H]
     \centering
-
     \begingroup
     \makeatletter
     \renewcommand\thesubfigure{\thefigure~--~\@nameuse{subfiglabel@\alph{subfigure}}}
@@ -73,7 +82,6 @@
     \captionsetup[subfigure]{labelformat=simple, labelsep=colon}
     \renewcommand\p@subfigure{}
     \makeatother
-
     \begin{subfigure}{.48\textwidth}
         \centering
         \includegraphics[scale=.3]{assets/images/raketaPlatformaModel.png}
@@ -87,16 +95,14 @@
         \caption{Model startovací plošiny \\zezadu \jaObr}
         \label{obr:plosinaModelZezadu}
     \end{subfigure}
-
     \endgroup
-
 \end{figure}
 
 {Model je dokončen, jeho kvalita je samozřejmě subjektivní, můžeme však hodnotit několik objektivních kritérií:}\odst 
 {Měli bychom se snažit o ,,správnou'' topologii, obecně jde o to aby byl objekt tvořen přibližně stejně velkými čtyřúhelníky, důležitější je však aby nevznikaly žádné chyby při výpočtu stínů a aby se s modelem lehce pracovalo. Topologie startovací plošiny nevyjímečná.}\odst
 {Další chybou jsou dvě plochy ve stejném místě, to vede k velice viditelnému artefaktu v podobě úplně černého místa. Tento problém nastal na věži startovací plošiny, kdy se některé tyče překrývaly. Jednoduchým řešením bylo posunout tyče o několik milimetrů, aby se plochy nepřekrývaly.}\odst
-{Dále by měl model použít co nejméně bodů za zachování věrnosti předloze, velké množství bodů by mohlo vést ke zpomalení či naplnění paměti. Tato startovací plošina je tvořena dvěma sty tisíci body, celé video se skládá z \hl{X} bodů.}\odst
-{Nejdůležitější je však jak model vypadá a zdali působí přesvědčivě jako předmět, kterým se snaží být.}
+{Dále by měl model použít co nejméně bodů za zachování věrnosti předloze, velké množství bodů by mohlo vést ke zpomalení či naplnění paměti. Tato startovací plošina je tvořena dvěma sty tisíci body.}\odst
+{Nejdůležitější je však jak model vypadá a zdali působí přesvědčivě jako předmět, který se snaží zobrazit.}
 
 \newpage
 
@@ -145,6 +151,14 @@
 
 \begin{figure}[H]
     \centering
+    \begingroup
+    \makeatletter
+    \renewcommand\thesubfigure{\thefigure~--~\@nameuse{subfiglabel@\alph{subfigure}}}
+    \newcommand{\subfiglabel@a}{vlevo}
+    \newcommand{\subfiglabel@b}{vpravo}
+    \captionsetup[subfigure]{labelformat=simple, labelsep=colon}
+    \renewcommand\p@subfigure{}
+    \makeatother
     \begin{subfigure}{0.35\textwidth}
         \centering
         \includegraphics[scale=0.3]{assets/images/simulaceParametry.png}
@@ -155,16 +169,17 @@
         \includegraphics[scale=0.6]{assets/images/simulaceVysledek.png}
         \caption{Výsledný simulace \jaObr}
     \end{subfigure}
+    \endgroup
     \caption{Proces simulace v softwaru \code{Blender}}
     \label{obr:simulace}
 \end{figure}
 
-\newpage
+%\newpage
 
-\subsubsection{Skutečné záběry}
-\textcolor{red}{Tato část ještě nebyla nahrána.}\odst
-{Abych propojil obsah videa se skutečností a tím poukázal na to, proč jsou tepelné motory důležité, rozhodl jsem se do videa přidat skutečné záběry. Záběry jsou pořízeny za jízdy z automobilu pomocí kamery \code{GoPro HERO12 Black}.}\odst
-{Pro plynulý přehod mezi animací a živou částí jsem vytvořil v \code{Blenderu} plátno, na které se začnou promítat skutečné záběry. \code{Blender} camera se přiblíží a plynule se obraz změní na záběry ze skutečné kamery.}
+%\subsubsection{Skutečné záběry}
+%\hl{Tato část ještě nebyla nahrána.}\odst
+%{Abych propojil obsah videa se skutečností a tím poukázal na to, proč jsou tepelné motory důležité, rozhodl jsem se do videa přidat skutečné záběry. Záběry jsou pořízeny za jízdy z automobilu pomocí kamery \code{GoPro HERO12 Black}.}\odst
+%{Pro plynulý přehod mezi animací a živou částí jsem vytvořil v \code{Blenderu} plátno, na které se začnou promítat skutečné záběry. \code{Blender} camera se přiblíží a plynule se obraz změní na záběry ze skutečné kamery.}
 
 \newpage
 
@@ -190,7 +205,7 @@
 
 \newpage
 
-{Do metadat obrázků jsem ukládal čas a paměť potřebnou k vykreslení snímku, pomocí vlastního programu napsaného v jazyce \code{Python} jsem vytvořil grafy, ty naleznete na \obrref{obr:grafRender}. Dohromady se video renderovalo \hl{X} hodin, což je \hl{X} dní nepřetržitého renderování.}
+{Do metadat obrázků jsem ukládal čas a paměť potřebnou k vykreslení snímku, pomocí vlastního programu napsaného v jazyce \code{Python} jsem vytvořil grafy, ty naleznete na \obrref{obr:grafRender}. Celé video se renderovalo desítky hodin.}
 
 \begin{figure}[H]
     \centering
@@ -204,15 +219,15 @@
         \caption{Graf času a paměti potřebné k renderování části ,,Parní motory'' \jaGraf}\vspace{0.25cm}
     \end{subfigure}
     \begin{subfigure}{\textwidth}
-        \includegraphics[width=\textwidth]{assets/images/grafUvod.png}
+        \includegraphics[width=\textwidth, height=3cm]{example-image-plain}
         \caption{Graf času a paměti potřebné k renderování části ,,Spalovací motory'' \jaGraf}\vspace{0.25cm}
     \end{subfigure}
     \begin{subfigure}{\textwidth}
-        \includegraphics[width=\textwidth]{assets/images/grafUvod.png}
+        \includegraphics[width=\textwidth, height=3cm]{example-image-plain}
         \caption{Graf času a paměti potřebné k renderování části ,,Reaktivní motory'' \jaGraf}\vspace{0.25cm}
     \end{subfigure}
     \begin{subfigure}{\textwidth}
-        \includegraphics[width=\textwidth]{assets/images/grafUvod.png}
+        \includegraphics[width=\textwidth, height=3cm]{example-image-plain}
         \caption{Graf času a paměti potřebné k renderování části ,,Závěr'' \jaGraf}
     \end{subfigure}
     \caption{Grafy času a paměti potřebné k renderování}
@@ -221,16 +236,16 @@
 
 {Tyto grafy jsou užitečné pro určení výpočetně náročných částí, obecně je nejnáročnější renderovat plyny, velké množství bodů a složité geometrie (řádově statisíce bodů).}
 
-\newpage
+%\newpage
 
-\subsection{Postprodukce}
-\textcolor{red}{Tato část ještě nebyla dokončena, v této kapitole popíši dokončování videa}
+%\subsection{Postprodukce}
+%\hl{Tato část ještě nebyla dokončena, v této kapitole popíši dokončování videa}
 
-\subsubsection{Střih a kompozice}
-\textcolor{red}{Tato část ještě nebyla dokončena}
+%\subsubsection{Střih a kompozice}
+%\hl{Tato část ještě nebyla dokončena}
 
-\subsubsection{Zvukový design}
-\textcolor{red}{Tato část ještě nebyla dokončena.}
+%\subsubsection{Zvukový design}
+%\hl{Tato část ještě nebyla dokončena.}
 
-\subsubsection{Export a distribuce}
-\textcolor{red}{Tato část ještě nebyla dokončena.}
+%\subsubsection{Export a distribuce}
+%\hl{Tato část ještě nebyla dokončena.}

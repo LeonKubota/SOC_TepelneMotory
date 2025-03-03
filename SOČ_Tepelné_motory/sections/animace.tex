@@ -4,6 +4,14 @@
 
 \begin{figure}[H]
     \centering
+    \begingroup
+    \makeatletter
+    \renewcommand\thesubfigure{\thefigure~--~\@nameuse{subfiglabel@\alph{subfigure}}}
+    \newcommand{\subfiglabel@a}{vlevo}
+    \newcommand{\subfiglabel@b}{vpravo}
+    \captionsetup[subfigure]{labelformat=simple, labelsep=colon}
+    \renewcommand\p@subfigure{}
+    \makeatother
     \begin{subfigure}{.5\textwidth}
         \centering
         \includegraphics[scale=.19]{assets/images/pistBok.png}
@@ -16,6 +24,7 @@
         \caption{Hotový píst \jaObr}
         \label{obr:pistHotovy}
     \end{subfigure}
+    \endgroup
 \end{figure}
 
 {Po vytvoření všech součástek motoru je nutno přidat materiály, rozhodl jsem se je tvořit procedurálně. Tento postup, vyobrazen na \obrref{obr:NodeUkazka}, je tvořen různě spojenými operacmi, které určují jak se má materiál chovat.}
@@ -33,6 +42,14 @@
 
 \begin{figure}[H]
     \centering
+    \begingroup
+    \makeatletter
+    \renewcommand\thesubfigure{\thefigure~--~\@nameuse{subfiglabel@\alph{subfigure}}}
+    \newcommand{\subfiglabel@a}{vlevo}
+    \newcommand{\subfiglabel@b}{vpravo}
+    \captionsetup[subfigure]{labelformat=simple, labelsep=colon}
+    \renewcommand\p@subfigure{}
+    \makeatother
     \begin{subfigure}[t]{.45\textwidth}
         \centering
         \includegraphics[scale=.2]{assets/images/1.9TDImodelUkazka.png}
@@ -46,6 +63,7 @@
         \caption{Motor 1.9 TDI po přidání materiálů \jaObr}
         \label{obr:poMaterialy}
     \end{subfigure}
+    \endgroup
 \end{figure}
 
 {Model motoru vypadá jako hotový, je však statický. Animace jsem přidal procedurálně, k tomu jsem využit \code{geometry nodes}. Ty dokáží nedestruktivně; tedy způsobem, při kterém nedochází k nenávratným změnám, upravovat geometrii modelů. Parní turbíny, proudové a raketové motory byli vcelku jednoduché na naanimování, nejsložitější byla animace čtyřdobých motorů a parního stroje, a to kvůli jejich klikovým mechanismům.}\odst
@@ -145,6 +163,14 @@
 \cite{AUTOMOBIL:Skoda1000MBLegendaSlavi60Let}
 
 \begin{figure}[H]
+    \begingroup
+    \makeatletter
+    \renewcommand\thesubfigure{\thefigure~--~\@nameuse{subfiglabel@\alph{subfigure}}}
+    \newcommand{\subfiglabel@a}{vlevo}
+    \newcommand{\subfiglabel@b}{vpravo}
+    \captionsetup[subfigure]{labelformat=simple, labelsep=colon}
+    \renewcommand\p@subfigure{}
+    \makeatother
     \centering
     \begin{subfigure}{.5\textwidth}
         \centering
@@ -158,6 +184,7 @@
         \caption{Bok}
         \label{obr:1000MBvykresyBok}
     \end{subfigure}
+    \endgroup
 \end{figure}
 
 {Výsledek mé práce je na \obrref{obr:1000MBRender}, animaci můžete stáhnout v přílohách zde: \ref{pr:animaceCtyrdobyZazehovyMotor}.}
@@ -175,6 +202,14 @@
 \cite{VWGAG:RealizingFutureTrendsInDieselEngineDevelopment}
 
 \begin{figure}[H]
+    \begingroup
+    \makeatletter
+    \renewcommand\thesubfigure{\thefigure~--~\@nameuse{subfiglabel@\alph{subfigure}}}
+    \newcommand{\subfiglabel@a}{vlevo}
+    \newcommand{\subfiglabel@b}{vpravo}
+    \captionsetup[subfigure]{labelformat=simple, labelsep=colon}
+    \renewcommand\p@subfigure{}
+    \makeatother
     \centering
     \begin{subfigure}{.5\textwidth}
         \centering
@@ -188,6 +223,7 @@
         \caption{Bok}
         \label{obr:1.9TDIvykresyBok}
     \end{subfigure}
+    \endgroup
 \end{figure}
 
 {Hotový model motoru 1.9 TDI je na \obrref{obr:1.9TDImodel}, animace je dostupná ke stažení zde: \ref{pr:animaceCtyrdobyVznetovyMotor}.}
@@ -252,7 +288,7 @@
 \begin{figure}[H]
     \centering
     \includegraphics[scale=.2]{assets/images/RocketdyneJ2vykres.png}
-    \caption{Výkres raketového motoru J-2}
+    \caption{Výkres raketového motoru J-2 (přeloženo)}
     \label{obr:J2vykres}
 \end{figure}
 
@@ -295,6 +331,14 @@
 
 \begin{figure}[H]
     \centering
+    \begingroup
+    \makeatletter
+    \renewcommand\thesubfigure{\thefigure~--~\@nameuse{subfiglabel@\alph{subfigure}}}
+    \newcommand{\subfiglabel@a}{vlevo}
+    \newcommand{\subfiglabel@b}{vpravo}
+    \captionsetup[subfigure]{labelformat=simple, labelsep=colon}
+    \renewcommand\p@subfigure{}
+    \makeatother
     \begin{subfigure}{.5\textwidth}
         \centering
         \includegraphics[scale=.4]{assets/images/CFM56vykres1.png}
@@ -307,6 +351,7 @@
         \caption{Výkres motoru CFM56}
         \label{obr:CFM56vykres2}
     \end{subfigure}
+    \endgroup
 \end{figure}
 
 {Hotový model je na \obrref{obr:CFM56Render}, animace je dostupná ke stažení zde: \ref{pr:animaceDvouproudovyMotor}.}
