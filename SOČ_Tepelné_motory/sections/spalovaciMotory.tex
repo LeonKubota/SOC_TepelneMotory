@@ -1,6 +1,5 @@
 \section{Spalovací motory}
 {Spalovací motory jsou nejrozšířenějšími tepelnými motory, využívají se v nejrůznějších zařízeních od motorových pil přes běžné automobily až po obrovské nákladní lodě. Využívají rozpínání plynu při výbuchu, ten tlačí píst a tím koná práci.}
-
 \subsection{Historie spalovacích motorů}\label{sc:HistorieSpalovacichMotoru}
 {První zmínka o spalovacích motorech pochází z roku 1680, kdy fyzik Huygens navrhl spalovací motor poháněný střelným prachem. O 114 let později vyrobil dle plánů Johna Barbera Robert Street první spalovací motor, ten však byl prakticky nepoužitelný. Roku 1858 vytvořil inženýr Étinne Lenoir spalovací motor na svítiplyn, ten byl vůbec první úspěšný spalovací motor; byl užíván v průmyslu.}
 \cite{vutb:vyzkumneSpalovaciMotory}\cite{ANNALS:TheHistoryOfTheInternalCombustionEngine}\odst
@@ -8,14 +7,11 @@
 \cite{vutb:vyzkumneSpalovaciMotory}\cite{ANNALS:TheHistoryOfTheInternalCombustionEngine}\odst
 {Spalovací motory se od dob Otty a Daimlera nepřestaly vyvíjet, byli zdokonaleny a jejich výkon a účinnost stoupaly. V současnosti jsou prozkoumávány další paliva jako například zemní plyn či vodík s cílem snížení emisí.}
 \cite{vutb:vyzkumneSpalovaciMotory}
-
 \subsection{Fungování spalovacích motorů}
 {Spalovací motory využívají rozpínání plynu při zahřátí. Aby plyn zahřály, spalují v něm palivo. Tuto energii převádí na mechanickou práci pomocí pístu, který přes klikové ústrojí točí hřídelí. Palivo je spalováno nespojitě v cyklech.}\odst
 {Spalovací motory můžeme dělit dle způsobu zapálení plynu na zážehové a vznětové. Dále je lze dělit dle počtu dob, které se cyklicky opakují. V této kapitole popíši nejdůležitější tři druhy: čtyřdobé zážehové, čtyřdobé vznětové a dvoudobé zážehové.}
 \cite{vutb:vyzkumneSpalovaciMotory}
-
 \newpage
-
 \subsubsection{Čtyřdobý zážehový motor}
 {Čtyřdobý zážehový motor je v nejběžnější spalovací motor, pracuje ve čtyř dobách: sání, komprese, expanze a výfuk. Tyto doby proběhnou za dvě otáčky klikové hřídele. Tyto doby jsou popsány níže, graficky jsou znázorněny na \obrref{obr:PracovniCyklusCtyrdobehoZazehovehoMotoru}.}
 \cite{ZUP:CtyrdobyAtmosferickyZazehovyMotor}
@@ -28,7 +24,6 @@
 {V současnosti se velmi dbá na ekologii tepelných motorů. Výrobci se snaží vyrábět motory, které jsou účinné, tvoří méně škodlivých emisí ale zároveň dosahují velkých výkonů. K tomu může vést vyšší kompresní poměr, komprese vzduchu vně motoru či snížení tepelných a mechanických ztrát.}
 \cite{ZUP:CtyrdobyAtmosferickyZazehovyMotor}\odst
 {Čtyřdobé zážehové motory jsou hojně využívány nejen v automobilovém průmyslu, mezi jejich ostatní využití patří například letadla a motocykly.}
-
 \begin{figure}[H]
     \hspace{-0.33cm}
     \begin{tikzpicture}[scale=0.75]
@@ -313,55 +308,41 @@
 
 \subsection{Rovnice spalovacích motorů}
 {V této kapitole jsou popsány rovnice týkající se práce, výkonu a kroutícího momentu spalovacích motorů.}
-
 \subsubsection{Práce}
 {Jak již bylo zmíněno v kapitole \ref{sc:SkutecnaUcinnost}, práci vypočítáme pomocí rovnice \rvref{rv:prace2}.}
 \cite{NCEPU:ThermalEfficiencyForHeatEngines}
-
 \begin{equation}\label{rv:prace2}
     W=Q_d-Q_o
 \end{equation}
-
-{\(W\) je práce (J)}\\
-{\(Q_d\) je dodané teplo (J)}\\
-{\(Q_o\) je odevzdané teplo (J)}\odst
-
+{\(W\) je práce [J]}\\
+{\(Q_d\) je dodané teplo [J]}\\
+{\(Q_o\) je odevzdané teplo  [J]}\odst
 {Teplo \(Q_d\) je teplo dodané spalováním paliva. Odevzdané teplo \(Q_o\) je nevyužité teplo, které uniká například s výfukovými plyny či do chladiče motoru.}
-
 \subsubsection{Výkon}
 {Výkon udává množství práce, kterou dokáže motor vytvořit za určitý čas. Vypočítáme jej pomocí rovnice \rvref{rv:vykonStandard}.}
 \cite{NASA:IdealOttoCycle}
-
 \begin{subequations}
     \begin{equation}\label{rv:vykonStandard}
         P=\frac{W}{t}
     \end{equation}
-
-{$P$ je výkon [W] (někdy se používá kůň, 1 kW $\approx$ 1,35 k)}\\
+{$P$ je výkon [W] (někdy se používá kůň, 1 kW $\approx$ 1,35 kůň)}\\
 {$W$ je práce [J]}\\
 {$t$ je čas, za který je práce konána [s]}\odst
-
 {Rovnice \rvref{rv:vykonStandard} obecně popisuje výkon, pro spalovací motory je však vhodnější využít rovnici \rvref{rv:vykon}.}
 \cite{NASA:IdealOttoCycle}
-
     \begin{equation}\label{rv:vykon}
         P=W\cdot{\frac{ot}{n}}
     \end{equation}
-
 {\(ot\) je počet otáček za sekundu [\ots]}\\
 {$n$ je počet pracovních dob za otáčku hřídele [-]}\odst
-
 {Počet pracovních dob za otáčku hřídele $n$ se liší dle druhu motoru. Ve dvoudobých se $n$ rovná 1 (pracovní doba proběhne každou otáčku), ve čtyřdobých je $n$ 2 (pracovní doba proběhne každou druhou otáčku).}
 \end{subequations}
-
 \subsubsection{Kroutící moment}
 {Kroutící moment (často také točivý moment) je síla, kterou se točí hřídel. Tuto sílu vypočítáme rovnicí \rvref{rv:tocivyMoment}.}
 \cite{TO:TechnologieOprav}
-
 \begin{equation}\label{rv:tocivyMoment}
     M_k=\vec{F}\cdot{r}
 \end{equation}
-
 {\(M_k\) je kroutící moment [\nm]}\\
 {\(F\) je síla, kterou píst tlačí [N]}\\
 {\(r\) je poloměr kružnice otáčení klikového hřídele [m]}

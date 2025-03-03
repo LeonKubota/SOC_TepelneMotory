@@ -1,73 +1,73 @@
-\contentsline {section}{\numberline {1}\textcolor {green}{Úvod}}{8}{section.1}%
+\contentsline {section}{\numberline {1}\textcolor {green}{Úvod}}{7}{section.1}%
 \babel@toc {czech}{}\relax 
 \babel@toc {czech}{}\relax 
-\contentsline {section}{\numberline {2}\textcolor {green}{Teorie tepelných motorů}}{9}{section.2}%
-\contentsline {subsection}{\numberline {2.1}\textcolor {green}{Ideální plyn}}{9}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}\textcolor {green}{Účinnost a práce}}{9}{subsection.2.2}%
-\contentsline {section}{\numberline {3}\textcolor {green}{Parní motory}}{10}{section.3}%
-\contentsline {subsection}{\numberline {3.1}\textcolor {green}{Historie parních motorů}}{10}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}\textcolor {green}{Fungování parních motorů}}{10}{subsection.3.2}%
-\contentsline {subsubsection}{\numberline {3.2.1}\textcolor {green}{Parní stroj}}{10}{subsubsection.3.2.1}%
-\contentsline {subsubsection}{\numberline {3.2.2}\textcolor {green}{Parní turbína}}{11}{subsubsection.3.2.2}%
-\contentsline {section}{\numberline {4}Spalovací motory}{12}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Historie spalovacích motorů}{12}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Fungování spalovacích motorů}{12}{subsection.4.2}%
-\contentsline {subsubsection}{\numberline {4.2.1}Čtyřdobý zážehový motor}{13}{subsubsection.4.2.1}%
-\contentsline {subsubsection}{\numberline {4.2.2}Čtyřdobý vznětový motor}{14}{subsubsection.4.2.2}%
-\contentsline {subsubsection}{\numberline {4.2.3}Dvoudobý zážehový motor}{15}{subsubsection.4.2.3}%
-\contentsline {subsection}{\numberline {4.3}Rovnice spalovacích motorů}{16}{subsection.4.3}%
-\contentsline {subsubsection}{\numberline {4.3.1}Práce}{16}{subsubsection.4.3.1}%
-\contentsline {subsubsection}{\numberline {4.3.2}Výkon}{16}{subsubsection.4.3.2}%
-\contentsline {subsubsection}{\numberline {4.3.3}Kroutící moment}{16}{subsubsection.4.3.3}%
-\contentsline {section}{\numberline {5}Reaktivní motory}{18}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Historie reaktivních motorů}{18}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Fungování reaktivních motorů}{18}{subsection.5.2}%
-\contentsline {subsection}{\numberline {5.3}Raketové motory}{19}{subsection.5.3}%
-\contentsline {subsubsection}{\numberline {5.3.1}Raketové motory na tuhé palivo}{19}{subsubsection.5.3.1}%
-\contentsline {subsubsection}{\numberline {5.3.2}Raketové motory na kapalné palivo}{19}{subsubsection.5.3.2}%
-\contentsline {subsection}{\numberline {5.4}Proudové motory}{20}{subsection.5.4}%
-\contentsline {subsubsection}{\numberline {5.4.1}Jednoproudové motory}{20}{subsubsection.5.4.1}%
-\contentsline {subsubsection}{\numberline {5.4.2}Dvouproudové motory}{20}{subsubsection.5.4.2}%
-\contentsline {subsection}{\numberline {5.5}Rovnice reaktivních motorů}{21}{subsection.5.5}%
-\contentsline {subsubsection}{\numberline {5.5.1}Tah raketových motorů}{21}{subsubsection.5.5.1}%
-\contentsline {subsubsection}{\numberline {5.5.2}Tah proudových motorů}{21}{subsubsection.5.5.2}%
-\contentsline {subsubsection}{\numberline {5.5.3}Specifický impuls}{21}{subsubsection.5.5.3}%
+\contentsline {section}{\numberline {2}\textcolor {green}{Teorie tepelných motorů}}{8}{section.2}%
+\contentsline {subsection}{\numberline {2.1}\textcolor {green}{Ideální plyn}}{8}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}\textcolor {green}{Účinnost a práce}}{8}{subsection.2.2}%
+\contentsline {section}{\numberline {3}\textcolor {green}{Parní motory}}{9}{section.3}%
+\contentsline {subsection}{\numberline {3.1}\textcolor {green}{Historie parních motorů}}{9}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}\textcolor {green}{Fungování parních motorů}}{9}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}\textcolor {green}{Parní stroj}}{9}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}\textcolor {green}{Parní turbína}}{10}{subsubsection.3.2.2}%
+\contentsline {section}{\numberline {4}Spalovací motory}{11}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Historie spalovacích motorů}{11}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Fungování spalovacích motorů}{11}{subsection.4.2}%
+\contentsline {subsubsection}{\numberline {4.2.1}Čtyřdobý zážehový motor}{12}{subsubsection.4.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2}Čtyřdobý vznětový motor}{13}{subsubsection.4.2.2}%
+\contentsline {subsubsection}{\numberline {4.2.3}Dvoudobý zážehový motor}{14}{subsubsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.3}Rovnice spalovacích motorů}{15}{subsection.4.3}%
+\contentsline {subsubsection}{\numberline {4.3.1}Práce}{15}{subsubsection.4.3.1}%
+\contentsline {subsubsection}{\numberline {4.3.2}Výkon}{15}{subsubsection.4.3.2}%
+\contentsline {subsubsection}{\numberline {4.3.3}Kroutící moment}{15}{subsubsection.4.3.3}%
+\contentsline {section}{\numberline {5}Reaktivní motory}{16}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Historie reaktivních motorů}{16}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Fungování reaktivních motorů}{16}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Raketové motory}{17}{subsection.5.3}%
+\contentsline {subsubsection}{\numberline {5.3.1}Raketové motory na tuhé palivo}{17}{subsubsection.5.3.1}%
+\contentsline {subsubsection}{\numberline {5.3.2}Raketové motory na kapalné palivo}{17}{subsubsection.5.3.2}%
+\contentsline {subsection}{\numberline {5.4}Proudové motory}{18}{subsection.5.4}%
+\contentsline {subsubsection}{\numberline {5.4.1}Jednoproudové motory}{18}{subsubsection.5.4.1}%
+\contentsline {subsubsection}{\numberline {5.4.2}Dvouproudové motory}{18}{subsubsection.5.4.2}%
+\contentsline {subsection}{\numberline {5.5}Rovnice reaktivních motorů}{19}{subsection.5.5}%
+\contentsline {subsubsection}{\numberline {5.5.1}Tah raketových motorů}{19}{subsubsection.5.5.1}%
+\contentsline {subsubsection}{\numberline {5.5.2}Tah proudových motorů}{19}{subsubsection.5.5.2}%
+\contentsline {subsubsection}{\numberline {5.5.3}Specifický impuls}{19}{subsubsection.5.5.3}%
 \par \vfil \penalty -\@M 
-\contentsline {section}{\numberline {6}Praktická část}{22}{section.6}%
-\contentsline {section}{\numberline {7}Animace}{23}{section.7}%
-\contentsline {subsection}{\numberline {7.1}Animace parního stroje}{26}{subsection.7.1}%
-\contentsline {subsection}{\numberline {7.2}Animace parní turbíny}{27}{subsection.7.2}%
-\contentsline {subsection}{\numberline {7.3}Animace čtyřdobého spalovacího motoru}{28}{subsection.7.3}%
-\contentsline {subsection}{\numberline {7.4}Animace čtyřdobého vznětového motoru}{29}{subsection.7.4}%
-\contentsline {subsection}{\numberline {7.5}Animace dvoudobého zážehového motoru}{30}{subsection.7.5}%
-\contentsline {subsection}{\numberline {7.6}Animace raketového motoru na tuhé palivo}{31}{subsection.7.6}%
-\contentsline {subsection}{\numberline {7.7}Animace raketového motoru na kapalné palivo}{32}{subsection.7.7}%
-\contentsline {subsection}{\numberline {7.8}Animace proudového motoru}{33}{subsection.7.8}%
-\contentsline {subsection}{\numberline {7.9}Animace dvouproudového motoru}{34}{subsection.7.9}%
-\contentsline {section}{\numberline {8}Video}{35}{section.8}%
-\contentsline {subsection}{\numberline {8.1}Předprodukce}{35}{subsection.8.1}%
-\contentsline {subsubsection}{\numberline {8.1.1}Cíl videa}{35}{subsubsection.8.1.1}%
-\contentsline {subsubsection}{\numberline {8.1.2}Plánování a scénář}{35}{subsubsection.8.1.2}%
-\contentsline {subsection}{\numberline {8.2}Produkce}{36}{subsection.8.2}%
-\contentsline {subsubsection}{\numberline {8.2.1}Hlasový doprovod}{36}{subsubsection.8.2.1}%
-\contentsline {subsubsection}{\numberline {8.2.2}Modelování}{37}{subsubsection.8.2.2}%
-\contentsline {subsubsection}{\numberline {8.2.3}Materiály}{39}{subsubsection.8.2.3}%
-\contentsline {subsubsection}{\numberline {8.2.4}Animace}{40}{subsubsection.8.2.4}%
-\contentsline {subsubsection}{\numberline {8.2.5}Skutečné záběry}{41}{subsubsection.8.2.5}%
-\contentsline {subsubsection}{\numberline {8.2.6}Renderování}{42}{subsubsection.8.2.6}%
-\contentsline {subsection}{\numberline {8.3}Postprodukce}{45}{subsection.8.3}%
-\contentsline {subsubsection}{\numberline {8.3.1}Střih a kompozice}{45}{subsubsection.8.3.1}%
-\contentsline {subsubsection}{\numberline {8.3.2}Zvukový design}{45}{subsubsection.8.3.2}%
-\contentsline {subsubsection}{\numberline {8.3.3}Export a distribuce}{45}{subsubsection.8.3.3}%
-\contentsline {section}{\numberline {9}Prezentace}{46}{section.9}%
-\contentsline {subsection}{\numberline {9.1}Vizuální stránka prezentací}{46}{subsection.9.1}%
-\contentsline {section}{\numberline {10}Pracovní listy}{47}{section.10}%
-\contentsline {subsection}{\numberline {10.1}Návrh na hodnocení pracovních listů}{47}{subsection.10.1}%
-\contentsline {section}{\numberline {11}Použití pomůcek v praxi}{48}{section.11}%
-\contentsline {subsection}{\numberline {11.1}Nedostatky a úprava pracovních listů}{49}{subsection.11.1}%
-\contentsline {subsection}{\numberline {11.2}Vyhodnocení praktického použití pomůcek}{50}{subsection.11.2}%
-\contentsline {section}{\numberline {12}Závěr}{51}{section.12}%
-\contentsline {section}{\numberline {13}Seznam použitých zdrojů}{52}{section.13}%
+\contentsline {section}{\numberline {6}Praktická část}{20}{section.6}%
+\contentsline {section}{\numberline {7}Animace}{21}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Animace parního stroje}{24}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Animace parní turbíny}{25}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Animace čtyřdobého spalovacího motoru}{26}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}Animace čtyřdobého vznětového motoru}{27}{subsection.7.4}%
+\contentsline {subsection}{\numberline {7.5}Animace dvoudobého zážehového motoru}{28}{subsection.7.5}%
+\contentsline {subsection}{\numberline {7.6}Animace raketového motoru na tuhé palivo}{29}{subsection.7.6}%
+\contentsline {subsection}{\numberline {7.7}Animace raketového motoru na kapalné palivo}{30}{subsection.7.7}%
+\contentsline {subsection}{\numberline {7.8}Animace proudového motoru}{31}{subsection.7.8}%
+\contentsline {subsection}{\numberline {7.9}Animace dvouproudového motoru}{32}{subsection.7.9}%
+\contentsline {section}{\numberline {8}Video}{33}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Předprodukce}{33}{subsection.8.1}%
+\contentsline {subsubsection}{\numberline {8.1.1}Cíl videa}{33}{subsubsection.8.1.1}%
+\contentsline {subsubsection}{\numberline {8.1.2}Plánování a scénář}{33}{subsubsection.8.1.2}%
+\contentsline {subsection}{\numberline {8.2}Produkce}{34}{subsection.8.2}%
+\contentsline {subsubsection}{\numberline {8.2.1}Hlasový doprovod}{34}{subsubsection.8.2.1}%
+\contentsline {subsubsection}{\numberline {8.2.2}Modelování}{35}{subsubsection.8.2.2}%
+\contentsline {subsubsection}{\numberline {8.2.3}Materiály}{37}{subsubsection.8.2.3}%
+\contentsline {subsubsection}{\numberline {8.2.4}Animace}{38}{subsubsection.8.2.4}%
+\contentsline {subsubsection}{\numberline {8.2.5}Skutečné záběry}{39}{subsubsection.8.2.5}%
+\contentsline {subsubsection}{\numberline {8.2.6}Renderování}{40}{subsubsection.8.2.6}%
+\contentsline {subsection}{\numberline {8.3}Postprodukce}{42}{subsection.8.3}%
+\contentsline {subsubsection}{\numberline {8.3.1}Střih a kompozice}{42}{subsubsection.8.3.1}%
+\contentsline {subsubsection}{\numberline {8.3.2}Zvukový design}{42}{subsubsection.8.3.2}%
+\contentsline {subsubsection}{\numberline {8.3.3}Export a distribuce}{42}{subsubsection.8.3.3}%
+\contentsline {section}{\numberline {9}Prezentace}{43}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Vizuální stránka prezentací}{43}{subsection.9.1}%
+\contentsline {section}{\numberline {10}Pracovní listy}{44}{section.10}%
+\contentsline {subsection}{\numberline {10.1}Návrh na hodnocení pracovních listů}{44}{subsection.10.1}%
+\contentsline {section}{\numberline {11}Použití pomůcek v praxi}{45}{section.11}%
+\contentsline {subsection}{\numberline {11.1}Nedostatky a úprava pracovních listů}{46}{subsection.11.1}%
+\contentsline {subsection}{\numberline {11.2}Vyhodnocení praktického použití pomůcek}{47}{subsection.11.2}%
+\contentsline {section}{\numberline {12}Závěr}{48}{section.12}%
+\contentsline {section}{\numberline {13}Seznam použitých zdrojů}{49}{section.13}%
 \babel@toc {czech}{}\relax 
 \babel@toc {czech}{}\relax 
 \babel@toc {czech}{}\relax 
@@ -136,5 +136,5 @@
 \babel@toc {czech}{}\relax 
 \babel@toc {czech}{}\relax 
 \babel@toc {czech}{}\relax 
-\contentsline {section}{\numberline {14}Seznam příloh}{54}{section.14}%
-\contentsline {section}{\numberline {15}Přílohy}{55}{section.15}%
+\contentsline {section}{\numberline {14}Seznam příloh}{51}{section.14}%
+\contentsline {section}{\numberline {15}Přílohy}{52}{section.15}%
