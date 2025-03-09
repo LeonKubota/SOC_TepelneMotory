@@ -53,17 +53,22 @@
 \contentsline {subsubsection}{\numberline {8.2.2}Modelování}{36}{subsubsection.8.2.2}%
 \contentsline {subsubsection}{\numberline {8.2.3}Materiály}{38}{subsubsection.8.2.3}%
 \contentsline {subsubsection}{\numberline {8.2.4}Animace}{39}{subsubsection.8.2.4}%
-\contentsline {subsubsection}{\numberline {8.2.5}Renderování}{40}{subsubsection.8.2.5}%
-\contentsline {section}{\numberline {9}Prezentace}{42}{section.9}%
-\contentsline {subsection}{\numberline {9.1}Obsah prezentací}{42}{subsection.9.1}%
-\contentsline {subsection}{\numberline {9.2}Vizuální stránka prezentací}{43}{subsection.9.2}%
-\contentsline {section}{\numberline {10}Pracovní listy}{44}{section.10}%
-\contentsline {subsection}{\numberline {10.1}Návrh na hodnocení pracovních listů}{44}{subsection.10.1}%
-\contentsline {section}{\numberline {11}Použití pomůcek v praxi}{45}{section.11}%
-\contentsline {subsection}{\numberline {11.1}Nedostatky a úprava pracovních listů}{46}{subsection.11.1}%
-\contentsline {subsection}{\numberline {11.2}Vyhodnocení praktického použití pomůcek}{47}{subsection.11.2}%
-\contentsline {section}{\numberline {12}Závěr}{48}{section.12}%
-\contentsline {section}{\numberline {13}Seznam použitých zdrojů}{49}{section.13}%
+\contentsline {subsubsection}{\numberline {8.2.5}Skutečné záběry}{40}{subsubsection.8.2.5}%
+\contentsline {subsubsection}{\numberline {8.2.6}Renderování}{41}{subsubsection.8.2.6}%
+\contentsline {subsection}{\numberline {8.3}Postprodukce}{43}{subsection.8.3}%
+\contentsline {subsubsection}{\numberline {8.3.1}Střih a kompozice}{43}{subsubsection.8.3.1}%
+\contentsline {subsubsection}{\numberline {8.3.2}Zvukový design}{43}{subsubsection.8.3.2}%
+\contentsline {subsubsection}{\numberline {8.3.3}Export a distribuce}{43}{subsubsection.8.3.3}%
+\contentsline {section}{\numberline {9}Prezentace}{44}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Obsah prezentací}{44}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}Vizuální stránka prezentací}{45}{subsection.9.2}%
+\contentsline {section}{\numberline {10}Pracovní listy}{46}{section.10}%
+\contentsline {subsection}{\numberline {10.1}Návrh na hodnocení pracovních listů}{46}{subsection.10.1}%
+\contentsline {section}{\numberline {11}Použití pomůcek v praxi}{47}{section.11}%
+\contentsline {subsection}{\numberline {11.1}Nedostatky a úprava pracovních listů}{48}{subsection.11.1}%
+\contentsline {subsection}{\numberline {11.2}Vyhodnocení praktického použití pomůcek}{49}{subsection.11.2}%
+\contentsline {section}{\numberline {12}Závěr}{50}{section.12}%
+\contentsline {section}{\numberline {13}Seznam použitých zdrojů}{51}{section.13}%
 \babel@toc {czech}{}\relax 
 \babel@toc {czech}{}\relax 
 \babel@toc {czech}{}\relax 
@@ -144,5 +149,5 @@
 \babel@toc {czech}{}\relax 
 \babel@toc {czech}{}\relax 
 \babel@toc {czech}{}\relax 
-\contentsline {section}{\numberline {14}Seznam příloh}{51}{section.14}%
-\contentsline {section}{\numberline {15}Přílohy}{52}{section.15}%
+\contentsline {section}{\numberline {14}Seznam příloh}{53}{section.14}%
+\contentsline {section}{\numberline {15}Přílohy}{54}{section.15}%

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.29)  3 MAR 2025 20:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.29)  9 MAR 2025 11:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1246,7 +1246,7 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 
 
 {c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2024/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec.enc}]
-<assets/images/logo.png, id=298, 225.84375pt x 225.84375pt>
+<assets/images/logo.png, id=45, 225.84375pt x 225.84375pt>
 File: assets/images/logo.png Graphic file (type png)
 <use assets/images/logo.png>
 Package pdftex.def Info: assets/images/logo.png  used on input line 43.
@@ -1352,17 +1352,17 @@ Overfull \hbox (14.90997pt too wide) in paragraph at lines 127--207
 \openout2 = `sections/animace.aux'.
 
  (./sections/animace.tex
-<assets/images/pistBok.png, id=599, 1150.2975pt x 794.2172pt>
+<assets/images/pistBok.png, id=418, 1150.2975pt x 794.2172pt>
 File: assets/images/pistBok.png Graphic file (type png)
 <use assets/images/pistBok.png>
 Package pdftex.def Info: assets/images/pistBok.png  used on input line 17.
 (pdftex.def)             Requested size: 218.55879pt x 150.90283pt.
-<assets/images/pist.png, id=600, 761.84625pt x 778.40813pt>
+<assets/images/pist.png, id=419, 761.84625pt x 778.40813pt>
 File: assets/images/pist.png Graphic file (type png)
 <use assets/images/pist.png>
 Package pdftex.def Info: assets/images/pist.png  used on input line 23.
 (pdftex.def)             Requested size: 152.36655pt x 155.67886pt.
-<assets/images/NodeUkazka.png, id=602, 1541.00719pt x 842.39719pt>
+<assets/images/NodeUkazka.png, id=421, 1541.00719pt x 842.39719pt>
 File: assets/images/NodeUkazka.png Graphic file (type png)
 <use assets/images/NodeUkazka.png>
 Package pdftex.def Info: assets/images/NodeUkazka.png  used on input line 34.
@@ -1374,7 +1374,7 @@ Package pdftex.def Info: assets/images/NodeUkazka.png  used on input line 34.
 
 
  <./assets/images/pistBok.png> <./assets/images/pist.png> <./assets/images/NodeUkazka.png>]
-<assets/images/1.9TDImodelUkazka.png, id=614, 1084.05pt x 1084.05pt>
+<assets/images/1.9TDImodelUkazka.png, id=434, 1084.05pt x 1084.05pt>
 File: assets/images/1.9TDImodelUkazka.png Graphic file (type png)
 <use assets/images/1.9TDImodelUkazka.png>
 Package pdftex.def Info: assets/images/1.9TDImodelUkazka.png  used on input line 55.
@@ -1384,7 +1384,7 @@ Overfull \hbox (11.9477pt too wide) in paragraph at lines 55--56
  [][] 
  []
 
-<assets/images/1.9TDImodelMaterialy.png, id=615, 1084.05pt x 1084.05pt>
+<assets/images/1.9TDImodelMaterialy.png, id=435, 1084.05pt x 1084.05pt>
 File: assets/images/1.9TDImodelMaterialy.png Graphic file (type png)
 <use assets/images/1.9TDImodelMaterialy.png>
 Package pdftex.def Info: assets/images/1.9TDImodelMaterialy.png  used on input line 62.
@@ -1394,7 +1394,7 @@ Overfull \hbox (11.9477pt too wide) in paragraph at lines 62--63
  [][] 
  []
 
-<assets/images/geometryNodeUkazka.png, id=617, 1300.86pt x 393.72093pt>
+<assets/images/geometryNodeUkazka.png, id=437, 1300.86pt x 393.72093pt>
 File: assets/images/geometryNodeUkazka.png Graphic file (type png)
 <use assets/images/geometryNodeUkazka.png>
 Package pdftex.def Info: assets/images/geometryNodeUkazka.png  used on input line 74.
@@ -1402,27 +1402,27 @@ Package pdftex.def Info: assets/images/geometryNodeUkazka.png  used on input lin
 
 
 [23 <./assets/images/1.9TDImodelUkazka.png> <./assets/images/1.9TDImodelMaterialy.png> <./assets/images/geometryNodeUkazka.png>]
-<assets/images/cary.png, id=628, 542.77782pt x 502.87875pt>
+<assets/images/cary.png, id=448, 542.77782pt x 502.87875pt>
 File: assets/images/cary.png Graphic file (type png)
 <use assets/images/cary.png>
 Package pdftex.def Info: assets/images/cary.png  used on input line 87.
 (pdftex.def)             Requested size: 189.97508pt x 176.0102pt.
-<assets/images/1.9TDI1.png, id=632, 1927.2pt x 1084.05pt>
+<assets/images/1.9TDI1.png, id=452, 1927.2pt x 1084.05pt>
 File: assets/images/1.9TDI1.png Graphic file (type png)
 <use assets/images/1.9TDI1.png>
 Package pdftex.def Info: assets/images/1.9TDI1.png  used on input line 97.
 (pdftex.def)             Requested size: 211.99266pt x 119.24586pt.
-<assets/images/1.9TDI2.png, id=633, 1927.2pt x 1084.05pt>
+<assets/images/1.9TDI2.png, id=453, 1927.2pt x 1084.05pt>
 File: assets/images/1.9TDI2.png Graphic file (type png)
 <use assets/images/1.9TDI2.png>
 Package pdftex.def Info: assets/images/1.9TDI2.png  used on input line 103.
 (pdftex.def)             Requested size: 211.99266pt x 119.24586pt.
-<assets/images/1.9TDI3.png, id=634, 1927.2pt x 1084.05pt>
+<assets/images/1.9TDI3.png, id=454, 1927.2pt x 1084.05pt>
 File: assets/images/1.9TDI3.png Graphic file (type png)
 <use assets/images/1.9TDI3.png>
 Package pdftex.def Info: assets/images/1.9TDI3.png  used on input line 109.
 (pdftex.def)             Requested size: 211.99266pt x 119.24586pt.
-<assets/images/1.9TDI4.png, id=635, 1927.2pt x 1084.05pt>
+<assets/images/1.9TDI4.png, id=455, 1927.2pt x 1084.05pt>
 File: assets/images/1.9TDI4.png Graphic file (type png)
 <use assets/images/1.9TDI4.png>
 Package pdftex.def Info: assets/images/1.9TDI4.png  used on input line 115.
@@ -1440,7 +1440,7 @@ Overfull \hbox (2.004pt too wide) in paragraph at lines 95--119
 
 
 [24 <./assets/images/cary.png> <./assets/images/1.9TDI1.png> <./assets/images/1.9TDI2.png> <./assets/images/1.9TDI3.png> <./assets/images/1.9TDI4.png>]
-<assets/images/ParniStrojRender.png, id=648, 1927.2pt x 1084.05pt>
+<assets/images/ParniStrojRender.png, id=468, 1927.2pt x 1084.05pt>
 File: assets/images/ParniStrojRender.png Graphic file (type png)
 <use assets/images/ParniStrojRender.png>
 Package pdftex.def Info: assets/images/ParniStrojRender.png  used on input line 130.
@@ -1448,12 +1448,12 @@ Package pdftex.def Info: assets/images/ParniStrojRender.png  used on input line 
 
 
 [25 <./assets/images/ParniStrojRender.png>]
-<assets/images/DoosanSkodaPowerMTD50.png, id=660, 192.72pt x 92.7465pt>
+<assets/images/DoosanSkodaPowerMTD50.png, id=480, 192.72pt x 92.7465pt>
 File: assets/images/DoosanSkodaPowerMTD50.png Graphic file (type png)
 <use assets/images/DoosanSkodaPowerMTD50.png>
 Package pdftex.def Info: assets/images/DoosanSkodaPowerMTD50.png  used on input line 145.
 (pdftex.def)             Requested size: 385.43903pt x 185.49255pt.
-<assets/images/ParniTurbinaRender.png, id=665, 1927.2pt x 1084.05pt>
+<assets/images/ParniTurbinaRender.png, id=485, 1927.2pt x 1084.05pt>
 File: assets/images/ParniTurbinaRender.png Graphic file (type png)
 <use assets/images/ParniTurbinaRender.png>
 Package pdftex.def Info: assets/images/ParniTurbinaRender.png  used on input line 154.
@@ -1461,17 +1461,17 @@ Package pdftex.def Info: assets/images/ParniTurbinaRender.png  used on input lin
 
 
 [26 <./assets/images/DoosanSkodaPowerMTD50.png> <./assets/images/ParniTurbinaRender.png>]
-<assets/images/Skoda1000MBPredek.jpg, id=680, 1003.75pt x 808.01875pt>
+<assets/images/Skoda1000MBPredek.jpg, id=500, 1003.75pt x 808.01875pt>
 File: assets/images/Skoda1000MBPredek.jpg Graphic file (type jpg)
 <use assets/images/Skoda1000MBPredek.jpg>
 Package pdftex.def Info: assets/images/Skoda1000MBPredek.jpg  used on input line 177.
 (pdftex.def)             Requested size: 200.74644pt x 161.60088pt.
-<assets/images/Skoda1000MBBok.jpg, id=681, 1003.75pt x 887.315pt>
+<assets/images/Skoda1000MBBok.jpg, id=501, 1003.75pt x 887.315pt>
 File: assets/images/Skoda1000MBBok.jpg Graphic file (type jpg)
 <use assets/images/Skoda1000MBBok.jpg>
 Package pdftex.def Info: assets/images/Skoda1000MBBok.jpg  used on input line 183.
 (pdftex.def)             Requested size: 200.74644pt x 177.45985pt.
-<assets/images/1000MBRender.png, id=684, 505.89pt x 447.92343pt>
+<assets/images/1000MBRender.png, id=504, 505.89pt x 447.92343pt>
 File: assets/images/1000MBRender.png Graphic file (type png)
 <use assets/images/1000MBRender.png>
 Package pdftex.def Info: assets/images/1000MBRender.png  used on input line 194.
@@ -1479,12 +1479,12 @@ Package pdftex.def Info: assets/images/1000MBRender.png  used on input line 194.
 
 
 [27 <./assets/images/Skoda1000MBPredek.jpg> <./assets/images/Skoda1000MBBok.jpg> <./assets/images/1000MBRender.png>]
-<assets/images/1.9TDICrossSection.png, id=698, 552.0625pt x 652.4375pt>
+<assets/images/1.9TDICrossSection.png, id=518, 552.0625pt x 652.4375pt>
 File: assets/images/1.9TDICrossSection.png Graphic file (type png)
 <use assets/images/1.9TDICrossSection.png>
 Package pdftex.def Info: assets/images/1.9TDICrossSection.png  used on input line 216.
 (pdftex.def)             Requested size: 165.62003pt x 195.73276pt.
-<assets/images/1.9TDILongitudinalSection.png, id=699, 552.0625pt x 652.4375pt>
+<assets/images/1.9TDILongitudinalSection.png, id=519, 552.0625pt x 652.4375pt>
 File: assets/images/1.9TDILongitudinalSection.png Graphic file (type png)
 <use assets/images/1.9TDILongitudinalSection.png>
 Package pdftex.def Info: assets/images/1.9TDILongitudinalSection.png  used on input line 222.
@@ -1496,12 +1496,12 @@ Package pdftex.def Info: assets/images/1.9TDI3.png  used on input line 233.
 
 
 [28 <./assets/images/1.9TDICrossSection.png> <./assets/images/1.9TDILongitudinalSection.png>]
-<assets/images/motor175.jpg, id=715, 871.255pt x 655.44875pt>
+<assets/images/motor175.jpg, id=535, 871.255pt x 655.44875pt>
 File: assets/images/motor175.jpg Graphic file (type jpg)
 <use assets/images/motor175.jpg>
 Package pdftex.def Info: assets/images/motor175.jpg  used on input line 246.
 (pdftex.def)             Requested size: 261.37851pt x 196.63614pt.
-<assets/images/CZ175Render.png, id=718, 354.57469pt x 373.395pt>
+<assets/images/CZ175Render.png, id=538, 354.57469pt x 373.395pt>
 File: assets/images/CZ175Render.png Graphic file (type png)
 <use assets/images/CZ175Render.png>
 Package pdftex.def Info: assets/images/CZ175Render.png  used on input line 255.
@@ -1509,12 +1509,12 @@ Package pdftex.def Info: assets/images/CZ175Render.png  used on input line 255.
 
 
 [29 <./assets/images/motor175.jpg> <./assets/images/CZ175Render.png>]
-<assets/images/aim-9-sidewinder.png, id=731, 668.4975pt x 127.47626pt>
+<assets/images/aim-9-sidewinder.png, id=551, 668.4975pt x 127.47626pt>
 File: assets/images/aim-9-sidewinder.png Graphic file (type png)
 <use assets/images/aim-9-sidewinder.png>
 Package pdftex.def Info: assets/images/aim-9-sidewinder.png  used on input line 268.
 (pdftex.def)             Requested size: 334.24792pt x 63.73796pt.
-<assets/images/AIM9Render.png, id=734, 689.57625pt x 378.66469pt>
+<assets/images/AIM9Render.png, id=554, 689.57625pt x 378.66469pt>
 File: assets/images/AIM9Render.png Graphic file (type png)
 <use assets/images/AIM9Render.png>
 Package pdftex.def Info: assets/images/AIM9Render.png  used on input line 277.
@@ -1522,12 +1522,12 @@ Package pdftex.def Info: assets/images/AIM9Render.png  used on input line 277.
 
 
 [30 <./assets/images/aim-9-sidewinder.png> <./assets/images/AIM9Render.png>]
-<assets/images/RocketdyneJ2vykres.png, id=749, 1324.95pt x 1023.825pt>
+<assets/images/RocketdyneJ2vykres.png, id=568, 1324.95pt x 1023.825pt>
 File: assets/images/RocketdyneJ2vykres.png Graphic file (type png)
 <use assets/images/RocketdyneJ2vykres.png>
 Package pdftex.def Info: assets/images/RocketdyneJ2vykres.png  used on input line 290.
 (pdftex.def)             Requested size: 264.9853pt x 204.76137pt.
-<assets/images/J2Render.png, id=752, 686.565pt x 385.44pt>
+<assets/images/J2Render.png, id=571, 686.565pt x 385.44pt>
 File: assets/images/J2Render.png Graphic file (type png)
 <use assets/images/J2Render.png>
 Package pdftex.def Info: assets/images/J2Render.png  used on input line 299.
@@ -1535,12 +1535,12 @@ Package pdftex.def Info: assets/images/J2Render.png  used on input line 299.
 
 
 [31 <./assets/images/RocketdyneJ2vykres.png> <./assets/images/J2Render.png>]
-<assets/images/TJ100Vykres.png, id=767, 1075.01625pt x 787.94376pt>
+<assets/images/TJ100Vykres.png, id=586, 1075.01625pt x 787.94376pt>
 File: assets/images/TJ100Vykres.png Graphic file (type png)
 <use assets/images/TJ100Vykres.png>
 Package pdftex.def Info: assets/images/TJ100Vykres.png  used on input line 312.
 (pdftex.def)             Requested size: 322.50737pt x 236.38495pt.
-<assets/images/TJ100Render.png, id=770, 806.26219pt x 444.91219pt>
+<assets/images/TJ100Render.png, id=589, 806.26219pt x 444.91219pt>
 File: assets/images/TJ100Render.png Graphic file (type png)
 <use assets/images/TJ100Render.png>
 Package pdftex.def Info: assets/images/TJ100Render.png  used on input line 321.
@@ -1548,17 +1548,17 @@ Package pdftex.def Info: assets/images/TJ100Render.png  used on input line 321.
 
 
 [32 <./assets/images/TJ100Vykres.png> <./assets/images/TJ100Render.png>]
-<assets/images/CFM56vykres1.png, id=786, 426.59375pt x 262.48062pt>
+<assets/images/CFM56vykres1.png, id=606, 426.59375pt x 262.48062pt>
 File: assets/images/CFM56vykres1.png Graphic file (type png)
 <use assets/images/CFM56vykres1.png>
 Package pdftex.def Info: assets/images/CFM56vykres1.png  used on input line 344.
 (pdftex.def)             Requested size: 170.63446pt x 104.99039pt.
-<assets/images/CFM56vykres2.png, id=787, 594.22pt x 439.6425pt>
+<assets/images/CFM56vykres2.png, id=607, 594.22pt x 439.6425pt>
 File: assets/images/CFM56vykres2.png Graphic file (type png)
 <use assets/images/CFM56vykres2.png>
 Package pdftex.def Info: assets/images/CFM56vykres2.png  used on input line 350.
 (pdftex.def)             Requested size: 178.26736pt x 131.89375pt.
-<assets/images/CFM56Render.png, id=790, 746.79pt x 416.30531pt>
+<assets/images/CFM56Render.png, id=610, 746.79pt x 416.30531pt>
 File: assets/images/CFM56Render.png Graphic file (type png)
 <use assets/images/CFM56Render.png>
 Package pdftex.def Info: assets/images/CFM56Render.png  used on input line 361.
@@ -1575,7 +1575,7 @@ Package pdftex.def Info: assets/images/CFM56Render.png  used on input line 361.
 
 
 ]
-<assets/images/MikrofonovaSestava.png, id=808, 4047.12pt x 3035.34pt>
+<assets/images/MikrofonovaSestava.png, id=628, 4047.12pt x 3035.34pt>
 File: assets/images/MikrofonovaSestava.png Graphic file (type png)
 <use assets/images/MikrofonovaSestava.png>
 Package pdftex.def Info: assets/images/MikrofonovaSestava.png  used on input line 27.
@@ -1583,12 +1583,12 @@ Package pdftex.def Info: assets/images/MikrofonovaSestava.png  used on input lin
 
 
 [35 <./assets/images/MikrofonovaSestava.png>]
-<assets/images/PureRef.png, id=818, 1700.3525pt x 1003.75pt>
+<assets/images/PureRef.png, id=638, 1700.3525pt x 1003.75pt>
 File: assets/images/PureRef.png Graphic file (type png)
 <use assets/images/PureRef.png>
 Package pdftex.def Info: assets/images/PureRef.png  used on input line 56.
 (pdftex.def)             Requested size: 255.04187pt x 150.556pt.
-<assets/images/technickyVykresStartovaciPlosina.jpg, id=819, 637.38126pt x 803.0pt>
+<assets/images/technickyVykresStartovaciPlosina.jpg, id=639, 637.38126pt x 803.0pt>
 File: assets/images/technickyVykresStartovaciPlosina.jpg Graphic file (type jpg)
 <use assets/images/technickyVykresStartovaciPlosina.jpg>
 Package pdftex.def Info: assets/images/technickyVykresStartovaciPlosina.jpg  used on input line 62.
@@ -1596,12 +1596,12 @@ Package pdftex.def Info: assets/images/technickyVykresStartovaciPlosina.jpg  use
 
 
 [36 <./assets/images/PureRef.png> <./assets/images/technickyVykresStartovaciPlosina.jpg>]
-<assets/images/raketaPlatformaModel.png, id=829, 557.08125pt x 521.69907pt>
+<assets/images/raketaPlatformaModel.png, id=649, 557.08125pt x 521.69907pt>
 File: assets/images/raketaPlatformaModel.png Graphic file (type png)
 <use assets/images/raketaPlatformaModel.png>
 Package pdftex.def Info: assets/images/raketaPlatformaModel.png  used on input line 87.
 (pdftex.def)             Requested size: 167.12566pt x 156.51093pt.
-<assets/images/raketaPlatformaModelZezadu.png, id=830, 645.91313pt x 524.71031pt>
+<assets/images/raketaPlatformaModelZezadu.png, id=650, 645.91313pt x 524.71031pt>
 File: assets/images/raketaPlatformaModelZezadu.png Graphic file (type png)
 <use assets/images/raketaPlatformaModelZezadu.png>
 Package pdftex.def Info: assets/images/raketaPlatformaModelZezadu.png  used on input line 94.
@@ -1609,7 +1609,7 @@ Package pdftex.def Info: assets/images/raketaPlatformaModelZezadu.png  used on i
 
 
 [37 <./assets/images/raketaPlatformaModel.png> <./assets/images/raketaPlatformaModelZezadu.png>]
-<assets/images/shaderEditor.png, id=840, 674.52pt x 257.46187pt>
+<assets/images/shaderEditor.png, id=660, 674.52pt x 257.46187pt>
 File: assets/images/shaderEditor.png Graphic file (type png)
 <use assets/images/shaderEditor.png>
 Package pdftex.def Info: assets/images/shaderEditor.png  used on input line 131.
@@ -1617,17 +1617,17 @@ Package pdftex.def Info: assets/images/shaderEditor.png  used on input line 131.
 
 
 [38 <./assets/images/shaderEditor.png>]
-<assets/images/graphEditor.png, id=848, 495.8525pt x 200.24812pt>
+<assets/images/graphEditor.png, id=668, 495.8525pt x 200.24812pt>
 File: assets/images/graphEditor.png Graphic file (type png)
 <use assets/images/graphEditor.png>
 Package pdftex.def Info: assets/images/graphEditor.png  used on input line 144.
 (pdftex.def)             Requested size: 247.92564pt x 100.12381pt.
-<assets/images/simulaceParametry.png, id=850, 312.16624pt x 595.22375pt>
+<assets/images/simulaceParametry.png, id=670, 312.16624pt x 595.22375pt>
 File: assets/images/simulaceParametry.png Graphic file (type png)
 <use assets/images/simulaceParametry.png>
 Package pdftex.def Info: assets/images/simulaceParametry.png  used on input line 164.
 (pdftex.def)             Requested size: 93.65059pt x 178.5685pt.
-<assets/images/simulaceVysledek.png, id=851, 525.965pt x 321.2pt>
+<assets/images/simulaceVysledek.png, id=671, 525.965pt x 321.2pt>
 File: assets/images/simulaceVysledek.png Graphic file (type png)
 <use assets/images/simulaceVysledek.png>
 Package pdftex.def Info: assets/images/simulaceVysledek.png  used on input line 169.
@@ -1642,17 +1642,19 @@ Overfull \hbox (42.43219pt too wide) in paragraph at lines 169--170
 [39 <./assets/images/graphEditor.png> <./assets/images/simulaceParametry.png> <./assets/images/simulaceVysledek.png>]
 
 [40]
-<assets/images/grafUvod.png, id=866, 455.0601pt x 87.2058pt>
+
+[41]
+<assets/images/grafUvod.png, id=690, 455.0601pt x 87.2058pt>
 File: assets/images/grafUvod.png Graphic file (type png)
 <use assets/images/grafUvod.png>
 Package pdftex.def Info: assets/images/grafUvod.png  used on input line 214.
 (pdftex.def)             Requested size: 455.24411pt x 87.24548pt.
-<assets/images/grafParniMotory.png, id=867, 455.301pt x 72.27pt>
+<assets/images/grafParniMotory.png, id=691, 455.301pt x 72.27pt>
 File: assets/images/grafParniMotory.png Graphic file (type png)
 <use assets/images/grafParniMotory.png>
 Package pdftex.def Info: assets/images/grafParniMotory.png  used on input line 218.
 (pdftex.def)             Requested size: 455.24411pt x 72.26318pt.
-<example-image-plain.pdf, id=868, 321.2pt x 240.9pt>
+<example-image-plain.pdf, id=692, 321.2pt x 240.9pt>
 File: example-image-plain.pdf Graphic file (type pdf)
 <use example-image-plain.pdf>
 Package pdftex.def Info: example-image-plain.pdf  used on input line 222.
@@ -1665,45 +1667,47 @@ File: example-image-plain.pdf Graphic file (type pdf)
 <use example-image-plain.pdf>
 Package pdftex.def Info: example-image-plain.pdf  used on input line 230.
 (pdftex.def)             Requested size: 455.25931pt x 85.3565pt.
-)
 
-[41 <./assets/images/grafUvod.png> <./assets/images/grafParniMotory.png> <c:/texlive/2024/texmf-dist/tex/latex/mwe/example-image-plain.pdf>]
+
+[42 <./assets/images/grafUvod.png> <./assets/images/grafParniMotory.png> <c:/texlive/2024/texmf-dist/tex/latex/mwe/example-image-plain.pdf>])
+
+[43]
 \openout2 = `sections/prezentace.aux'.
 
  (./sections/prezentace.tex
-<assets/images/PrikladZadani.png, id=879, 963.6pt x 542.025pt>
+<assets/images/PrikladZadani.png, id=708, 963.6pt x 542.025pt>
 File: assets/images/PrikladZadani.png Graphic file (type png)
 <use assets/images/PrikladZadani.png>
 Package pdftex.def Info: assets/images/PrikladZadani.png  used on input line 19.
 (pdftex.def)             Requested size: 192.71658pt x 108.40308pt.
-<assets/images/PrikladHotovo.png, id=880, 963.6pt x 542.025pt>
+<assets/images/PrikladHotovo.png, id=709, 963.6pt x 542.025pt>
 File: assets/images/PrikladHotovo.png Graphic file (type png)
 <use assets/images/PrikladHotovo.png>
 Package pdftex.def Info: assets/images/PrikladHotovo.png  used on input line 26.
 (pdftex.def)             Requested size: 192.71658pt x 108.40308pt.
 
 
-[42
+[44
 
 
 
  <./assets/images/PrikladZadani.png (PNG copy)> <./assets/images/PrikladHotovo.png (PNG copy)>]
-<assets/images/tatra813_1.png, id=888, 1927.2pt x 1084.05pt>
+<assets/images/tatra813_1.png, id=716, 1927.2pt x 1084.05pt>
 File: assets/images/tatra813_1.png Graphic file (type png)
 <use assets/images/tatra813_1.png>
 Package pdftex.def Info: assets/images/tatra813_1.png  used on input line 39.
 (pdftex.def)             Requested size: 211.99266pt x 119.24586pt.
-<assets/images/tatra813_5.png, id=889, 1927.2pt x 1084.05pt>
+<assets/images/tatra813_5.png, id=717, 1927.2pt x 1084.05pt>
 File: assets/images/tatra813_5.png Graphic file (type png)
 <use assets/images/tatra813_5.png>
 Package pdftex.def Info: assets/images/tatra813_5.png  used on input line 45.
 (pdftex.def)             Requested size: 211.99266pt x 119.24586pt.
-<assets/images/tatra813_6.png, id=890, 1927.2pt x 1084.05pt>
+<assets/images/tatra813_6.png, id=718, 1927.2pt x 1084.05pt>
 File: assets/images/tatra813_6.png Graphic file (type png)
 <use assets/images/tatra813_6.png>
 Package pdftex.def Info: assets/images/tatra813_6.png  used on input line 51.
 (pdftex.def)             Requested size: 211.99266pt x 119.24586pt.
-<assets/images/tepelneMotoryObecneTatra.png, id=891, 963.6pt x 542.025pt>
+<assets/images/tepelneMotoryObecneTatra.png, id=719, 963.6pt x 542.025pt>
 File: assets/images/tepelneMotoryObecneTatra.png Graphic file (type png)
 <use assets/images/tepelneMotoryObecneTatra.png>
 Package pdftex.def Info: assets/images/tepelneMotoryObecneTatra.png  used on input line 57.
@@ -1720,12 +1724,12 @@ Overfull \hbox (2.004pt too wide) in paragraph at lines 36--60
 
 )
 
-[43 <./assets/images/tatra813_1.png> <./assets/images/tatra813_5.png> <./assets/images/tatra813_6.png> <./assets/images/tepelneMotoryObecneTatra.png (PNG copy)>]
+[45 <./assets/images/tatra813_1.png> <./assets/images/tatra813_5.png> <./assets/images/tatra813_6.png> <./assets/images/tepelneMotoryObecneTatra.png (PNG copy)>]
 \openout2 = `sections/pracovniListy.aux'.
 
  (./sections/pracovniListy.tex)
 
-[44
+[46
 
 
 
@@ -1733,36 +1737,36 @@ Overfull \hbox (2.004pt too wide) in paragraph at lines 36--60
 \openout2 = `sections/pouzitiVPraxi.aux'.
 
  (./sections/pouzitiVPraxi.tex
-<assets/images/SvickaPrezentace.png, id=915, 963.6pt x 542.025pt>
+<assets/images/SvickaPrezentace.png, id=743, 963.6pt x 542.025pt>
 File: assets/images/SvickaPrezentace.png Graphic file (type png)
 <use assets/images/SvickaPrezentace.png>
 Package pdftex.def Info: assets/images/SvickaPrezentace.png  used on input line 17.
 (pdftex.def)             Requested size: 192.71658pt x 108.40308pt.
-<assets/images/PracovniDoby1.png, id=916, 963.6pt x 542.025pt>
+<assets/images/PracovniDoby1.png, id=744, 963.6pt x 542.025pt>
 File: assets/images/PracovniDoby1.png Graphic file (type png)
 <use assets/images/PracovniDoby1.png>
 Package pdftex.def Info: assets/images/PracovniDoby1.png  used on input line 24.
 (pdftex.def)             Requested size: 192.71658pt x 108.40308pt.
-<assets/images/zidlePrezentace.png, id=919, 963.6pt x 542.025pt>
+<assets/images/zidlePrezentace.png, id=747, 963.6pt x 542.025pt>
 File: assets/images/zidlePrezentace.png Graphic file (type png)
 <use assets/images/zidlePrezentace.png>
 Package pdftex.def Info: assets/images/zidlePrezentace.png  used on input line 43.
 (pdftex.def)             Requested size: 192.71658pt x 108.40308pt.
-<assets/images/balonekPrezentace.png, id=920, 963.6pt x 542.025pt>
+<assets/images/balonekPrezentace.png, id=748, 963.6pt x 542.025pt>
 File: assets/images/balonekPrezentace.png Graphic file (type png)
 <use assets/images/balonekPrezentace.png>
 Package pdftex.def Info: assets/images/balonekPrezentace.png  used on input line 50.
 (pdftex.def)             Requested size: 192.71658pt x 108.40308pt.
 
 
-[45
+[47
 
 
 
  <./assets/images/SvickaPrezentace.png (PNG copy)> <./assets/images/PracovniDoby1.png (PNG copy)> <./assets/images/zidlePrezentace.png (PNG copy)> <./assets/images/balonekPrezentace.png (PNG copy)>]
 
 pdfTeX warning: pdflatex.exe (file ./assets/images/ScanPracovniListy.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<assets/images/ScanPracovniListy.pdf, id=930, page=3, 597.23125pt x 845.1575pt>
+<assets/images/ScanPracovniListy.pdf, id=758, page=3, 597.23125pt x 845.1575pt>
 File: assets/images/ScanPracovniListy.pdf Graphic file (type pdf)
 <use assets/images/ScanPracovniListy.pdf, page 3>
 Package pdftex.def Info: assets/images/ScanPracovniListy.pdf , page3 used on input line 85.
@@ -1770,7 +1774,7 @@ Package pdftex.def Info: assets/images/ScanPracovniListy.pdf , page3 used on inp
 
 
 pdfTeX warning: pdflatex.exe (file ./assets/images/ScanPracovniListy.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<assets/images/ScanPracovniListy.pdf, id=932, page=4, 597.23125pt x 845.1575pt>
+<assets/images/ScanPracovniListy.pdf, id=760, page=4, 597.23125pt x 845.1575pt>
 File: assets/images/ScanPracovniListy.pdf Graphic file (type pdf)
 <use assets/images/ScanPracovniListy.pdf, page 4>
 Package pdftex.def Info: assets/images/ScanPracovniListy.pdf , page4 used on input line 86.
@@ -1778,7 +1782,7 @@ Package pdftex.def Info: assets/images/ScanPracovniListy.pdf , page4 used on inp
 
 
 pdfTeX warning: pdflatex.exe (file ./assets/images/ScanPracovniListy.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<assets/images/ScanPracovniListy.pdf, id=934, page=2, 597.23125pt x 845.1575pt>
+<assets/images/ScanPracovniListy.pdf, id=762, page=2, 597.23125pt x 845.1575pt>
 File: assets/images/ScanPracovniListy.pdf Graphic file (type pdf)
 <use assets/images/ScanPracovniListy.pdf, page 2>
 Package pdftex.def Info: assets/images/ScanPracovniListy.pdf , page2 used on input line 92.
@@ -1786,21 +1790,21 @@ Package pdftex.def Info: assets/images/ScanPracovniListy.pdf , page2 used on inp
 
 
 pdfTeX warning: pdflatex.exe (file ./assets/images/ScanPracovniListy.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<assets/images/ScanPracovniListy.pdf, id=936, page=1, 597.23125pt x 845.1575pt>
+<assets/images/ScanPracovniListy.pdf, id=764, page=1, 597.23125pt x 845.1575pt>
 File: assets/images/ScanPracovniListy.pdf Graphic file (type pdf)
 <use assets/images/ScanPracovniListy.pdf, page 1>
 Package pdftex.def Info: assets/images/ScanPracovniListy.pdf , page1 used on input line 93.
 (pdftex.def)             Requested size: 89.58081pt x 126.76814pt.
 
 
-[46 <./assets/images/ScanPracovniListy.pdf> <./assets/images/ScanPracovniListy.pdf> <./assets/images/ScanPracovniListy.pdf> <./assets/images/ScanPracovniListy.pdf>])
+[48 <./assets/images/ScanPracovniListy.pdf> <./assets/images/ScanPracovniListy.pdf> <./assets/images/ScanPracovniListy.pdf> <./assets/images/ScanPracovniListy.pdf>])
 
-[47]
+[49]
 \openout2 = `sections/zaver.aux'.
 
  (./sections/zaver.tex)
 
-[48
+[50
 
 
 
@@ -1809,18 +1813,18 @@ Package pdftex.def Info: assets/images/ScanPracovniListy.pdf , page1 used on inp
 
  (./sections/zdroje.tex
 
-[49
+[51
 
 
 
 {c:/texlive/2024/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec-sc.enc}])
 
-[50]
+[52]
 \openout2 = `sections/seznamPriloh.aux'.
 
  (./sections/seznamPriloh.tex)
 
-[51
+[53
 
 
 
@@ -1865,89 +1869,89 @@ Package hyperref Info: Option `unicode' set `false' on input line 29.
 Package hyperref Info: Option `unicode' set `false' on input line 29.
 
 
-[52
+[54
 
 
 
 ]<<pracovniListy/pracovniListTepelneMotoryZS.pdf>>
 Package hyperref Info: Option `unicode' set `false' on input line 45.
-<pracovniListy/pracovniListTepelneMotoryZS.pdf, id=1197, page=1, 597.50829pt x 845.0471pt>
+<pracovniListy/pracovniListTepelneMotoryZS.pdf, id=1025, page=1, 597.50829pt x 845.0471pt>
 File: pracovniListy/pracovniListTepelneMotoryZS.pdf Graphic file (type pdf)
 <use pracovniListy/pracovniListTepelneMotoryZS.pdf, page 1>
 Package pdftex.def Info: pracovniListy/pracovniListTepelneMotoryZS.pdf , page1 used on input line 45.
 (pdftex.def)             Requested size: 179.25386pt x 253.51608pt.
-<pracovniListy/pracovniListTepelneMotoryZS.pdf, id=1199, page=2, 597.50829pt x 845.0471pt>
+<pracovniListy/pracovniListTepelneMotoryZS.pdf, id=1027, page=2, 597.50829pt x 845.0471pt>
 File: pracovniListy/pracovniListTepelneMotoryZS.pdf Graphic file (type pdf)
 <use pracovniListy/pracovniListTepelneMotoryZS.pdf, page 2>
 Package pdftex.def Info: pracovniListy/pracovniListTepelneMotoryZS.pdf , page2 used on input line 45.
 (pdftex.def)             Requested size: 179.25386pt x 253.51608pt.
 <<pracovniListy/pracovniListTepelneMotoryZSreseni.pdf>>
 Package hyperref Info: Option `unicode' set `false' on input line 48.
-<pracovniListy/pracovniListTepelneMotoryZSreseni.pdf, id=1206, page=1, 597.50829pt x 845.0471pt>
+<pracovniListy/pracovniListTepelneMotoryZSreseni.pdf, id=1034, page=1, 597.50829pt x 845.0471pt>
 File: pracovniListy/pracovniListTepelneMotoryZSreseni.pdf Graphic file (type pdf)
 <use pracovniListy/pracovniListTepelneMotoryZSreseni.pdf, page 1>
 Package pdftex.def Info: pracovniListy/pracovniListTepelneMotoryZSreseni.pdf , page1 used on input line 48.
 (pdftex.def)             Requested size: 179.25386pt x 253.51608pt.
-<pracovniListy/pracovniListTepelneMotoryZSreseni.pdf, id=1208, page=2, 597.50829pt x 845.0471pt>
+<pracovniListy/pracovniListTepelneMotoryZSreseni.pdf, id=1036, page=2, 597.50829pt x 845.0471pt>
 File: pracovniListy/pracovniListTepelneMotoryZSreseni.pdf Graphic file (type pdf)
 <use pracovniListy/pracovniListTepelneMotoryZSreseni.pdf, page 2>
 Package pdftex.def Info: pracovniListy/pracovniListTepelneMotoryZSreseni.pdf , page2 used on input line 48.
 (pdftex.def)             Requested size: 179.25386pt x 253.51608pt.
 
 
-[53 <./pracovniListy/pracovniListTepelneMotoryZS.pdf> <./pracovniListy/pracovniListTepelneMotoryZS.pdf> <./pracovniListy/pracovniListTepelneMotoryZSreseni.pdf> <./pracovniListy/pracovniListTepelneMotoryZSreseni.pdf>]<<pracovniListy/pracovniListTepelneMotorySSvarA.pdf>>
+[55 <./pracovniListy/pracovniListTepelneMotoryZS.pdf> <./pracovniListy/pracovniListTepelneMotoryZS.pdf> <./pracovniListy/pracovniListTepelneMotoryZSreseni.pdf> <./pracovniListy/pracovniListTepelneMotoryZSreseni.pdf>]<<pracovniListy/pracovniListTepelneMotorySSvarA.pdf>>
 Package hyperref Info: Option `unicode' set `false' on input line 52.
-<pracovniListy/pracovniListTepelneMotorySSvarA.pdf, id=1324, page=1, 597.50829pt x 845.0471pt>
+<pracovniListy/pracovniListTepelneMotorySSvarA.pdf, id=1153, page=1, 597.50829pt x 845.0471pt>
 File: pracovniListy/pracovniListTepelneMotorySSvarA.pdf Graphic file (type pdf)
 <use pracovniListy/pracovniListTepelneMotorySSvarA.pdf, page 1>
 Package pdftex.def Info: pracovniListy/pracovniListTepelneMotorySSvarA.pdf , page1 used on input line 52.
 (pdftex.def)             Requested size: 179.25386pt x 253.51608pt.
-<pracovniListy/pracovniListTepelneMotorySSvarA.pdf, id=1326, page=2, 597.50829pt x 845.0471pt>
+<pracovniListy/pracovniListTepelneMotorySSvarA.pdf, id=1155, page=2, 597.50829pt x 845.0471pt>
 File: pracovniListy/pracovniListTepelneMotorySSvarA.pdf Graphic file (type pdf)
 <use pracovniListy/pracovniListTepelneMotorySSvarA.pdf, page 2>
 Package pdftex.def Info: pracovniListy/pracovniListTepelneMotorySSvarA.pdf , page2 used on input line 52.
 (pdftex.def)             Requested size: 179.25386pt x 253.51608pt.
 <<pracovniListy/pracovniListTepelneMotorySSvarAreseni.pdf>>
 Package hyperref Info: Option `unicode' set `false' on input line 55.
-<pracovniListy/pracovniListTepelneMotorySSvarAreseni.pdf, id=1333, page=1, 597.50829pt x 845.0471pt>
+<pracovniListy/pracovniListTepelneMotorySSvarAreseni.pdf, id=1162, page=1, 597.50829pt x 845.0471pt>
 File: pracovniListy/pracovniListTepelneMotorySSvarAreseni.pdf Graphic file (type pdf)
 <use pracovniListy/pracovniListTepelneMotorySSvarAreseni.pdf, page 1>
 Package pdftex.def Info: pracovniListy/pracovniListTepelneMotorySSvarAreseni.pdf , page1 used on input line 55.
 (pdftex.def)             Requested size: 179.25386pt x 253.51608pt.
-<pracovniListy/pracovniListTepelneMotorySSvarAreseni.pdf, id=1335, page=2, 597.50829pt x 845.0471pt>
+<pracovniListy/pracovniListTepelneMotorySSvarAreseni.pdf, id=1164, page=2, 597.50829pt x 845.0471pt>
 File: pracovniListy/pracovniListTepelneMotorySSvarAreseni.pdf Graphic file (type pdf)
 <use pracovniListy/pracovniListTepelneMotorySSvarAreseni.pdf, page 2>
 Package pdftex.def Info: pracovniListy/pracovniListTepelneMotorySSvarAreseni.pdf , page2 used on input line 55.
 (pdftex.def)             Requested size: 179.25386pt x 253.51608pt.
 
 
-[54 <./pracovniListy/pracovniListTepelneMotorySSvarA.pdf> <./pracovniListy/pracovniListTepelneMotorySSvarA.pdf> <./pracovniListy/pracovniListTepelneMotorySSvarAreseni.pdf> <./pracovniListy/pracovniListTepelneMotorySSvarAreseni.pdf>]<<pracovniListy/pracovniListTepelneMotorySSvarB.pdf>>
+[56 <./pracovniListy/pracovniListTepelneMotorySSvarA.pdf> <./pracovniListy/pracovniListTepelneMotorySSvarA.pdf> <./pracovniListy/pracovniListTepelneMotorySSvarAreseni.pdf> <./pracovniListy/pracovniListTepelneMotorySSvarAreseni.pdf>]<<pracovniListy/pracovniListTepelneMotorySSvarB.pdf>>
 Package hyperref Info: Option `unicode' set `false' on input line 59.
-<pracovniListy/pracovniListTepelneMotorySSvarB.pdf, id=1441, page=1, 597.50829pt x 845.0471pt>
+<pracovniListy/pracovniListTepelneMotorySSvarB.pdf, id=1270, page=1, 597.50829pt x 845.0471pt>
 File: pracovniListy/pracovniListTepelneMotorySSvarB.pdf Graphic file (type pdf)
 <use pracovniListy/pracovniListTepelneMotorySSvarB.pdf, page 1>
 Package pdftex.def Info: pracovniListy/pracovniListTepelneMotorySSvarB.pdf , page1 used on input line 59.
 (pdftex.def)             Requested size: 179.25386pt x 253.51608pt.
-<pracovniListy/pracovniListTepelneMotorySSvarB.pdf, id=1443, page=2, 597.50829pt x 845.0471pt>
+<pracovniListy/pracovniListTepelneMotorySSvarB.pdf, id=1272, page=2, 597.50829pt x 845.0471pt>
 File: pracovniListy/pracovniListTepelneMotorySSvarB.pdf Graphic file (type pdf)
 <use pracovniListy/pracovniListTepelneMotorySSvarB.pdf, page 2>
 Package pdftex.def Info: pracovniListy/pracovniListTepelneMotorySSvarB.pdf , page2 used on input line 59.
 (pdftex.def)             Requested size: 179.25386pt x 253.51608pt.
 <<pracovniListy/pracovniListTepelneMotorySSvarBreseni.pdf>>
 Package hyperref Info: Option `unicode' set `false' on input line 62.
-<pracovniListy/pracovniListTepelneMotorySSvarBreseni.pdf, id=1450, page=1, 597.50829pt x 845.0471pt>
+<pracovniListy/pracovniListTepelneMotorySSvarBreseni.pdf, id=1279, page=1, 597.50829pt x 845.0471pt>
 File: pracovniListy/pracovniListTepelneMotorySSvarBreseni.pdf Graphic file (type pdf)
 <use pracovniListy/pracovniListTepelneMotorySSvarBreseni.pdf, page 1>
 Package pdftex.def Info: pracovniListy/pracovniListTepelneMotorySSvarBreseni.pdf , page1 used on input line 62.
 (pdftex.def)             Requested size: 179.25386pt x 253.51608pt.
-<pracovniListy/pracovniListTepelneMotorySSvarBreseni.pdf, id=1452, page=2, 597.50829pt x 845.0471pt>
+<pracovniListy/pracovniListTepelneMotorySSvarBreseni.pdf, id=1281, page=2, 597.50829pt x 845.0471pt>
 File: pracovniListy/pracovniListTepelneMotorySSvarBreseni.pdf Graphic file (type pdf)
 <use pracovniListy/pracovniListTepelneMotorySSvarBreseni.pdf, page 2>
 Package pdftex.def Info: pracovniListy/pracovniListTepelneMotorySSvarBreseni.pdf , page2 used on input line 62.
 (pdftex.def)             Requested size: 179.25386pt x 253.51608pt.
 
 
-[55 <./pracovniListy/pracovniListTepelneMotorySSvarB.pdf> <./pracovniListy/pracovniListTepelneMotorySSvarB.pdf> <./pracovniListy/pracovniListTepelneMotorySSvarBreseni.pdf> <./pracovniListy/pracovniListTepelneMotorySSvarBreseni.pdf>]<<assets/images/ScanPracovniListy.pdf>>
+[57 <./pracovniListy/pracovniListTepelneMotorySSvarB.pdf> <./pracovniListy/pracovniListTepelneMotorySSvarB.pdf> <./pracovniListy/pracovniListTepelneMotorySSvarBreseni.pdf> <./pracovniListy/pracovniListTepelneMotorySSvarBreseni.pdf>]<<assets/images/ScanPracovniListy.pdf>>
 Package hyperref Info: Option `unicode' set `false' on input line 67.
 File: assets/images/ScanPracovniListy.pdf Graphic file (type pdf)
 <use assets/images/ScanPracovniListy.pdf, page 2>
@@ -1967,30 +1971,45 @@ Package pdftex.def Info: assets/images/ScanPracovniListy.pdf , page2 used on inp
 (pdftex.def)             Requested size: 179.17075pt x 253.54921pt.
 )
 
-[56] (./main.aux (./sections/uvodniStrany.aux) (./sections/teorieTepelnychMotoru.aux) (./sections/parniMotory.aux) (./sections/spalovaciMotory.aux) (./sections/reaktivniMotory.aux) (./sections/praktickaCast.aux) (./sections/animace.aux) (./sections/videa.aux) (./sections/prezentace.aux) (./sections/pracovniListy.aux) (./sections/pouzitiVPraxi.aux) (./sections/zaver.aux) (./sections/zdroje.aux) (./sections/seznamPriloh.aux) (./sections/prilohy.aux))
+[58] (./main.aux (./sections/uvodniStrany.aux) (./sections/teorieTepelnychMotoru.aux) (./sections/parniMotory.aux) (./sections/spalovaciMotory.aux) (./sections/reaktivniMotory.aux) (./sections/praktickaCast.aux) (./sections/animace.aux) (./sections/videa.aux) (./sections/prezentace.aux) (./sections/pracovniListy.aux) (./sections/pouzitiVPraxi.aux) (./sections/zaver.aux) (./sections/zdroje.aux) (./sections/seznamPriloh.aux) (./sections/prilohy.aux))
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-09-10>
  ***********
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: FFB8353A66EFC74022F154349906E4F3;10903.
+
+
+LaTeX Warning: There were undefined references.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: 499910839DEEF4CBDF896C8256C267C4;380
+(rerunfilecheck)             After:  CE2CEBF89FC173A73FF9650043F24744;11654.
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                main
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 39183 strings out of 473579
- 772787 string characters out of 5732263
- 1647268 words of memory out of 5000000
- 61103 multiletter control sequences out of 15000+600000
+ 39127 strings out of 473579
+ 771836 string characters out of 5732263
+ 1644675 words of memory out of 5000000
+ 61040 multiletter control sequences out of 15000+600000
  603355 words of font info for 86 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  98i,11n,101p,1239b,2837s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/tex-gyre/qtmb.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/tex-gyre/qtmri.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/wasy-type1/wasy10.pfb>
-Output written on main.pdf (56 pages, 369500895 bytes).
+Output written on main.pdf (58 pages, 369500200 bytes).
 PDF statistics:
- 1695 PDF objects out of 1728 (max. 8388607)
- 1315 compressed objects within 14 object streams
- 265 named destinations out of 1000 (max. 500000)
- 1470 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1523 PDF objects out of 1728 (max. 8388607)
+ 1143 compressed objects within 12 object streams
+ 272 named destinations out of 1000 (max. 500000)
+ 966 words of extra memory for PDF output out of 10000 (max. 10000000)
 
