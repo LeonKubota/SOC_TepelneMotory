@@ -51,37 +51,7 @@
       \verb{url}
       \verb http://europepmc.org/books/NBK441936
       \endverb
-    \endentry
-    \entry{APS:CarnotCycleAtFinitePower}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=ce55e8b285708ded7a69aefd3a223c52}{%
-           family={Armen\bibnamedelima Allahverdyan},
-           familyi={A\bibinitperiod\bibinitdelim A\bibinitperiod},
-           given={Alexey\bibnamedelima Melkikh},
-           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
-           suffix={Karen\bibnamedelima Hovhannisyan},
-           suffixi={K\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
-      }
-      \strng{namehash}{ce55e8b285708ded7a69aefd3a223c52}
-      \strng{fullhash}{ce55e8b285708ded7a69aefd3a223c52}
-      \strng{fullhashraw}{ce55e8b285708ded7a69aefd3a223c52}
-      \strng{bibnamehash}{ce55e8b285708ded7a69aefd3a223c52}
-      \strng{authorbibnamehash}{ce55e8b285708ded7a69aefd3a223c52}
-      \strng{authornamehash}{ce55e8b285708ded7a69aefd3a223c52}
-      \strng{authorfullhash}{ce55e8b285708ded7a69aefd3a223c52}
-      \strng{authorfullhashraw}{ce55e8b285708ded7a69aefd3a223c52}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Carnot cycle at finite power: Attainability of maximal efficiency}
-      \field{year}{2013}
-      \verb{urlraw}
-      \verb https://arxiv.org/pdf/1304.0262
-      \endverb
-      \verb{url}
-      \verb https://arxiv.org/pdf/1304.0262
-      \endverb
+      \warn{\item article entry 'SP:IdealGasBehaviour' (zdroje.bib): Invalid format '2024-9-7' of date field 'urldate' - ignoring}
     \endentry
     \entry{NCEPU:ThermalEfficiencyForHeatEngines}{thesis}{}{}
       \name{author}{3}{}{%
@@ -109,8 +79,8 @@
       \strng{authornamehash}{13bb942d6c0216efe524d45258727e4a}
       \strng{authorfullhash}{13bb942d6c0216efe524d45258727e4a}
       \strng{authorfullhashraw}{13bb942d6c0216efe524d45258727e4a}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{An actual thermal efficiency expression for heat engines: Effect of heat transfer roadmaps}
@@ -121,6 +91,7 @@
       \verb{url}
       \verb https://bjmfht.ncepu.edu.cn/docs/2017-09/20170901164645826277.pdf
       \endverb
+      \warn{\item thesis entry 'NCEPU:ThermalEfficiencyForHeatEngines' (zdroje.bib): Invalid format '2024-8-30' of date field 'urldate' - ignoring}
     \endentry
     \entry{st:parniStroj}{thesis}{}{}
       \name{author}{1}{}{%
@@ -141,8 +112,8 @@
       \strng{authornamehash}{b8e7b98d693a54c6c57e8bd108dcc470}
       \strng{authorfullhash}{b8e7b98d693a54c6c57e8bd108dcc470}
       \strng{authorfullhashraw}{b8e7b98d693a54c6c57e8bd108dcc470}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Parní stroj}
@@ -153,6 +124,7 @@
       \verb{url}
       \verb http://stretech.fs.cvut.cz/2019/sbornik_2019/sbornik2019/99.pdf
       \endverb
+      \warn{\item thesis entry 'st:parniStroj' (zdroje.bib): Invalid format '2024-9-8' of date field 'urldate' - ignoring}
     \endentry
     \entry{SA:SteamTurbines}{article}{}{}
       \name{author}{1}{}{%
@@ -170,8 +142,8 @@
       \strng{authornamehash}{c10b5d5d9d62060dd33041d2c3fd7f0a}
       \strng{authorfullhash}{c10b5d5d9d62060dd33041d2c3fd7f0a}
       \strng{authorfullhashraw}{c10b5d5d9d62060dd33041d2c3fd7f0a}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Scientific American}
@@ -183,6 +155,7 @@
       \verb{url}
       \verb https://www.jstor.org/stable/24926337
       \endverb
+      \warn{\item article entry 'SA:SteamTurbines' (zdroje.bib): Invalid format '2024-9-10' of date field 'urldate' - ignoring}
     \endentry
     \entry{vutb:parniStroj}{thesis}{}{}
       \name{author}{1}{}{%
@@ -203,8 +176,8 @@
       \strng{authornamehash}{30245e7880c9e9993ed65d34f3d9516b}
       \strng{authorfullhash}{30245e7880c9e9993ed65d34f3d9516b}
       \strng{authorfullhashraw}{30245e7880c9e9993ed65d34f3d9516b}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Parní stroj}
@@ -244,6 +217,7 @@
       \verb{url}
       \verb https://www.lesics.com/working-of-steam-turbine.html
       \endverb
+      \warn{\item misc entry 'LESICS:WorkingOfSteamTurbine' (zdroje.bib): Invalid format '2024-9-12' of date field 'urldate' - ignoring}
     \endentry
     \entry{vutb:vyzkumneSpalovaciMotory}{thesis}{}{}
       \name{author}{1}{}{%
@@ -276,6 +250,7 @@
       \verb{url}
       \verb http://hdl.handle.net/11012/15468
       \endverb
+      \warn{\item thesis entry 'vutb:vyzkumneSpalovaciMotory' (zdroje.bib): Invalid format '2024-9-13' of date field 'urldate' - ignoring}
     \endentry
     \entry{ANNALS:TheHistoryOfTheInternalCombustionEngine}{article}{}{}
       \name{author}{1}{}{%
@@ -305,6 +280,7 @@
       \verb{url}
       \verb https://annals.fih.upt.ro/pdf-full/2003/ANNALS-2003-3-21.pdf
       \endverb
+      \warn{\item article entry 'ANNALS:TheHistoryOfTheInternalCombustionEngine' (zdroje.bib): Invalid format '2024-9-13' of date field 'urldate' - ignoring}
     \endentry
     \entry{ZUP:CtyrdobyAtmosferickyZazehovyMotor}{thesis}{}{}
       \name{author}{1}{}{%
@@ -338,6 +314,7 @@
       \verb{url}
       \verb http://hdl.handle.net/11025/28893
       \endverb
+      \warn{\item thesis entry 'ZUP:CtyrdobyAtmosferickyZazehovyMotor' (zdroje.bib): Invalid format '2024-9-23' of date field 'urldate' - ignoring}
     \endentry
     \entry{CVUT:NávrhKonstrukceVznetovehoMotoru}{thesis}{}{}
       \name{author}{1}{}{%
@@ -371,6 +348,7 @@
       \verb{url}
       \verb http://hdl.handle.net/10467/73064
       \endverb
+      \warn{\item thesis entry 'CVUT:NávrhKonstrukceVznetovehoMotoru' (zdroje.bib): Invalid format '2024-9-23' of date field 'urldate' - ignoring}
     \endentry
     \entry{VUTB:DvoudobyMotorProParagliding}{thesis}{}{}
       \name{author}{1}{}{%
@@ -409,8 +387,8 @@
       \list{publisher}{1}{%
         {NASA}%
       }
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labeltitlesource}{title}
       \field{title}{Ideal Otto Cycle}
       \verb{urlraw}
@@ -419,6 +397,7 @@
       \verb{url}
       \verb https://www.grc.nasa.gov/www/k-12/BGP/ottoa.html
       \endverb
+      \warn{\item article entry 'NASA:IdealOttoCycle' (zdroje.bib): Invalid format '2024-9-25' of date field 'urldate' - ignoring}
     \endentry
     \entry{TO:TechnologieOprav}{book}{}{}
       \name{author}{1}{}{%
@@ -436,8 +415,8 @@
       \strng{authornamehash}{5d2315b8a78c66438684605cfc03aa7d}
       \strng{authorfullhash}{5d2315b8a78c66438684605cfc03aa7d}
       \strng{authorfullhashraw}{5d2315b8a78c66438684605cfc03aa7d}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{978-80-88058-21-2}
@@ -482,6 +461,7 @@
       \verb{url}
       \verb http://hdl.handle.net/11012/12306
       \endverb
+      \warn{\item thesis entry 'VUTB:NavrhRaketovehoMotoru' (zdroje.bib): Invalid format '2024-9-17' of date field 'urldate' - ignoring}
     \endentry
     \entry{VUTB:PrehledTechnickychAspektuVyvojeLeteckychProudovychMotoru}{thesis}{}{}
       \name{author}{1}{}{%
@@ -545,6 +525,7 @@
       \verb{url}
       \verb https://ocw.mit.edu/courses/8-01sc-classical-mechanics-fall-2016/mit8_01scs22_chapter7.pdf
       \endverb
+      \warn{\item thesis entry 'MIT:NewtonsLawsOfMotion' (zdroje.bib): Invalid format '2024-9-20' of date field 'urldate' - ignoring}
     \endentry
     \entry{NASA:propulsionIndex}{misc}{}{}
       \name{author}{1}{}{%
@@ -560,11 +541,15 @@
       \strng{authornamehash}{1f99771bc3e23e6097509a331544ab65}
       \strng{authorfullhash}{1f99771bc3e23e6097509a331544ab65}
       \strng{authorfullhashraw}{1f99771bc3e23e6097509a331544ab65}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Propulsion Index}
+      \field{urlday}{17}
+      \field{urlmonth}{10}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://www.grc.nasa.gov/WWW/k-12/airplane/shortp.html
       \endverb
@@ -588,8 +573,8 @@
       \strng{authornamehash}{b96d4d73afd2f72f24d3d6ba7eb4963e}
       \strng{authorfullhash}{b96d4d73afd2f72f24d3d6ba7eb4963e}
       \strng{authorfullhashraw}{b96d4d73afd2f72f24d3d6ba7eb4963e}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Application Aspects of Steam Turbines for Combined Heat and Power Generation}
@@ -620,12 +605,16 @@
       \strng{authornamehash}{56def3b54c8513f4573502a0d2aa7d9e}
       \strng{authorfullhash}{56def3b54c8513f4573502a0d2aa7d9e}
       \strng{authorfullhashraw}{56def3b54c8513f4573502a0d2aa7d9e}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Škoda 1000 MB - Legenda slaví 60 let}
+      \field{urlday}{26}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
       \field{year}{2024}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://www.automobilrevue.cz/rubriky/specialy/skoda-1000-mb-legenda-slavi-60-let_49752.html
       \endverb
@@ -664,8 +653,8 @@
       \strng{authornamehash}{f0151d4ae21a1d405f4200ded5daa419}
       \strng{authorfullhash}{f0151d4ae21a1d405f4200ded5daa419}
       \strng{authorfullhashraw}{f0151d4ae21a1d405f4200ded5daa419}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Volkswagen AG}
@@ -694,18 +683,81 @@
       \strng{authornamehash}{5675ced7aa9456707527b52a3cb83fde}
       \strng{authorfullhash}{5675ced7aa9456707527b52a3cb83fde}
       \strng{authorfullhashraw}{5675ced7aa9456707527b52a3cb83fde}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{ČZ 175 (1935-46)}
+      \field{urlday}{26}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
       \field{year}{2011}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb http://michalovyzetky.cz/index.php?obsah=modely&clanek=cz_175
       \endverb
       \verb{url}
       \verb http://michalovyzetky.cz/index.php?obsah=modely&clanek=cz_175
       \endverb
+    \endentry
+    \entry{TB:AIM9Sidewinder}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=0c51d5023fa4dc8edc8190f3dad98edb}{%
+           family={Saranga},
+           familyi={S\bibinitperiod},
+           given={Dr.\bibnamedelimi Dan},
+           giveni={D\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \strng{namehash}{0c51d5023fa4dc8edc8190f3dad98edb}
+      \strng{fullhash}{0c51d5023fa4dc8edc8190f3dad98edb}
+      \strng{fullhashraw}{0c51d5023fa4dc8edc8190f3dad98edb}
+      \strng{bibnamehash}{0c51d5023fa4dc8edc8190f3dad98edb}
+      \strng{authorbibnamehash}{0c51d5023fa4dc8edc8190f3dad98edb}
+      \strng{authornamehash}{0c51d5023fa4dc8edc8190f3dad98edb}
+      \strng{authorfullhash}{0c51d5023fa4dc8edc8190f3dad98edb}
+      \strng{authorfullhashraw}{0c51d5023fa4dc8edc8190f3dad98edb}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{AIM-9 Sidewinder}
+      \field{urlday}{18}
+      \field{urlmonth}{11}
+      \field{urlyear}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.the-blueprints.com/blueprints/weapons/bulletsmissiles/71620/view/aim-9_sidewinder/
+      \endverb
+      \verb{url}
+      \verb https://www.the-blueprints.com/blueprints/weapons/bulletsmissiles/71620/view/aim-9_sidewinder/
+      \endverb
+    \endentry
+    \entry{HR:F1RocketEngine}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=dcf462bd60c6282662d37d66e8160979}{%
+           family={Rocketdyne},
+           familyi={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{dcf462bd60c6282662d37d66e8160979}
+      \strng{fullhash}{dcf462bd60c6282662d37d66e8160979}
+      \strng{fullhashraw}{dcf462bd60c6282662d37d66e8160979}
+      \strng{bibnamehash}{dcf462bd60c6282662d37d66e8160979}
+      \strng{authorbibnamehash}{dcf462bd60c6282662d37d66e8160979}
+      \strng{authornamehash}{dcf462bd60c6282662d37d66e8160979}
+      \strng{authorfullhash}{dcf462bd60c6282662d37d66e8160979}
+      \strng{authorfullhashraw}{dcf462bd60c6282662d37d66e8160979}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Rocketdyne}
+      \verb{urlraw}
+      \verb https://www.chrispennello.com/j2/J-2%20Engine%20Fact%20Sheet.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.chrispennello.com/j2/J-2%20Engine%20Fact%20Sheet.pdf
+      \endverb
+      \warn{\item misc entry 'HR:F1RocketEngine' (zdroje.bib): Invalid format '2024-12-5' of date field 'urldate' - ignoring}
     \endentry
     \entry{PBS:Minijets}{misc}{}{}
       \name{author}{1}{}{%
@@ -721,8 +773,8 @@
       \strng{authornamehash}{bf8f259669ea6b5afd677bb7373254c2}
       \strng{authorfullhash}{bf8f259669ea6b5afd677bb7373254c2}
       \strng{authorfullhashraw}{bf8f259669ea6b5afd677bb7373254c2}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{PBS TJ-100}
@@ -752,8 +804,8 @@
       \strng{authornamehash}{0e203d57dd305cde56b731136353b724}
       \strng{authorfullhash}{0e203d57dd305cde56b731136353b724}
       \strng{authorfullhashraw}{0e203d57dd305cde56b731136353b724}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{A Reduced Order Model for Monitoring Aeroengines Condition in Real-Time}
@@ -764,6 +816,7 @@
       \verb{url}
       \verb https://www.researchgate.net/publication/372213753_A_Reduced_Order_Model_for_Monitoring_Aeroengines_Condition_in_Real-Time
       \endverb
+      \warn{\item misc entry 'RG:ReducedOrderModel' (zdroje.bib): Invalid format '2023-11-4' of date field 'urldate' - ignoring}
     \endentry
     \entry{TL:OffDesignPerformancePrediction}{misc}{}{}
       \name{author}{1}{}{%
@@ -784,8 +837,8 @@
       \strng{authornamehash}{bc3496890ca024ecd01f76c3f085b64d}
       \strng{authorfullhash}{bc3496890ca024ecd01f76c3f085b64d}
       \strng{authorfullhashraw}{bc3496890ca024ecd01f76c3f085b64d}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Off-Design Performance Prediction of the CFM56-3 Aircraft Engine}
@@ -796,60 +849,7 @@
       \verb{url}
       \verb https://mdo.tecnico.ulisboa.pt/wp-content/uploads/publications_MScThesis_Martins_2015.pdf
       \endverb
-    \endentry
-    \entry{TB:AIM9Sidewinder}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=0c51d5023fa4dc8edc8190f3dad98edb}{%
-           family={Saranga},
-           familyi={S\bibinitperiod},
-           given={Dr.\bibnamedelimi Dan},
-           giveni={D\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
-      }
-      \strng{namehash}{0c51d5023fa4dc8edc8190f3dad98edb}
-      \strng{fullhash}{0c51d5023fa4dc8edc8190f3dad98edb}
-      \strng{fullhashraw}{0c51d5023fa4dc8edc8190f3dad98edb}
-      \strng{bibnamehash}{0c51d5023fa4dc8edc8190f3dad98edb}
-      \strng{authorbibnamehash}{0c51d5023fa4dc8edc8190f3dad98edb}
-      \strng{authornamehash}{0c51d5023fa4dc8edc8190f3dad98edb}
-      \strng{authorfullhash}{0c51d5023fa4dc8edc8190f3dad98edb}
-      \strng{authorfullhashraw}{0c51d5023fa4dc8edc8190f3dad98edb}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{AIM-9 Sidewinder}
-      \verb{urlraw}
-      \verb https://www.the-blueprints.com/blueprints/weapons/bulletsmissiles/71620/view/aim-9_sidewinder/
-      \endverb
-      \verb{url}
-      \verb https://www.the-blueprints.com/blueprints/weapons/bulletsmissiles/71620/view/aim-9_sidewinder/
-      \endverb
-    \endentry
-    \entry{HR:F1RocketEngine}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=dcf462bd60c6282662d37d66e8160979}{%
-           family={Rocketdyne},
-           familyi={R\bibinitperiod}}}%
-      }
-      \strng{namehash}{dcf462bd60c6282662d37d66e8160979}
-      \strng{fullhash}{dcf462bd60c6282662d37d66e8160979}
-      \strng{fullhashraw}{dcf462bd60c6282662d37d66e8160979}
-      \strng{bibnamehash}{dcf462bd60c6282662d37d66e8160979}
-      \strng{authorbibnamehash}{dcf462bd60c6282662d37d66e8160979}
-      \strng{authornamehash}{dcf462bd60c6282662d37d66e8160979}
-      \strng{authorfullhash}{dcf462bd60c6282662d37d66e8160979}
-      \strng{authorfullhashraw}{dcf462bd60c6282662d37d66e8160979}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Rocketdyne}
-      \verb{urlraw}
-      \verb https://www.chrispennello.com/j2/J-2%20Engine%20Fact%20Sheet.pdf
-      \endverb
-      \verb{url}
-      \verb https://www.chrispennello.com/j2/J-2%20Engine%20Fact%20Sheet.pdf
-      \endverb
+      \warn{\item misc entry 'TL:OffDesignPerformancePrediction' (zdroje.bib): Invalid format '2023-11-4' of date field 'urldate' - ignoring}
     \endentry
   \enddatalist
 \endrefsection
