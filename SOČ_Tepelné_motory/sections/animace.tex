@@ -1,7 +1,6 @@
 \section{Animace}\label{sc:animace}
-{Pro tvorbu animací jsem využil software \code{Blender}, a to kvůli mým předešlým zkušenostem. Tvorbu animací popíši na příkladu čtyřdobého vznětového motoru 1.9 TDI, ostatní animace jsem tvořil obdobně.}\odst
-{Nejprve jsem za pomoci technických výkresů vytvořil geometrii jednotlivých součástek daného motoru, v tomto případě nejprve pístu. Tvorba z výkresu (na \obrref{obr:pistVykresy}) je standardním postupem, je však nutno používat i jiné zdroje a domýšlet si třetí rozměr dané součástky.\\ Na \obrref{obr:pistHotovy} je hotový model pístu.}
-
+{Pro tvorbu animací jsem využil software \code{Blender}, a to na základě mých předešlých zkušeností. Tvorbu animací popíši na příkladu čtyřdobého vznětového motoru Volkswagen R4 8v 1.9 TDI, ostatní animace jsem tvořil obdobně.}\odst
+{Nejprve jsem za pomoci technických výkresů vytvořil geometrii jednotlivých součástek daného motoru, v tomto případě nejprve pístu. Tvorba z výkresu (na \obrref{obr:pistVykresy}) je standardním postupem, je však nutno používat i jiné zdroje a domýšlet si třetí rozměr. Na \obrref{obr:pistHotovy} je hotový model pístu.}
 \begin{figure}[H]
     \centering
     \begingroup
@@ -26,9 +25,7 @@
     \end{subfigure}
     \endgroup
 \end{figure}
-
-{Po vytvoření všech součástek motoru je nutno přidat materiály, rozhodl jsem se je tvořit procedurálně. Tento postup, vyobrazen na \obrref{obr:NodeUkazka}, je tvořen různě spojenými operacmi, které určují jak se má materiál chovat.}
-
+{Po vytvoření všech součástek motoru je nutno přidat materiály, rozhodl jsem se je tvořit procedurálně. Tento postup, vyobrazen na \obrref{obr:NodeUkazka}, je tvořen různě spojenými operacmi, které určují, jak se má materiál chovat.}
 \begin{figure}[H]
     \centering
     \includegraphics[scale=.25]{assets/images/NodeUkazka.png}
@@ -37,9 +34,7 @@
 \end{figure}
 
 \newpage
-
 {Na \obrref{obr:predMaterialy} je motor 1.9 TDI před přidáním materiálů, na \obrref{obr:poMaterialy} po přidání materiálů. Plochy, kde byl motor rozříznut, jsem obarvil červeně.}
-
 \begin{figure}[H]
     \centering
     \begingroup
@@ -65,103 +60,61 @@
     \end{subfigure}
     \endgroup
 \end{figure}
-
-{Model motoru vypadá jako hotový, je však statický. Animace jsem přidal procedurálně, k tomu jsem využit \code{geometry nodes}. Ty dokáží nedestruktivně; tedy způsobem, při kterém nedochází k nenávratným změnám, upravovat geometrii modelů. Parní turbíny, proudové a raketové motory byli vcelku jednoduché na naanimování, nejsložitější byla animace čtyřdobých motorů a parního stroje, a to kvůli jejich klikovým mechanismům.}\odst
-{Vše se odvíjí od pohybu klikové hřídele, na ni jsou napojeny ojnice a na ně písty. Spodní část ojnice se pohybuje po kružnici s poloměrem vzdálenosti od středu klikové hřídele. Ojnici jsem poté otočil tak, aby se střed vrchní části pohyboval pouze vertikálně. Úhel, o který jsem ji musel otočit jsem zjistil pomocí sinové a kosinové větě. Vše dohromady vypadá v \code{Blenderu} takto: \obrref{obr:geometryNodeUkazka}.}
-
+{Model motoru je dokončený, je však statický. Animace jsem přidal procedurálně, k tomu jsem využit \code{geometry nodes}. Ty dokáží nedestruktivně, tedy způsobem, při kterém nedochází k nevratným změnám, upravovat geometrii modelů. Tvorba animace parní turbíny, proudových a~raketových motorů byla poměrně jednoduchá, nejsložitější byla animace čtyřdobých motorů a~parního stroje, a to kvůli jejich komplexním klikovým mechanismům.}\odst
+{Hotová předpis pro procedurální animaci vypadá v \code{Blenderu} takto: \obrref{obr:geometryNodeUkazka}.}
 \begin{figure}[H]
     \centering
     \includegraphics[scale=.35]{assets/images/geometryNodeUkazka.png}
     \caption{Ukázka procedurální animace ojnice motoru 1.9 TDI \jaObr}
     \label{obr:geometryNodeUkazka}
 \end{figure}
-
-{Při animaci pístů jsem lehce podváděl, písty se pohybují narozdíl od skutečných motorů po sinusoidě, díky lehkým úpravám je však tento nedostatek nepostřehnutelný.}
-
 \newpage
-
 {Podobným způsobem jsem animoval i otevírání a zavírání ventilů. Nakonec jsem přidal barevná ,,vlákna'', která zobrazují pohyb plynu v motoru (\obrref{obr:1.9TDICary}).}
-
 \begin{figure}[H]
     \centering
     \includegraphics[scale=.35]{assets/images/cary.png}
     \caption{,,Vlákna'' zobrazující pohyb plynu \jaObr}
     \label{obr:1.9TDICary}
 \end{figure}
-
 {Posledním krokem je převedení 3D modelu na obrázek, tento proces je hlouběji popsán v kapitole \scref{sc:renderovani}. K tomu jsem použil zabudovaný render engine \code{Cycles}, který věrně mimikuje chování skutečného světla. Produkt tohoto postupu je na \obrref{obr:1.9TDIUkazkaHotovo}.}
-
 \begin{figure}[H]
-    \begin{minipage}[b]{0.5\linewidth}
-        \centering
-        \includegraphics[scale=.11]{assets/images/1.9TDI1.png}\\
-        {Zážeh ve čtvrtém válci}
-        \vspace{4ex}
-    \end{minipage}
-    \begin{minipage}[b]{0.5\linewidth}
-        \centering
-        \includegraphics[scale=.11]{assets/images/1.9TDI2.png}\\
-        {Zážeh ve třetím válci}
-        \vspace{4ex}
-    \end{minipage}
-    \begin{minipage}[b]{0.5\linewidth}
-        \centering
-        \includegraphics[scale=.11]{assets/images/1.9TDI3.png}\\
-        {Zážeh v prvním válci}
-        \vspace{4ex}
-    \end{minipage}
-    \begin{minipage}[b]{0.5\linewidth}
-        \centering
-        \includegraphics[scale=.11]{assets/images/1.9TDI4.png}\\
-        {Zážeh ve druhém válci}
-        \vspace{4ex}
-    \end{minipage}
-    \caption{Hotový motor 1.9 TDI zachycen v různých částech svého cyklu \jaObr}
+    \centering
+    \includegraphics[scale=0.2]{assets/images/1.9TDI1.png}
+    \caption{Hotový motor Volkswagen R4 8v 1.9 TDI \jaObr}
     \label{obr:1.9TDIUkazkaHotovo}
 \end{figure}
-
 \newpage
-
 \subsection{Animace parního stroje}
-{Jako příklad parního stroje jsem vytvořil ležatý dvojčinný parní stroj s šoupátkovým rozvodem, ten můžete vidět na \obrref{obr:ParniStrojRender}. Tento motor není na rozdíl od ostatních modelů založen na žádném skutečném motoru.}
-
+{Jako příklad parního stroje jsem vytvořil ležatý dvojčinný parní stroj se šoupátkovým rozvodem, ten můžete vidět na \obrref{obr:ParniStrojRender}. Tento motor jako jediný není založen na žádném skutečném motoru.}
 \begin{figure}[H]
     \centering
     \includegraphics[scale=.2]{assets/images/ParniStrojRender.png}
     \caption{Model parního stroje \jaObr}
     \label{obr:ParniStrojRender}
 \end{figure}
-
-{Animace je dostupná ke stažení v přílohách zde: \ref{pr:animaceParniStroj}.}
-
+\animprilohy{pr:animaceParniStroj}
 \newpage
-
 \subsection{Animace parní turbíny}
-{Vytvořil jsem 3D model parní turbíny MTD-50 společnosti Doosan Škoda Power. Pro tvorbu modelu jsem využil technického výkresu \obrref{obr:DoosanSkodaPowerMTD50}.}
+{Vytvořil jsem 3D model parní turbíny MTD-50 společnosti Doosan Škoda Power. Pro tvorbu modelu jsem využil technického výkresu na \obrref{obr:DoosanSkodaPowerMTD50}.}
 \cite{SP:ApplicationAspectsOfSteamTurbinesForCombinedHeatAndPowerGeneration}
-
 \begin{figure}[H]
     \centering
     \includegraphics[scale=2]{assets/images/DoosanSkodaPowerMTD50.png}
     \caption{Technické výkresy parní turbíny MTD-50 \cite{SP:ApplicationAspectsOfSteamTurbinesForCombinedHeatAndPowerGeneration}}
     \label{obr:DoosanSkodaPowerMTD50}
 \end{figure}
-
-{Hotový model turbíny je na \obrref{obr:ParniTurbinaRender}. Animace je dostupná ke stažení v přílohách zde: \ref{pr:animaceParniTurbina}.}
-
+{Hotový model turbíny je na \obrref{obr:ParniTurbinaRender}.}
 \begin{figure}[H]
     \centering
     \includegraphics[scale=.2]{assets/images/ParniTurbinaRender.png}
     \caption{Model parní turbíny MDT-50 \jaObr}
     \label{obr:ParniTurbinaRender}
 \end{figure}
-
+\animprilohy{pr:animaceParniTurbina}
 \newpage
-
 \subsection{Animace čtyřdobého spalovacího motoru}
 {Jako příklad čtyřdobého spalovacího motoru jsem vybral motor Škoda 1000 MB. Použil jsem výkresy \obrref{obr:1000MBvykresyPrurez} a \obrref{obr:1000MBvykresyBok}.}
 \cite{AUTOMOBIL:Skoda1000MBLegendaSlavi60Let}
-
 \begin{figure}[H]
     \begingroup
     \makeatletter
@@ -186,21 +139,18 @@
     \end{subfigure}
     \endgroup
 \end{figure}
-
-{Výsledek mé práce je na \obrref{obr:1000MBRender}, animaci můžete stáhnout v přílohách zde: \ref{pr:animaceCtyrdobyZazehovyMotor}.}
-
+{Výsledek mé práce je na \obrref{obr:1000MBRender}.}
 \begin{figure}[H]
     \centering
     \includegraphics[scale=0.6]{assets/images/1000MBRender.png}
     \caption{Model čtyřdobého zážehového motoru Škoda 1000 MB \jaObr}
     \label{obr:1000MBRender}
 \end{figure}
+\animprilohy{pr:animaceCtyrdobyZazehovyMotor}
 \newpage
-
 \subsection{Animace čtyřdobého vznětového motoru}
-{Za předlohu pro čtyřdobý vznětový motor jsem vybral motor od společnosti Volkswagen, a to motor VW 1.9 R4 8v TDI. Pro tvorbu 3D modelu jsem využil technické výkresy \obrref{obr:1.9TDIvykresyPrurez} a \obrref{obr:1.9TDIvykresyBok}.}
+{Za předlohu pro čtyřdobý vznětový motor jsem vybral motor Volkswagen R4 8v 1.9 TDI. Pro tvorbu 3D modelu jsem využil technické výkresy \obrref{obr:1.9TDIvykresyPrurez} a \obrref{obr:1.9TDIvykresyBok}.}
 \cite{VWGAG:RealizingFutureTrendsInDieselEngineDevelopment}
-
 \begin{figure}[H]
     \begingroup
     \makeatletter
@@ -225,110 +175,90 @@
     \end{subfigure}
     \endgroup
 \end{figure}
-
-{Hotový model motoru 1.9 TDI je na \obrref{obr:1.9TDImodel}, animace je dostupná ke stažení zde: \ref{pr:animaceCtyrdobyVznetovyMotor}.}
-
+{Hotový model motoru 1.9 TDI je na \obrref{obr:1.9TDImodel}.}
 \begin{figure}[H]
     \centering
     \includegraphics[scale=.2]{assets/images/1.9TDI3.png}
     \caption{Model motoru 1.9 TDI \jaObr}
     \label{obr:1.9TDImodel}
 \end{figure}
-
+\animprilohy{pr:animaceCtyrdobyVznetovyMotor}
 \newpage
-
 \subsection{Animace dvoudobého zážehového motoru}
-{Jako příklad dvoudobého zážehového motoru jsem vybral motor motocyklu ČZ 175, přesněji jeho sportovní verzi se dvěma svíčkami. Jako podklady pro tvorbu modelu jsem využil výkresy \obrref{obr:CZ175Vykres}.}
+{Jako příklad dvoudobého zážehového motoru jsem vybral motor z motocyklu Jawa-ČZ 175. Jako podklady pro tvorbu modelu jsem využil technické výkresy \obrref{obr:CZ175Vykres}.}
 \cite{MZ:CZ175}
-
 \begin{figure}[H]
     \centering
     \includegraphics[scale=.3]{assets/images/motor175.jpg}
-    \caption{Výkresy motoru ČZ 175}
+    \caption{Výkresy motoru Jawa-ČZ 175}
     \label{obr:CZ175Vykres}
 \end{figure}
-
-{Hotový model je na \obrref{obr:CZ175Render}, animaci lze stáhnout zde: \ref{pr:animaceDvoudobyZazehovyMotor}.}
-
+{Hotový model je na \obrref{obr:CZ175Render}.}
 \begin{figure}[H]
     \centering
     \includegraphics[scale=.6]{assets/images/CZ175Render.png}
-    \caption{Model dvoudobého zážehového motoru ČZ 175 \jaObr}
+    \caption{Model dvoudobého zážehového motoru Jawa-ČZ 175 \jaObr}
     \label{obr:CZ175Render}
 \end{figure}
-
+\animprilohy{pr:animaceDvoudobyZazehovyMotor}
 \newpage
-
 \subsection{Animace raketového motoru na tuhé palivo}
-{Jako příklad raketového motoru na tuhé palivo jsem vybral Hercules/Bermite Mk. 36 z naváděné rakety AIM-9 Sidewinder. Jako podklady pro modely jsem použil výkres \obrref{obr:AIM9vykres}. Pro tuto animaci jsem se rozhodl změnit barvu pozadí na tmavě šedou, aby lépe vynikl plamen, také jsem zobrazil průřez palivem.}
+{Jako příklad raketového motoru na tuhé palivo jsem vybral Hercules/Bermite Mk. 36 z naváděné rakety AIM-9 Sidewinder. Jako podklad pro model jsem použil technický výkres \obrref{obr:AIM9vykres}. Pro tuto animaci jsem se rozhodl změnit barvu pozadí na tmavě šedou, aby lépe vynikl plamen, také jsem zobrazil průřez palivem.}
 \cite{TB:AIM9Sidewinder}
-
 \begin{figure}[H]
     \centering
     \includegraphics[scale=.5]{assets/images/aim-9-sidewinder.png}
-    \caption{Výkres rakety AIM-9 Sidewinder}
+    \caption{Technický výkres rakety AIM-9 Sidewinder}
     \label{obr:AIM9vykres}
 \end{figure}
-
-{Dokončený model je na \ref{obr:AIM9Render}, animaci můžete stáhnout zde: \ref{pr:animacePevnyRaketovyMotor}.}
-
+{Dokončený model je na \obrref{obr:AIM9Render}.}
 \begin{figure}[H]
     \centering
     \includegraphics[scale=0.5]{assets/images/AIM9Render.png}
     \caption{Model raketového motoru na tuhé palivo AIM-9 Sidewinder \jaObr}
     \label{obr:AIM9Render}
 \end{figure}
-
+\animprilohy{pr:animacePevnyRaketovyMotor}
 \newpage
-
 \subsection{Animace raketového motoru na kapalné palivo}
-{Vytvořil jsem model motoru Rocketdyne J-2. Jako podklad pro tvorbu jsem využil technický výkres \obrref{obr:J2vykres}. Ze stejného důvodu jako u raketového motoru na pevné palivo jsem zvolil tmavě šedé pozadí.}
+{Vytvořil jsem model motoru Rocketdyne J-2. Jako podklad pro tvorbu jsem využil technický výkres na \obrref{obr:J2vykres}. Ze stejného důvodu jako u raketového motoru na pevné palivo jsem zvolil tmavě šedé pozadí.}
 \cite{HR:F1RocketEngine}
-
 \begin{figure}[H]
     \centering
     \includegraphics[scale=.2]{assets/images/RocketdyneJ2vykres.png}
-    \caption{Výkres raketového motoru J-2 (přeloženo)}
+    \caption{Výkres raketového motoru Rocketdyne J-2 (přeloženo)}
     \label{obr:J2vykres}
 \end{figure}
-
-{Hotový model naleznete na \obrref{obr:J2Render}, animace je dostupná ke stažení zde: \ref{pr:animaceKapalnyRaketovyMotor}.}
-
+{Hotový model naleznete na \obrref{obr:J2Render}.}
 \begin{figure}[H]
     \centering
     \includegraphics[scale=.6]{assets/images/J2Render.png}
-    \caption{Model raketového motoru na kapalné palivo J-2 \jaObr}
+    \caption{Model raketového motoru na kapalné palivo Rocketdyne J-2 \jaObr}
     \label{obr:J2Render}
 \end{figure}
-
+\animprilohy{pr:animaceKapalnyRaketovyMotor}
 \newpage
-
 \subsection{Animace proudového motoru}
-{Vytvořil jsem model malého proudového motoru TJ100 vyráběného v PBS Velký Bíteš. Pro tvorbu modelu jsem využil výkresy \obrref{obr:PBSTJ100Vykres}.}
+{Vytvořil jsem model malého proudového motoru PBS Velká Bíteš TJ100. Pro tvorbu modelu jsem využil výkresy \obrref{obr:PBSTJ100Vykres}.}
 \cite{PBS:Minijets}
-
 \begin{figure}[H]
     \centering
     \includegraphics[scale=.3]{assets/images/TJ100Vykres.png}
-    \caption{Výkresy motoru TJ100}
+    \caption{Výkresy motoru PBS Velká Bíteš TJ100}
     \label{obr:PBSTJ100Vykres}
 \end{figure}
-
-{Model motoru TJ100 je na \obrref{obr:TJ100Render}. Animace je dostupná ke stažení v přílohách zde: \ref{pr:animaceProudovyMotor}.}
-
+{Model motoru TJ100 je na \obrref{obr:TJ100Render}.}
 \begin{figure}[H]
     \centering
     \includegraphics[scale=0.5]{assets/images/TJ100Render.png}
-    \caption{Model proudového motoru TJ100 \jaObr}
+    \caption{Model proudového motoru PBS Velká Bíteš TJ100 \jaObr}
     \label{obr:TJ100Render}
 \end{figure}
-
+\animprilohy{pr:animaceProudovyMotor}
 \newpage
-
 \subsection{Animace dvouproudového motoru}
-{Na popsání fungování dvouproudového motoru jsem vybral motor CFM International CFM56, který je jedním z nejrozšířenějších proudových motorů vůbec. Ke tvorbě jsem využil výkresy \obrref{obr:CFM56vykres1} a \obrref{obr:CFM56vykres2}.}
+{Na popis fungování dvouproudového motoru jsem vybral motor CFM International CFM56, který je jedním z nejrozšířenějších proudových motorů vůbec. Ke tvorbě jsem využil výkresy \obrref{obr:CFM56vykres1} a \obrref{obr:CFM56vykres2}.}
 \cite{RG:ReducedOrderModel}\cite{TL:OffDesignPerformancePrediction}
-
 \begin{figure}[H]
     \centering
     \begingroup
@@ -348,17 +278,16 @@
     \begin{subfigure}{.5\textwidth}
         \centering
         \includegraphics[scale=.3]{assets/images/CFM56vykres2.png}
-        \caption{Výkres motoru CFM56}
+        \caption{Výkres motoru CFM56 (upraveno)}
         \label{obr:CFM56vykres2}
     \end{subfigure}
     \endgroup
 \end{figure}
-
-{Hotový model je na \obrref{obr:CFM56Render}, animace je dostupná ke stažení zde: \ref{pr:animaceDvouproudovyMotor}.}
-
+{Hotový model je na \obrref{obr:CFM56Render}.}
 \begin{figure}[H]
     \centering
     \includegraphics[scale=0.6]{assets/images/CFM56Render.png}
-    \caption{Model dvouproudového motoru CFM56 \jaObr}
+    \caption{Model dvouproudového motoru CFM International CFM56 \jaObr}
     \label{obr:CFM56Render}
 \end{figure}
+\animprilohy{pr:animaceDvouproudovyMotor}
