@@ -1,18 +1,18 @@
 [0] Config.pm:308> INFO - This is Biber 2.20
 [0] Config.pm:311> INFO - Logfile is 'main.blg'
-[127] biber-MSWIN64:340> INFO - === 
-[172] Biber.pm:420> INFO - Reading 'main.bcf'
-[280] Biber.pm:994> INFO - Found 9 citekeys in bib section 0
-[301] Biber.pm:4463> INFO - Processing section 0
-[310] Biber.pm:4654> INFO - Looking for bibtex file 'zdroje.bib' for section 0
-[346] bibtex.pm:1713> INFO - LaTeX decoding ...
-[368] bibtex.pm:1519> INFO - Found BibTeX data source 'zdroje.bib'
-[413] UCollate.pm:68> INFO - Overriding locale 'cs-CZ' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[413] UCollate.pm:68> INFO - Overriding locale 'cs-CZ' defaults 'variable = shifted' with 'variable = non-ignorable'
-[413] Biber.pm:4283> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'cs-CZ'
-[421] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[424] bbl.pm:779> INFO - Output to main.bbl
-[424] Biber.pm:131> WARN - misc entry 'HR:F1RocketEngine' (zdroje.bib): Invalid format '2024-12-5' of date field 'urldate' - ignoring
-[424] Biber.pm:131> WARN - misc entry 'RG:ReducedOrderModel' (zdroje.bib): Invalid format '2023-11-4' of date field 'urldate' - ignoring
-[424] Biber.pm:131> WARN - misc entry 'TL:OffDesignPerformancePrediction' (zdroje.bib): Invalid format '2023-11-4' of date field 'urldate' - ignoring
-[424] Biber.pm:133> INFO - WARNINGS: 3
+[94] biber-darwin:340> INFO - === Wed Mar 19, 2025, 12:53:43
+[111] Biber.pm:420> INFO - Reading 'main.bcf'
+[196] Biber.pm:994> INFO - Found 9 citekeys in bib section 0
+[209] Biber.pm:4463> INFO - Processing section 0
+[220] Biber.pm:4654> INFO - Looking for bibtex file 'zdroje.bib' for section 0
+[222] bibtex.pm:1713> INFO - LaTeX decoding ...
+[242] bibtex.pm:1519> INFO - Found BibTeX data source 'zdroje.bib'
+[300] UCollate.pm:68> INFO - Overriding locale 'cs-CZ' defaults 'variable = shifted' with 'variable = non-ignorable'
+[300] UCollate.pm:68> INFO - Overriding locale 'cs-CZ' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[300] Biber.pm:4283> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'cs-CZ'
+[309] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[312] bbl.pm:779> INFO - Output to main.bbl
+[312] Biber.pm:131> WARN - misc entry 'HR:F1RocketEngine' (zdroje.bib): Invalid format '2024-12-5' of date field 'urldate' - ignoring
+[312] Biber.pm:131> WARN - misc entry 'RG:ReducedOrderModel' (zdroje.bib): Invalid format '2023-11-4' of date field 'urldate' - ignoring
+[312] Biber.pm:131> WARN - misc entry 'TL:OffDesignPerformancePrediction' (zdroje.bib): Invalid format '2023-11-4' of date field 'urldate' - ignoring
+[312] Biber.pm:133> INFO - WARNINGS: 3
