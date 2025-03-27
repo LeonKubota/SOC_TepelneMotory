@@ -1,7 +1,7 @@
 \documentclass[12pt]{article}
 
 %INCLUDEONLY
-%\includeonly{sections/prezentace.tex}
+%\includeonly{sections/seznamPriloh.tex}
 
 %!!!!!!!!! Zapomeň odkomentovat attachfile !!!!!!!!!!
 %!!!!!!!!! Nezapomeň opravit pracovní listy  !!!!!!!!!!
@@ -25,9 +25,16 @@
 \usepackage[colorlinks=true, allcolors=black]{hyperref}
 
 %Zdroje
+\usepackage{csquotes}
 \usepackage[backend=biber, style=iso-numeric, sorting=none, maxbibnames=3]{biblatex}
 \addbibresource{zdroje.bib}
-\usepackage{csquotes}
+
+\AtEveryBibitem{%
+  \iffieldundef{urldate}{}{%
+    \newunit\newblock
+    Cit. \printfield{urldate}%
+  }%
+}
 
 %Obrázky
 \usepackage{graphicx} % pro rychlejší kompilaci lze přidat [draft]
@@ -401,9 +408,5 @@
 \newpage
 
 \include{sections/seznamPriloh.tex}
-
-\newpage
-
-% \include{sections/prilohy.tex}
 
 \end{document}
